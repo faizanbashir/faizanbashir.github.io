@@ -3,11 +3,11 @@
 # Site wide configuration
 ####################################
 #
-title: Leonids
-email:
+title: Faizan Bashir
+email: faizan.ibn.bashir@gmail.com
 description: A simple and awesome blog theme powered by jekyll.
 url: # the base hostname & protocol for your site
-keywords: ["blog", "jekyll"]
+keywords: ["blog", "jekyll", "docker", "kubernetes", "serverless", "python", "nodejs", "swarm"]
 
 #
 ###################################
@@ -27,20 +27,23 @@ kramdown:
   toc_levels: 1..6
   enable_coderay: false
 
+liquid:
+  error_mode: lax
+
 #
 ###################################
 # Site Owner configuration
 ####################################
 #
 owner:
-  name: Leonids
+  name: Faizan Bashir
   avatar: leonids-logo.png
-  job: "A jekyll theme"
-  bio: "A simple and awesome blog theme powered by jekyll."
-  email:
+  job: "Personal Blog"
+  bio: "Simple and awesome blog theme powered by jekyll."
+  email: faizan.ibn.bashir@gmail.com
   disqus-shortname:
-  twitter: #username
-  facebook: #username
+  twitter: faizanbasher
+  facebook: faizan.bashir
   google:
     plus: #username
     analytics:
@@ -48,10 +51,10 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
-  github: #username
+  github: faizanbashir
   gitlab: #username
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: #username
+  linkedin: faizan-bashir
   skype: #username
   xing: #username
   instagram: #username
