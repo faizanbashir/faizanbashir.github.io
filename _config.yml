@@ -4,10 +4,10 @@
 ####################################
 #
 title: Faizan Bashir
-email: faizan.ibn.bashir@gmail.com
-description: A simple and awesome blog theme powered by jekyll.
-url: # the base hostname & protocol for your site
-keywords: ["blog", "jekyll", "docker", "kubernetes", "serverless", "python", "nodejs", "swarm"]
+email: "faizan.ibn.bashir@gmail.com"
+description: "Principal Engineer | Architecting and building distributed applications in the Cloud | Adventurer | Seeker | Wanderer"
+url: "https://faizanbashir.me"
+keywords: ["docker", "kubernetes", "managed kubernetes", "eks", "gke", "serverless", "python", "nodejs", "docker swarm", "distributed applications", "aws", "google cloud", "cloud", "data science", "blog", "jekyll"]
 
 #
 ###################################
@@ -18,7 +18,7 @@ timezone:          Europe/Paris
 markdown:          kramdown
 highlighter:       rouge
 excerpt_separator: <!--more-->
-permalink:         /articles/:year-:month/:title
+permalink:         /:categories/:year/:month/:day/:title/
 
 kramdown:
   auto_ids: true
@@ -37,9 +37,9 @@ liquid:
 #
 owner:
   name: Faizan Bashir
-  avatar: leonids-logo.png
-  job: "Personal Blog"
-  bio: "Simple and awesome blog theme powered by jekyll."
+  avatar: faizanbashir.png
+  job: "Principal Engineer"
+  bio: "Architecting and building distributed applications in the Cloud | Adventurer | Seeker | Wanderer"
   email: faizan.ibn.bashir@gmail.com
   disqus-shortname:
   twitter: faizanbasher
