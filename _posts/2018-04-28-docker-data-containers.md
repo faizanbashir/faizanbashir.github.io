@@ -3,11 +3,10 @@ layout: post
 title:  "Docker Data Containers"
 excerpt: "There is more than one way to manage data in Docker container. Say hello to the Data Containers."
 date:   2018-04-28 15:07:19
+categories: [Docker, Containers]
 comments: true
 image:
   feature: https://miro.medium.com/max/2784/1*AUiK5PwnsPG_xaT9jcVoSA.jpeg
-  credit: thomas shellberg
-  creditlink: https://unsplash.com/photos/Ki0dpxd3LGc
 ---
 There is more than one way to manage data in Docker container. Say hello to the Data Containers.
 Simply put data containers are containers whose job is just to store/manage data.
@@ -56,9 +55,3 @@ Likewise we can import the Data Container back into Docker.
 {% highlight shell %}
 $ docker import dataContainer.tar
 {% endhighlight %}
-
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
-
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help

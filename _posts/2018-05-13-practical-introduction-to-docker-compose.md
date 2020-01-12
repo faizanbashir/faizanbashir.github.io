@@ -3,12 +3,10 @@ layout: post
 title:  "A Practical Introduction to Docker Compose"
 excerpt: "The possibility of defining a complex stack in a file and running it with a single command, pretty tempting huh. The guys at Docker Inc. choose to call it Docker compose."
 date:   2018-05-13 15:07:19
-categories: [tutorial]
+categories: [Docker, Docker Compose]
 comments: true
 image:
   feature: https://miro.medium.com/max/2000/1*JK4VDnsrF6YnAb2nyhMsdQ.png
-  credit: thomas shellberg
-  creditlink: https://unsplash.com/photos/Ki0dpxd3LGc
 ---
 ### TL;DR
 

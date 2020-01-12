@@ -3,12 +3,10 @@ layout: post
 title:  "Cleaning Up Docker"
 excerpt: "Its always cool to run new software in containers, lights up new possibilities for those of us interested in constantly learning new technologies."
 date:   2018-05-04 15:07:19
-categories: [tutorial]
+categories: [Docker, Containers]
 comments: true
 image:
   feature: https://miro.medium.com/max/4748/1*C6BkVKRpoVK_Pq1TLqlSkQ.png
-  credit: thomas shellberg
-  creditlink: https://unsplash.com/photos/Ki0dpxd3LGc
 ---
 With the passage of time running Docker in development, we tend to accumulate a lot of unused images. Sometimes for testing, research or just trying out fun new stuff. Its always cool to run new software in containers, lights up new possibilities for those of us interested in constantly learning new technologies. Downside is a lot of precious SSD memory occupied with rarely used or unused images, the worse thing is we hardly notice. But the guys at Docker Inc. have done a great task by keeping a track of all things Docker.
 
