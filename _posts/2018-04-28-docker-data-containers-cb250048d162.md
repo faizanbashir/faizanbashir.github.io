@@ -7,7 +7,7 @@ title: "Docker Data Containers"
 date: 2018-04-28 15:07:19
 tags: [Docker, Containers]
 class: post-template
-subclass: 'post tag-getting-started'
+subclass: 'post tag-docker'
 author: faizan
 ---
 There is more than one way to manage data in Docker container. Say hello to the Data Containers.

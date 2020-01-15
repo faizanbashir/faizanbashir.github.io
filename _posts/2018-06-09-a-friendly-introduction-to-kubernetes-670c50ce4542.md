@@ -7,7 +7,7 @@ title: "A friendly introduction to Kubernetes"
 date: 2018-06-09 15:07:19
 tags: [Kubernetes]
 class: post-template
-subclass: 'post tag-getting-started'
+subclass: 'post tag-kubernetes'
 author: faizan
 ---
 Kubernetes is one of the most exciting technologies in the world of DevOps these days. It has attracted a lot of attention over the last few years. The reason for its instantaneous fame is the mighty containers.
