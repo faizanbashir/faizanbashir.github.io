@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  "Building Serverless Contact Form For Static Websites"
-excerpt: "Serverless can be a proper and viable solution to a lot of problems, it is the most perfect solution for your static hosted contact form."
-date:   2018-07-25 15:07:19
-categories: [Serverless]
-comments: true
-image:
-  feature: https://miro.medium.com/max/7936/1*lYvXrG9rcgLg42weUyOfyg.jpeg
-  credit: Caleb George
-  creditlink: https://unsplash.com/photos/AtvuPUenaeI
+current: post
+cover:  assets/images/posts/1*lYvXrG9rcgLg42weUyOfyg1.jpeg
+navigation: True
+title: "Building Serverless Contact Form For Static Websites"
+date: 2018-07-25 15:07:19
+tags: [Serverless]
+class: post-template
+subclass: 'post tag-getting-started'
+author: faizan
 ---
 ### Introduction
 A few years ago AWS launched static hosting service S3, which was a paradigm shift for hosting static websites. The tech was crystal clear, all the static assets (HTML, CSS, and JS) would reside in an S3 bucket to host your impressive website. A pretty cool idea I personally liked it, really. Had it not been for that super important contact form hosting on S3 would have been cool but your contact form would be a joke unless you had another server in place to service AJAX requests from that form. The moment you had that service ready, the S3 solution wouldn’t appear so attractive at all.
@@ -19,7 +19,7 @@ In the age of cutting edge technology, there’s always jaw-dropping innovations
 
 ### The Serverless Framework
 
-![Serverless Framework](https://miro.medium.com/max/4000/1*oDBqXrshDx-kEVUg1e6Rhw.png)
+![Serverless Framework](assets/images/posts/1*oDBqXrshDx-kEVUg1e6Rhw.png)
 Source: [https://serverless.com/](https://serverless.com/)
 
 > Serverless is your toolkit for deploying and operating serverless architectures. Focus on your application, not your infrastructure.
@@ -58,15 +58,15 @@ This command installs Serverless globally on your local machine. The Serverless 
 
 ##### 2. Create an IAM user in the AWS Console
 Go to your [AWS Console](https://console.aws.amazon.com/), you will find the [IAM service](https://console.aws.amazon.com/iam/home) listed below the “Security, Identity & Compliance” group. Inside the IAM dashboard click on the Users tab and click “Add User” button.
-![AWS IAM Dashboard User Tab](https://miro.medium.com/max/5120/1*VtA7fGzE2a_h6yMTl69lBw.png)
+![AWS IAM Dashboard User Tab](assets/images/posts/1*VtA7fGzE2a_h6yMTl69lBw.png)
 
 Create a new user and allow the user **programmatic access** by clicking on the Programmatic access checkbox. Next, in the permissions section, you need to add a set of permissions to the user. From the list of available options under the “Attach existing policies directly” check the **AdministratorAccess**.
 
-![Attach Policy](https://miro.medium.com/max/5120/1*d_6PWCnAeK25k7P7CaL1uA.png)
+![Attach Policy](assets/images/posts/1*d_6PWCnAeK25k7P7CaL1uA.png)
 
 After the user is created, you will have access to the users **Access Key ID** and **Secret Access Key**. You will be required to use these keys in the next step.
 
-![Access Keys](https://miro.medium.com/max/5120/1*7FqyvVFoRxZClqC16SevXw.png)
+![Access Keys](assets/images/posts/1*7FqyvVFoRxZClqC16SevXw.png)
 
 **Word of Caution**: These are the kind of credentials you don’t want to lose even by mistake, remember you have provided **AdministratorAccess** to this user. The user with **AdministratorAccess** can do pretty much everything with your AWS account.
 
@@ -128,7 +128,7 @@ def hello(event, context):
 #### The Serverless App
 Our Serverless solution makes use of AWS infrastructure, it consists of API Gateway, Lambda Functions, DynamoDB and Simple Email Service(SES). To achieve this end result we will use the previously introduced Serverless Framework.
 
-![Architecture of Serverless App](https://miro.medium.com/max/5120/1*Be-VuMqQEg6Ifh60bFtDcQ.png)
+![Architecture of Serverless App](assets/images/posts/1*Be-VuMqQEg6Ifh60bFtDcQ.png)
 
 - **Static Website** — Amazon S3 provides a robust and simple web server. All of the static HTML, CSS and JS files for your application can be served from S3. The contact form on our static website is submitted using AJAX.
 - **API Gateway** — The API Gateway is the event source for the application, it acts as a bridge between our contact form and serverless lambda function. It routes the request from the contact form to the lambda function. The API Gateway also performs tasks such as access control, monitoring, API version control and traffic management.
@@ -243,11 +243,11 @@ $ cd python-ses-dynamodb-contactform
 ##### 2. Verify e-mail address with SES
 Fast-forward to verifying the email you intend to send email from SES. All you need to do is add an email address, AWS will send you a verification with a link to verify the email address.
 
-![Verify a New Email Address](https://miro.medium.com/max/2160/1*f_Y1mmdgKjtvxjBZL8zdIw.png)
+![Verify a New Email Address](assets/images/posts/1*f_Y1mmdgKjtvxjBZL8zdIw.png)
 
 After verifying the email address, the “Verification Status” for the email will show up as “verified”.
 
-![Verification Status](https://miro.medium.com/max/5120/1*IqxxKMYybvn0PlSPWgWgew.png)
+![Verification Status](assets/images/posts/1*IqxxKMYybvn0PlSPWgWgew.png)
 
 ##### 3. Configuring the application
 You need to configure the `serverless.yml` with your account specific details to make it work. Replace the `region`, `profile` and `SENDER_EMAIL` properties in `serverless.yml` as seen here:
@@ -325,7 +325,7 @@ Navigate to the page using the `file:///<path>/<to>/<folder>/index.html` in the 
 $ aws s3 sync public s3://your-bucket-name
 {% endhighlight %}
 
-![Serverless Contact Form](https://miro.medium.com/max/5120/1*G6Q3XRI6tADC38nbcJohkQ.png)
+![Serverless Contact Form](assets/images/posts/1*G6Q3XRI6tADC38nbcJohkQ.png)
 
 Treat yourself with a Cappuccino, Latte or <insert-your-favorite-drink>. You just implemented a cool way to keep your website on static hosting with handling your forms, thanks to Serverless.
 

@@ -6,69 +6,102 @@
 title: Faizan Bashir
 email: "faizan.ibn.bashir@gmail.com"
 description: "Principal Engineer | Architecting and building distributed applications in the Cloud | Adventurer | Seeker | Wanderer"
-url: "https://faizanbashir.me"
 keywords: ["docker", "kubernetes", "managed kubernetes", "eks", "gke", "serverless", "python", "nodejs", "docker swarm", "distributed applications", "aws", "google cloud", "cloud", "data science", "blog", "jekyll"]
+cover: assets/images/blog-cover.jpg
+logo: assets/images/d9.png
+logo_dark: assets/images/favicon.ico
+favicon: assets/images/favicon.ico
+production_url: https://faizanbashir.github.io/
+source_url: https://faizanbashir.github.io/
+CNAME: #add cname for website to be created
 
-#
-###################################
 # Jekyll configuration
-####################################
-#
-timezone:          Europe/Paris
-markdown:          kramdown
-highlighter:       rouge
-excerpt_separator: <!--more-->
-permalink:         /:categories/:year/:month/:day/:title/
-
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  enable_coderay: false
+markdown: kramdown
+highlighter: rouge
+paginate: 100 # it will paginate after this number
+language: 'en-uk'
+words_per_minute: 200
 
 liquid:
   error_mode: lax
 
-#
-###################################
-# Site Owner configuration
-####################################
-#
-owner:
-  name: Faizan Bashir
-  avatar: faizanbashir.png
-  job: "Principal Engineer"
-  bio: "Architecting and building distributed applications in the Cloud | Adventurer | Seeker | Wanderer"
-  email: faizan.ibn.bashir@gmail.com
-  disqus-shortname:
-  twitter: faizanbasher
-  facebook: faizan.bashir
-  google:
-    plus: #username
-    analytics: UA-79936770-6
-    verify:
-    ad-client:
-    ad-slot:
-  bing-verify:
-  github: faizanbashir
-  gitlab: #username
-  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: faizan-bashir
-  skype: #username
-  xing: #username
-  instagram: #username
-  lastfm: #username
-  tumblr: #username
-  pinterest: #username
-  foursquare: #username
-  steam: #username
-  dribbble: #username
-  youtube: #username
-  soundcloud: #username
-  weibo: #username
-  flickr: #username
-  500px: #username
-  codepen: #username
-  reddit: #username
-  telegram: #username
+# edit baseurl to simply '/' if using as your personal page (instead of a project page)
+baseurl: /
+
+# Social info
+navigation: True # show the navbar links
+subscribers: True # you need to connect an external service for this to work,
+# if 'True' the submit button is disabled for now, but you can change that
+# by editing `_includes/subscribe-form.html`
+twitter: faizanbasher # replace by your username
+facebook: faizan.bashir # replace by your username
+linkedin: faizan-bashir
+github: faizanbashir
+
+# Disqus
+disqus: False
+disqus_shortname: jekyller # replace with your disqus username
+
+# Google Analytics
+google_analytics: UA-69281367-1 # replace with your GA tracking identifier
+
+# Permalinks
+permalink: /:title
+# permalink: /author/:author
+# permalink: /tag/:tag
+
+# Authors' info in `_data/authors.yml`
+# Tags' info in `_data/tags_info.yml`
+
+# gems and other configs
+plugins_dir: [_plugins]
+plugins: [jekyll-paginate, jekyll-feed, jekyll-gist]
+
+feed:
+  path: feed.xml
+
+# Additional settings available on the front-matter
+# Site logo in the index.html (as in demo.ghost.io)
+# Author's page cover in _layouts/author.html
+# The same for page.html and tag.html layouts
+# Post's page cover as a per-post basis _posts/...
+# Disqus comments as a per-post basis
+# ...
+
+# Settings for builing master branch with travis-ci
+# with jekyll-travis
+
+# Settings for deploy rake task
+# Username and repo of Github repo, e.g.
+# https://github.com/USERNAME/REPO.git
+# username defaults to ENV['GIT_NAME'] used by Travis
+# repo defaults to USERNAME.github.io
+# Branch defaults to "source" for USERNAME.github.io
+# or "master" otherwise
+safe: False
+lsi: False
+username: faizanbashir
+repo: faizanbashir.github.io
+branch: master
+relative_source: ../jasper2/
+destination: ../jasper2/
+production_url:  https://faizanbashir.github.io/jasper2/
+source_url:  https://github.com/faizanbashir/faizanbashir.github.io/
+
+exclude:
+  - assets/css
+  - node_modules
+  - vendor
+  - .travis.yml
+  - Gemfile
+  - Gemfile.lock
+  - GHOST.txt
+  - gulpfile.js
+  - LICENSE
+  - package.json
+  - Rakefile
+  - README.md
+  - script.py
+  - changelog.md
+  - "*.Rmd"
+  - .git*
