@@ -10,8 +10,6 @@ class: post-template
 subclass: 'post tag-docker'
 author: faizan
 ---
-### TL;DR
-
 Docker containers opened a world of possibilities for the tech community, hassles in setting up new software were decreased unlike old times when a mess was to be sorted by a grievous format, it reduced the time to set up and use new software which eventually played a big part for techies to learn new things, roll it out in a container and scrap it when done. Things became easy, and the best thing its open source anyone and everyone can use it, comes with a little learning curve though.
 
 Out of the myriad possibilities was the possibility of implementing complex technology stacks for our applications, which previously would have been the domain of experts. Today with the help of containers software engineers with sound understanding of the underlying systems can implement a complex stack and why not it’s the need of the hour, the figure of speech “Jack of all trades” got a fancy upgrade; “Master of some” based on the needs of the age. Simply put “T” shaped skills.
