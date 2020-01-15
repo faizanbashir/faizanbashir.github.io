@@ -10,7 +10,6 @@ class: post-template
 subclass: 'post tag-data-science'
 author: faizan
 ---
-### TL;DR
 Artificial Intelligence(AI) and Machine Learning(ML) are literally on fire these days. Powering a wide spectrum of use-cases ranging from self-driving cars to drug discovery and to God knows what. AI and ML have a bright and thriving future ahead of them.
 
 On the other hand, Docker revolutionized the computing world through the introduction of ephemeral lightweight containers. Containers basically package all the software required to run inside an image(a bunch of read-only layers) with a COW(Copy On Write) layer to persist the data.
