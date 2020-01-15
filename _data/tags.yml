@@ -1,0 +1,24 @@
+kubernetes:
+  name: kubernetes
+  description: Kubernetes (K8s) is an open-source system for automating deployment, scaling, and management of containerized applications.
+  cover: assets/images/speeches.jpg
+serverless:
+  name: serverless
+  description: Serverless computing is a cloud-computing execution model in which the cloud provider runs the server, and dynamically manages the allocation of machine resources.
+  cover: assets/images/sky.jpg
+docker:
+  name: docker
+  description: Docker is a tool designed to make it easier to create, deploy, and run applications by using containers.
+  cover: assets/images/fables.jpg
+docker-compose:
+  name: docker-compose
+  description: Docker is a tool designed to make it easier to create, deploy, and run applications by using containers.
+  cover: assets/images/summit.jpg
+data-science:
+  name: data-science
+  description: False
+  cover: assets/images/summit.jpg
+aws:
+  name: aws
+  description: Amazon Web Services offers reliable, scalable, and inexpensive cloud computing services. Free to join, pay only for what you use.
+  cover: assets/images/welcome.jpg
