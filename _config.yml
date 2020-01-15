@@ -12,7 +12,7 @@ logo: assets/images/d9.png
 logo_dark: assets/images/favicon.ico
 favicon: assets/images/favicon.ico
 production_url: https://faizanbashir.me/
-source_url: https://faizanbashir.github.io/
+source_url: https://github.com/faizanbashir/faizanbashir.github.io/
 CNAME: #add cname for website to be created
 
 # Jekyll configuration
@@ -85,7 +85,7 @@ repo: faizanbashir.github.io
 branch: master
 relative_source: /
 destination: ./_site
-production_url:  https://faizanbashir.github.io/
+production_url:  https://faizanbashir.me/
 source_url:  https://github.com/faizanbashir/faizanbashir.github.io/
 
 exclude:
