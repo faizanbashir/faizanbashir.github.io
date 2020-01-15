@@ -8,6 +8,7 @@ email: "faizan.ibn.bashir@gmail.com"
 description: "Principal Engineer | Architecting and building distributed applications in the Cloud | Adventurer | Seeker | Wanderer"
 keywords: ["docker", "kubernetes", "managed kubernetes", "eks", "gke", "serverless", "python", "nodejs", "docker swarm", "distributed applications", "aws", "google cloud", "cloud", "data science", "blog", "jekyll"]
 cover: assets/images/blog-cover.jpg
+og-cover: assets/images/sky.jpg
 logo: assets/images/d9.png
 logo_dark: assets/images/favicon.ico
 favicon: assets/images/favicon.ico
