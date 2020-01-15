@@ -7,7 +7,7 @@ title: "A Practical Introduction to Docker Compose"
 date: 2018-04-28 15:07:19
 tags: [Docker, Docker Compose]
 class: post-template
-subclass: 'post tag-getting-started'
+subclass: 'post tag-docker'
 author: faizan
 ---
 ### TL;DR

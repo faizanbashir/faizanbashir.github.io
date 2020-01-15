@@ -7,7 +7,7 @@ title: "Building Serverless Contact Form For Static Websites"
 date: 2018-07-25 15:07:19
 tags: [Serverless]
 class: post-template
-subclass: 'post tag-getting-started'
+subclass: 'post tag-serverless'
 author: faizan
 ---
 ### Introduction

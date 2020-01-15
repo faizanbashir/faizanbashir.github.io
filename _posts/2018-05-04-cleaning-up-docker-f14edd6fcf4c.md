@@ -7,7 +7,7 @@ title: "Cleaning Up Docker"
 date: 2018-05-04 15:07:19
 tags: [Docker, Containers]
 class: post-template
-subclass: 'post tag-getting-started'
+subclass: 'post tag-docker'
 author: faizan
 ---
 With the passage of time running Docker in development, we tend to accumulate a lot of unused images. Sometimes for testing, research or just trying out fun new stuff. Its always cool to run new software in containers, lights up new possibilities for those of us interested in constantly learning new technologies. Downside is a lot of precious SSD memory occupied with rarely used or unused images, the worse thing is we hardly notice. But the guys at Docker Inc. have done a great task by keeping a track of all things Docker.

@@ -7,7 +7,7 @@ title: "Building Python Data Science Container using Docker"
 date: 2019-01-25 15:07:19
 tags: [Docker, Data Science]
 class: post-template
-subclass: 'post tag-getting-started'
+subclass: 'post tag-data-science'
 author: faizan
 ---
 ### TL;DR

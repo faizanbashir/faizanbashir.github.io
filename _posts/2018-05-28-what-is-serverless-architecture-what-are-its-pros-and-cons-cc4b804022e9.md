@@ -7,7 +7,7 @@ title: "What is Serverless Architecture? What are its Pros and Cons?"
 date: 2018-05-13 15:07:19
 tags: [Serverless]
 class: post-template
-subclass: 'post tag-getting-started'
+subclass: 'post tag-serverless'
 author: faizan
 ---
 Serverless, the new buzzword in town has been gaining a lot of attention from the pros and the rookies in the tech industry. Partly due to the manner in which cloud vendors like AWS have hyped the architecture, from conferences to meetups to blog posts to almost everywhere. But serverless is not just about the hype, it promises the possibility of ideal business implementations which sounds quite pleasant to the ears and probably light on the budget as well.
