@@ -6,6 +6,9 @@
     "engines": {
         "ghost": ">=1.2.0"
     },
+    "script": {
+        "build": "jekyll build && mv _site public"
+    },
     "license": "MIT",
     "screenshots": {
         "desktop": "assets/screenshot-desktop.jpg",
