@@ -8,10 +8,8 @@ class: page-template
 subclass: 'post page'
 ---
 
-Ghost is professional publishing platform designed for modern journalism. This is a demo site of a basic Ghost install to give you a general sense of what a new Ghost site looks like when set up for the first time.
+Principal engineer experienced in building scalable web applications using NodeJS(ExpressJS), PHP(Laravel), Cloud computing (AWS, Google Cloud), DevOps(Jenkins, Travis, GitLab), Infrastructure Provisioning(Terraform, Packer), Messaging Queues(RabbitMQ), Container Orchestration with Kubernetes(GKE, EKS), ECS and Docker Swarm, Elastic Stack, API development and finally integration.
 
-> If you'd like to set up a site like this for yourself, head over to [Ghost.org](https://ghost.org/) and start a free 14 day trial to give Ghost a try!
+I have a knack to see the bigger picture in the scheme of things with ardent love of architecting complex systems. Tech blogger [@freeCodeCamp](https://www.freecodecamp.org/news/author/faizanbashir/), [@hackernoon](https://hackernoon.com/@faizanbashir), and [@DigitalOcean](https://www.digitalocean.com/community/users/faizanbashir). I am edging towards being a specialized generalist. In the past, I have been identified as a T-shaped person.
 
-If you're a developer: Ghost is a completely open source (MIT) Node.js application built on a JSON API with an Ember.js admin client. It works with MySQL and SQLite, and is publicly available [on Github](https://github.com/TryGhost/ghost).
-
-If you need help with using Ghost, you'll find a ton of useful articles on [our knowledgebase](https://help.ghost.org/), as well as extensive [developer documentation](https://docs.ghost.org/).
+Apart from exploring the beautiful world we live in, my diverse interests range from higher poetry, philosophy to politics, economics, history and the list goes on. I am deeply inspired by the illuminated thought of the poet-philosopher Sir Muhammed Iqbal and by the imaginative genius of the great German poet-statesman Johann Wolfgang von Goethe.
