@@ -11,7 +11,7 @@ cover: assets/images/blog-cover.jpg
 logo: assets/images/d9.png
 logo_dark: assets/images/favicon.ico
 favicon: assets/images/favicon.ico
-production_url: https://faizanbashir.github.io/
+production_url: https://faizanbashir.me/
 source_url: https://faizanbashir.github.io/
 CNAME: #add cname for website to be created
 
@@ -43,7 +43,7 @@ disqus: False
 disqus_shortname: jekyller # replace with your disqus username
 
 # Google Analytics
-google_analytics: UA-69281367-1 # replace with your GA tracking identifier
+google_analytics: UA-79936770-6 # replace with your GA tracking identifier
 
 # Permalinks
 permalink: /:title
@@ -83,9 +83,9 @@ lsi: False
 username: faizanbashir
 repo: faizanbashir.github.io
 branch: master
-relative_source: ../jasper2/
-destination: ../jasper2/
-production_url:  https://faizanbashir.github.io/jasper2/
+relative_source: /
+destination: ./_site
+production_url:  https://faizanbashir.github.io/
 source_url:  https://github.com/faizanbashir/faizanbashir.github.io/
 
 exclude:
