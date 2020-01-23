@@ -1,0 +1,91 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>https://faizanbashir.me/</loc>
+  <lastmod>2020-01-23T07:02:48+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://faizanbashir.me/about/</loc>
+  <lastmod>2020-01-23T07:02:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://faizanbashir.me/tag/kubernetes/</loc>
+  <lastmod>2020-01-23T07:02:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://faizanbashir.me/tag/docker/</loc>
+  <lastmod>2020-01-23T07:02:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://faizanbashir.me/building-python-data-science-container-using-docker-c8e346295669</loc>
+  <lastmod>2020-01-23T07:02:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://faizanbashir.me/author/faizan/</loc>
+  <lastmod>2020-01-23T07:02:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://faizanbashir.me/building-serverless-contact-form-for-static-websites</loc>
+  <lastmod>2020-01-23T07:02:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://faizanbashir.me/a-friendly-introduction-to-kubernetes-670c50ce4542</loc>
+  <lastmod>2020-01-23T07:02:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://faizanbashir.me/what-is-serverless-architecture-what-are-its-pros-and-cons-cc4b804022e9</loc>
+  <lastmod>2020-01-23T07:02:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://faizanbashir.me/cleaning-up-docker-f14edd6fcf4c</loc>
+  <lastmod>2020-01-23T07:02:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://faizanbashir.me/practical-introduction-to-docker-compose-d34e79c4c2b6</loc>
+  <lastmod>2020-01-23T07:02:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://faizanbashir.me/docker-data-containers-cb250048d162</loc>
+  <lastmod>2020-01-23T07:02:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://faizanbashir.me/tag/data-science/</loc>
+  <lastmod>2020-01-23T07:02:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://faizanbashir.me/tag/serverless/</loc>
+  <lastmod>2020-01-23T07:02:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://faizanbashir.me/tag/containers/</loc>
+  <lastmod>2020-01-23T07:02:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://faizanbashir.me/tag/docker-compose/</loc>
+  <lastmod>2020-01-23T07:02:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
