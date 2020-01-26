@@ -58,6 +58,7 @@ This command installs Serverless globally on your local machine. The Serverless 
 
 ##### 2. Create an IAM user in the AWS Console
 Go to your [AWS Console](https://console.aws.amazon.com/), you will find the [IAM service](https://console.aws.amazon.com/iam/home) listed below the “Security, Identity & Compliance” group. Inside the IAM dashboard click on the Users tab and click “Add User” button.
+
 ![AWS IAM Dashboard User Tab](assets/images/posts/1*VtA7fGzE2a_h6yMTl69lBw.png)
 
 Create a new user and allow the user **programmatic access** by clicking on the Programmatic access checkbox. Next, in the permissions section, you need to add a set of permissions to the user. From the list of available options under the “Attach existing policies directly” check the **AdministratorAccess**.
