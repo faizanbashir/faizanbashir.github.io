@@ -21,7 +21,7 @@ EKS uses IAM to provide authentication to your Kubernetes cluster (via the `aws 
 
 ### Creating an IAM User
 
-Go to your [AWS Console](https://console.aws.amazon.com/), you will find the [IAM service](https://console.aws.amazon.com/iam/home) listed below the “Security, Identity & Compliance” group. Inside the IAM dashboard click on the Users tab and click the “Add User” button.
+Go to your [AWS Console](https://console.aws.amazon.com/), you will find the [IAM service](https://console.aws.amazon.com/iam/home) listed under the “Security, Identity & Compliance” group. Inside the IAM dashboard click on the Users tab and click the “Add User” button.
 
 ![AWS IAM Dashboard User Tab](assets/images/posts/1*VtA7fGzE2a_h6yMTl69lBw.png)
 
@@ -34,7 +34,7 @@ After the user is created, you will have access to the users **Access Key ID** a
 ***
 
 ### Configure AWS CLI
-Configuring your AWS CLI with a new user is as simple as running the `aws configure` command and providing the `AWS Access Key ID` and the `AWS Secret Access Key`, the `Default region name` and `Default Output format` is optional though.
+Configuring your AWS CLI with a new user is as simple as running the `aws configure` command and providing the `AWS Access Key ID` and the `AWS Secret Access Key`, the `Default region name` and `Default Output format` are optional though.
 
 {% highlight shell %}
 $ aws configure --profile eks-user
@@ -98,7 +98,7 @@ roleRef:
   apiGroup: rbac.authorization.k8s.io
 {% endhighlight %}
 
-Save the above snippet of code in a file and then `apply` the role to your Kubernetes cluster:
+Save the above snippet of code in a file and then `apply` the Role Binding to your Kubernetes cluster:
 
 {% highlight shell %}
 $ kubectl apply -f role-binding.yaml
@@ -108,8 +108,6 @@ $ kubectl apply -f role-binding.yaml
 
 ### Adding the user to the aws-auth configmap
 To grant additional AWS users or roles the ability to interact with your EKS cluster, you must add the users/roles to the `aws-auth` ConfigMap within Kubernetes in the `kube-system` namespace.
-
-You can do this by either importing the file or directly editing it using `kubectl edit`
 
 You can do this by either editing it using `kubectl edit` command:
 
@@ -209,13 +207,13 @@ $ kubectl create configmap my-cm --from-literal=db_username=<USERNAME> --from-li
 $ kubectl create secret generic my-secret --from-literal=db_password=<SOME_STRONG_PASSWORD>
 {% endhighlight %}
 
-Simply put the `eks-user` user should be able to perform all the actions specified in the verbs array for `pods`, `secrets`, `configmaps`, `deployments`, `events`. You can read more about it here [Kubernetes Authorization Overview](https://kubernetes.io/docs/reference/access-authn-authz/authorization/).
+Simply put the `eks-user` user should be able to perform all the actions specified in the verbs array for `pods`, `secrets`, `configmaps`, `deployments`, and `events`. You can read more about it here [Kubernetes Authorization Overview](https://kubernetes.io/docs/reference/access-authn-authz/authorization/).
 
 ***
 
 ### Can-I or Not
 
-You can use `auth can-i` to check if you have permission to a resource. To see if you have the permission to get pods run simply run:
+You can use `auth can-i` to check if you have permission to a resource. To see if you have the permission to get pods simply run:
 
 {% highlight shell %}
 $ kubectl auth can-i get pods
