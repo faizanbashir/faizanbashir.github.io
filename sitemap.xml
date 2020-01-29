@@ -66,6 +66,11 @@
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://faizanbashir.me/adding-limited-access-iam-user-to-eks-cluster</loc>
+  <lastmod>2020-01-29T07:02:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://faizanbashir.me/tag/data-science/</loc>
   <lastmod>2020-01-23T07:02:48+00:00</lastmod>
   <priority>0.64</priority>
