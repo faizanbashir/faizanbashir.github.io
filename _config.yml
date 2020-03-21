@@ -6,7 +6,7 @@
 title: Faizan Bashir
 email: "faizan.ibn.bashir@gmail.com"
 description: "Principal Engineer | Cloud Architect | Adventurer"
-keywords: ["docker", "kubernetes", "managed kubernetes", "eks", "gke", "serverless", "python", "nodejs", "docker swarm", "distributed applications", "aws", "google cloud", "cloud", "data science", "blog", "jekyll"]
+keywords: ["docker", "kubernetes", "managed kubernetes", "eks", "gke", "istio", "traefik", "nginx", "serverless", "python", "nodejs", "docker swarm", "distributed applications", "aws", "google cloud", "cloud", "data science", "blog", "jekyll"]
 cover: assets/images/blog-cover.jpg
 og-cover: assets/images/sky.jpg
 logo: assets/images/d9.png
@@ -31,7 +31,7 @@ baseurl: /
 
 # Social info
 navigation: True # show the navbar links
-subscribers: True # you need to connect an external service for this to work,
+subscribers: False # you need to connect an external service for this to work,
 # if 'True' the submit button is disabled for now, but you can change that
 # by editing `_includes/subscribe-form.html`
 twitter: faizanbasher # replace by your username
