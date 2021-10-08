@@ -8,7 +8,7 @@ class: page-template
 subclass: 'post page'
 ---
 
-Principal engineer experienced in building scalable web applications using NodeJS(ExpressJS), PHP(Laravel), Cloud computing (AWS, Google Cloud), DevOps(Jenkins, Travis, GitLab), Infrastructure Provisioning(Terraform, Packer), Messaging Queues(RabbitMQ), Container Orchestration with Kubernetes(GKE, EKS), ECS and Docker Swarm, Elastic Stack, API development and finally integration.
+Principal engineer experienced in building scalable web applications using NodeJS(ExpressJS), PHP(Laravel), Cloud computing (AWS, Azure, Google Cloud), DevOps(Jenkins, Travis, GitLab, Octopus), Infrastructure Provisioning(Terraform, Packer, Ansible), Messaging Queues(RabbitMQ), Container Orchestration with Kubernetes(AKS, EKS, GKE), Openshift, ECS and Docker Swarm, Elastic Stack, API development and finally integration.
 
 I have a knack to see the bigger picture in the scheme of things with ardent love of architecting complex systems. Tech blogger [@freeCodeCamp](https://www.freecodecamp.org/news/author/faizanbashir/), [@hackernoon](https://hackernoon.com/@faizanbashir), and [@DigitalOcean](https://www.digitalocean.com/community/users/faizanbashir). I am edging towards being a specialized generalist. In the past, I have been identified as a T-shaped person.
 
