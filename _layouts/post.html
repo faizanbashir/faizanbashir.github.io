@@ -200,9 +200,11 @@ into the {body} of the default.hbs template -->
                 {% include post-card-next.html %}
             {% endif %}
             {% endif %}
+            {% if page.previous %}
             {% unless page.tags contains "Writings" %}
             {% include post-card-previous.html %}
             {% endunless %}
+            {% endif %}
 
             <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
             <!-- {% if page.next %}
