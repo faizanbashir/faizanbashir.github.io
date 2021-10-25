@@ -1,6 +1,7 @@
-{% assign words_per_minute = site.words_per_minute | default: 200 %} {% for post
-in site.posts offset:1 %}{% if post.tags contains 'Writings' %} {% unless
-post.content == page.content %}
+{% assign words_per_minute = site.words_per_minute | default: 200 %} {% assign
+counter = '0' %} {% for post in site.posts offset:1 %}{% if post.tags contains
+'Writings' and counter < '2' %} {% unless post.content == page.content %} {%
+capture counter %}{{ counter | plus:'1' }}{% endcapture %}
 <article
   class="post-card {{ post.class }}{% unless post.cover %} no-image{% endunless %}"
 >
