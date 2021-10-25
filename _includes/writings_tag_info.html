@@ -1,0 +1,4 @@
+<!-- dynamically loading backgrounds for tags,  descriptions and page titles -->
+{% for tag in site.data.tags %} {% assign ww = site.data.tags.writings %} {% if
+page.url contains ww.name %} {% assign cover = ww.cover %} {% assign
+tag_description = ww.description %} {% endif %} {% endfor %}

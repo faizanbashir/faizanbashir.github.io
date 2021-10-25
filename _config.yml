@@ -50,6 +50,7 @@ google_analytics: UA-79936770-6 # replace with your GA tracking identifier
 permalink: /:title
 # permalink: /author/:author
 # permalink: /tag/:tag
+#permalink: /:tag/:title
 
 # Authors' info in `_data/authors.yml`
 # Tags' info in `_data/tags_info.yml`
