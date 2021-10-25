@@ -118,7 +118,11 @@ into the {body} of the default.hbs template -->
     <div class="inner">
         <div class="read-next-feed">
             {% if page.tags.size > 0 %}
-                {% assign primary = page.tags | first %}
+                {% if page.tags contains "Writings" %}
+                {% assign primary = site.data.tags.writings.name | capitalize %}
+                {% else %}
+                  {% assign primary = page.tags | first %}
+                {% endif %}
                 {% assign related_posts = 0 %}
                 {% for post in site.posts %}
                   {% if post.tags.size > 0 %}
@@ -139,7 +143,11 @@ into the {body} of the default.hbs template -->
                         <header class="read-next-card-header">
                             <small class="read-next-card-header-sitetitle">&mdash; {{ site.title }} &mdash;</small>
                             {% if primary %}
-                                <h3 class="read-next-card-header-title"><a href="{{ site.baseurl }}tag/{{ primary | downcase | replace: ' ', '-' }}/">{{ primary | capitalize }}</a></h3>
+                            {% if page.tags contains 'Writings' %}
+                            <h3 class="read-next-card-header-title"><a href="{{ site.baseurl }}{{ primary | downcase | replace: ' ', '-' }}/">{{ primary | capitalize }}</a></h3>
+                            {% else %}
+                            <h3 class="read-next-card-header-title"><a href="{{ site.baseurl }}tag/{{ primary | downcase | replace: ' ', '-' }}/">{{ primary | capitalize }}</a></h3>
+                            {% endif %}
                             {% endif %}
                         </header>
                         <div class="read-next-divider">{% include infinity.html %}</div>
@@ -159,6 +167,16 @@ into the {body} of the default.hbs template -->
                             </ul>
                         </div>
                         <footer class="read-next-card-footer">
+                        {% if page.tags contains 'Writings' %}
+                                <a href="{{ site.baseurl }}{{ primary | downcase | replace: ' ', '-' }}/">{% if related_posts > 1 %}
+                                    See all {{ related_posts | minus: 1 }} posts  →
+                                {% elsif related_posts == 1 %}
+                                    {{ related_posts }} post  →
+                                {% else %}
+                                    No posts.
+                                {% endif %}
+                            </a>
+                        {% else %}  
                             <a href="{{ site.baseurl }}tag/{{ primary | downcase | replace: ' ', '-' }}/">
                                 {% if related_posts > 1 %}
                                     See all {{ related_posts | minus: 1 }} posts  →
@@ -169,19 +187,31 @@ into the {body} of the default.hbs template -->
                                 {% endif %}
                             </a>
                         </footer>
+                        {% endif %}
                     </article>
                 {% endif %}
             {% endif %}
 
             <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
             {% if page.next %}
+            {% if page.tags contains "Writings" %}
+               {% include post-card-next-writings.html %}
+            {% else %}
                 {% include post-card-next.html %}
             {% endif %}
+            {% endif %}
+            {% unless page.tags contains "Writings" %}
+            {% include post-card-previous.html %}
+            {% endunless %}
 
             <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
-            {% if page.previous %}
+            <!-- {% if page.next %}
+            {% if page.tags contains "Writings" %}
+               {% include post-card-previous-writings.html %}
+            {% else %}
                 {% include post-card-previous.html %}
             {% endif %}
+            {% endif %} -->
 
         </div>
     </div>
