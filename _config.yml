@@ -43,7 +43,7 @@ github: faizanbashir
 # Disqus
 disqus: 
   enable: True
-  shortname: faizanibnbashir # replace with your disqus username
+  shortname: faizanbashir # replace with your disqus username
 
 # Google Analytics
 google_analytics: UA-79936770-6 # replace with your GA tracking identifier
