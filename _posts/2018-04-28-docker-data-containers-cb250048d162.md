@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 current: post
 cover:  assets/images/posts/1*AUiK5PwnsPG_xaT9jcVoSA.jpeg
 navigation: True
