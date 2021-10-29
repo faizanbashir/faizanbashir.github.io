@@ -12,6 +12,7 @@ og-cover: assets/images/sky.jpg
 logo: assets/images/d9.png
 logo_dark: assets/images/favicon.ico
 favicon: assets/images/favicon.ico
+uri: https://faizanbashir.me
 production_url: https://faizanbashir.me/
 source_url: https://github.com/faizanbashir/faizanbashir.github.io/
 CNAME: #add cname for website to be created
