@@ -40,8 +40,9 @@ linkedin: faizan-bashir
 github: faizanbashir
 
 # Disqus
-disqus: False
-disqus_shortname: jekyller # replace with your disqus username
+disqus: 
+  enable: True
+  shortname: faizanibnbashir # replace with your disqus username
 
 # Google Analytics
 google_analytics: UA-79936770-6 # replace with your GA tracking identifier
