@@ -31,57 +31,57 @@ It has an enormous community to support, and it's always building new features a
 ***
 ## Table of Contents:
 
-* [Resources for the Exam](#resources-for-the-exam)
+* [Resources for the CKS Exam](#resources-for-the-cks-exam)
 * [Aliases](#aliases)
     * [vi defaults for ~/.vimrc](#vi-defaults-for-vimrc)
     * [kubectl defaults for ~/.bashrc](#kubectl-defaults-for-bashrc)
 * [Shortcuts](#shortcuts)
-* [Cheat Sheet](#cheat-sheet)
+* [Kubernetes Cheat Sheet](#kubernetes-cheat-sheet)
     * [kubectl run command](#kubectl-run-command)
-    * [Generating yaml spec from an existing Pod](#generating-yaml-spec-from-an-existing-pod)
+    * [How to generate yaml spec from an existing Pod](#how-to-generate-yaml-spec-from-an-existing-pod)
     * [kubectl pod commands](#kubectl-pod-commands)
-    * [Printing logs and exporting](#printing-logs-and-exporting)
-    * [Creating configmaps and secrets](#creating-configmaps-and-secrets)
-    * [Few commands which can be helpful for debugging](#few-commands-which-can-be-helpful-for-debugging)
+    * [How to Print logs and export them](#how-to-print-logs-and-export-them)
+    * [How to create configmaps and secrets](#how-to-create-configmaps-and-secrets)
+    * [Helpful commands for debugging](#helpful-commands-for-debugging)
     * [Rolling updates and Rollouts](#rolling-updates-and-rollouts)
     * [Scale and Autoscale command](#scale-and-autoscale-command)
     * [Network Policy](#network-policy)
-    * [Static Analysis using Kubesec](#static-analysis-using-trivvy)
+    * [Static Analysis using Kubesec](#static-analysis-using-Kubesec)
     * [Vulnerability scanning using Trivvy](#vulnerability-scanning-using-trivvy)
-    * [Remove Unwanted Services](#remove-unwanted-sevices)
+    * [Hwo to remove unwanted services](#how-to-remove-unwanted-sevices)
     * [Runtime Classes](#runtime-classes)
     * [RBAC Commands](#rbac-commands)
     * [Cluster Maintenance](#cluster-maintenance)
-* [Exam Tips](#exam-tips)
+* [CKS Exam Tips](#cks-exam-tips)
     * [JSON and JSONPath](#json-and-jsonpath)
 * [CKS Exam Topics](#cks-exam-topics)
-    * [Securing and Hardening Container Images](#securing-and-hardening-container-images)
-    * [Minimising OS Footprint](#minimising-os-footprint)
+    * [How to secure and harden container images](#how-to-secure-and-harden-container-images)
+    * [How to minimise OS Footprint](#how-to-minimise-os-footprint)
         * [Conatiner Layers](#conatiner-layers)
         * [Multi Stage Builds](#multi-stage-builds)
-    * [Limit Node Access](#limit-node-access)
+    * [How to limit node access](#how-to-limit-node-access)
     * [SSH Hardening](#ssh-hardening)
-        * [Disable SSH](#disable-ssh)
-        * [Remove Obsolete Packages and Services](#remove-obsolete-packages-and-services)
-        * [Restrict Kernel Modules](#restrict-kernel-modules)
-        * [Identify and Disable Open Ports](#identify-and-disable-open-ports)
-    * [Restrict Network Access](#restrict-network-access)
-        * [Identify a service running on port](#identify-a-service-running-on-port)
+        * [How to disable SSH](#how-to-disable-ssh)
+        * [How to remove obsolete packages and services](#how-to-remove-obsolete-packages-and-services)
+        * [How to restrict kernel modules](#how-to-restrict-kernel-modules)
+        * [How to identify and disable open ports](#how-to-identify-and-disable-open-ports)
+    * [How to restrict network access](#how-to-restrict-network-access)
+        * [How to identify a service running on port](#how-to-identify-a-service-running-on-port)
         * [UFW Firewall](#ufw-firewall)
     * [Linux Syscalls](#linux-syscalls)
-        * [Trace Syscalls](#trace-syscalls)
+        * [How to trace Syscalls using Strace](#how-to-trace-syscalls-using-strace)
     * [AquaSec Tracee](#aquasec-tracee)
-    * [Restricting Syscalls with Seccomp](#restricting-syscalls-with-seccomp)
+    * [How to restict Syscalls with Seccomp](#how-to-restrict-syscalls-with-seccomp)
         * [Seccomp in Kubernetes](#seccomp-in-kubernetes)
     * [AppArmor](#apparmor)
-        * [AppArmor in Kubernetes](#apparmor-in-kubernetes)
+        * [How to use AppArmor in Kubernetes](#how-to-use-apparmor-in-kubernetes)
     * [Linux Capabilities](#linux-capabilities)
-* [Preparation for the Exam](#preparation-for-the-exam)
+* [How to Prepare for the Exam](#how-to-prepare-for-the-exam)
 * [Practice, Practice and Practice!](#practice-practice-and-practice)
 
 ***
 
-### Resources for the Exam
+### Resources for the CKS Exam
 
 The following are a few awesome resources available on passing the CKS exam:
 1. [Certified Kubernetes Security Specialist by Killer.sh](https://www.udemy.com/course/certified-kubernetes-security-specialist/) 
@@ -167,7 +167,7 @@ The `kubectl get` command provides short catchy names for accessing resources an
 * **pvc** for `persistentstorageclaim`
 * **sa** for `serviceaccounts`
 
-### Cheat Sheet
+### Kubernetes Cheat Sheet
 
 #### kubectl run command
 
@@ -181,7 +181,7 @@ k run:
 --restart=OnFailure --schedule="*/1 * * * *" #Creates a CronJob
 {% endhighlight %}
 
-#### Generating yaml spec from an existing Pod
+#### How to generate yaml spec from an existing Pod
 
 Sometimes it is easier to generate a spec from an existing Pod and make changes to it than create a new one from scratch. The `kubectl get pod` command provides us with the required flags to output the pod spec in the format we want.
 
@@ -211,7 +211,7 @@ krun nginx --image=nginx --restart=Never --requests='cpu=100m,memory=512Mi' --li
 k delete po busybox --grace-period=0 --force
 {% endhighlight %}
 
-#### Printing logs and exporting
+#### How to Print logs and export them
 
 Logs are the fundamental source of information when it comes to debugging an application. The `kubectl logs` command provides the functionality to check the logs of a given Pod. The below commands can be used to check the logs of a given Pod.
 {% highlight shell %}
@@ -226,7 +226,7 @@ Apart from just looking at logs, we can also export logs to a file for further d
 kubectl logs <podname> --namespace <ns> > /path/to/file.format
 {% endhighlight %}
 
-#### Creating config maps and secrets
+#### How to create configmaps and secrets
 
 The `kubectl create` command provides us with the capability to create ConfigMaps and Secrets from the command line, we can also use the YAML file to create the same resources and by using `kubectl apply -f <filename>` we can apply the commands.
 {% highlight shell %}
@@ -239,7 +239,7 @@ kc secret generic my-secret --from-file=secret.txt
 kc secret generic my-secret --from-env-file=secret.env
 {% endhighlight %}
 
-#### Few commands which can be helpful for debugging
+#### Helpful commands for debugging
 
 Debugging is a very important skill while facing issues and errors both in our day jobs while solving problems in the CKS exam.
 
@@ -402,7 +402,7 @@ trivy image --severity HIGH --output /root/python.txt python:3.10.0a4-alpine
 trivy image --input alpine.tar --format json --output /root/alpine.json
 {% endhighlight %}
 
-#### Remove Unwanted Services
+#### How to remove unwanted services
 
 The `systemctl` exposes the capabilities to start, stop, enable, disable and list services running on a Linux Virtual Machine.
 
@@ -521,7 +521,7 @@ Mark a node schedulable
 kubectl uncordon node-1
 {% endhighlight %}
 
-### Exam Tips
+### CKS Exam Tips
 
 The Kubernetes `kubectl get` command provides the user with an output flag the `-o` or `--output` which helps us in formatting the output in the form of json, yaml, wide or custom-columns.
 
@@ -567,7 +567,7 @@ kubectl get pods -o='custom-columns=PODS:.metadata.name,Images:.spec.containers[
 
 The CKS exam covers delve on topics related to security in the Kubernetes ecosystem. Kubernetes security is a vast topic to cover in one article, this article contains some of the topics covered in the exam.
 
-#### Securing and Hardening Container Images
+#### How to secure and harden container images
 
 While designing container images to run your code pay special attention to securing and hardening measures in order to prevent hacks and privilege escalation attacks. Keep the below points in mind while building the container images:
 
@@ -576,7 +576,7 @@ While designing container images to run your code pay special attention to secur
 3. Make filesystem read-only in the `securityContext` using `readOnlyRootFilesystem: true`
 4. Remove shell access using `RUN rm -rf /bin/*`
 
-#### Minimising OS Footprint
+#### How to minimise OS Footprint
 
 ##### Conatiner Layers
 
@@ -611,7 +611,7 @@ USER appuser
 CMD ["/home/appuser/app"]
 {% endhighlight %}
 
-#### Limit Node Access
+#### How to limit node access
 
 Access Control files contain sensitive information about users/groups in the Linux OS.
 {% highlight shell %}
@@ -687,7 +687,7 @@ usermod faizanbashir -G admin
 
 #### SSH Hardening
 
-##### Disable SSH
+##### How to disable SSH
 
 The configuration is given in the `/etc/ssh/sshd_config` can be leveraged to secure SSH access to Linux nodes. Setting the `PermitRootLogin` to `no` disables the root login on a node. To enforce using a key to login and disabling login using passwords to nodes the `PasswordAuthentication` can be set to `no`.
 {% highlight shell %}
@@ -711,7 +711,7 @@ ssh-copy-id -i ~/.ssh/id_rsa.pub faizanbashir@node01
 ssh faizanbashir@node01
 {% endhighlight %}
 
-#### Remove Obsolete Packages and Services
+#### How to remove obsolete packages and services
 
 List all services running on a Ubuntu machine.
 {% highlight shell %}
@@ -726,7 +726,7 @@ systemctl disable apache2
 apt remove apache2
 {% endhighlight %}
 
-#### Restrict Kernel Modules
+#### How to restrict kernel modules
 
 In Linux, Kernel modules are pieces of code that can be loaded and unloaded into the kernel upon demand. They extend the functionality of the kernel without the need to reboot the system. A module can be configured as built-in or loadable.
 
@@ -754,7 +754,7 @@ shutdown -r now
 lsmod | grep dccp
 {% endhighlight %}
 
-#### Identify and Disable Open Ports
+#### How to identify and disable open ports
 
 Check for Open Ports:
 {% highlight shell %}
@@ -775,9 +775,9 @@ Check Port usage
 Reference Doc for list of open ports:
 https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/#control-plane-node-s
 
-#### Restrict Network Access
+#### How to restrict network access
 
-##### Identity a service running on port:
+##### How to identity a service running on port
 {% highlight shell %}
 systemctl status ssh
 cat /etc/services | grep ssh
@@ -843,7 +843,7 @@ Kernel Space has the following:
 - Kernel Extensions
 - Device Drivers
 
-##### Tracing Syscalls using Strace
+##### How to trace Syscalls using Strace
 
 Tracing syscalls using strace
 {% highlight shell %}
@@ -898,7 +898,7 @@ docker run --name tracee --rm --privileged --pid=host \
   -v /tmp/tracee:/tmp/tracee aquasec/tracee:0.4.0 --trace container=new
 {% endhighlight %}
 
-#### Restricting Syscalls with Seccomp
+#### How to restrict Syscalls with Seccomp
 
 **SECCOMP** - Secure Computing Mode is a Linux Kernel level feature that can be used to sandbox applications to only use the syscalls they need.
 
@@ -1161,7 +1161,7 @@ Disable profile from logs
 aa-logprof
 {% endhighlight %}
 
-##### AppArmor in Kubernetes
+##### How to use AppArmor in Kubernetes
 
 To be used with Kubernetes the following prerequisites must be met:
 - Kubernetes version should be greater than `1.4`
@@ -1234,7 +1234,7 @@ spec:
 {% endhighlight %}
 
 
-### Preparation for the Exam
+### How to prepare for the Exam
 
 CKS is considered a pretty tough exam. But based on my experience I think that, given good enough practice and if you understand the concepts the exam covers, it'll be pretty manageable within two hours. 
 
