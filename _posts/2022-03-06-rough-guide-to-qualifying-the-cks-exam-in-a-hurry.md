@@ -4,7 +4,7 @@ comments: true
 current: post
 cover:  assets/images/posts/cks.jpg
 navigation: True
-title: "Rough Guide to qualifying the CKS exam in a hurry!"
+title: "How to Pass the Certified Kubernetes Security Specialist Exam – Cheat sheet and Study Guide"
 date: 2022-03-06 10:00:00
 tags: [Kubernetes]
 class: post-template
@@ -12,11 +12,21 @@ subclass: 'post tag-kubernetes'
 author: faizan
 excerpt: This article is based upon my experience on how I approached the CKS exam and cleared it in my first attempt in Sep 2021.
 ---
-This article is based upon my experience on how I approached the CKS exam and cleared it in my first attempt in Sep 2021.
+This article is based on my experience studying for and passing the Certified Kubernetes Security Specialist exam. I passed the exam on my first attempt in Sep 2021.
 
-I cleared the CKAD exam back in Feb 2020 followed by CKA in March 2020, the CKS exam was released somewhere around November  2020 but I couldn't get a chance to take the exam before Sep 2021 although I had enrolled for it in Dec 2020. Having said that I have been working with Kubernetes for the past 3 years almost on a day-to-day basis and that experience was an added advantage.
+I passed the Certified Kubernetes Application Developer exam back in Feb 2020, followed by Certified Kubernetes Administrator in March 2020. 
 
-Kubernetes is the most evolved and feature-rich Container Orchestration system to date and it keeps getting better. It has an enormous community to support, building new features and resolving issues, Kubernetes is certainly evolving at a breakneck pace and it becomes a challenge to keep up with its pace of development. This makes it the best bet for a container orchestration solution.
+The Certified Kubernetes Security Specialist or CKS exam was released around November, 2020, but I didn't have a chance to take that exam before Sep 2021.
+
+As a bit of background information, I have been working with Kubernetes for the past 3 years almost on a day-to-day basis and that experience was an added advantage in helping me pass the CKS.
+
+In this article, I'll share some resources that should help you study for and pass the exam, along with a helpful cheatsheet you can use while preparing. I'll also share some advice that should help you along the way.
+
+### What is Kubernetes?
+
+Kubernetes is the most evolved and feature-rich Container Orchestration system out there, and it keeps getting better. 
+
+It has an enormous community to support, and it's always building new features and resolving issues. Kubernetes is certainly evolving at a breakneck pace, and it becomes a challenge to keep up with its pace of development. This makes it the best bet for a container orchestration solution.
 
 ***
 ## Table of Contents:
@@ -80,13 +90,17 @@ The following are a few awesome resources available on passing the CKS exam:
 4. [Abdennour's References for CKS Exam Objectives](https://github.com/abdennour/certified-kubernetes-security-specialist)
 5. [Ibrahim Jelliti's collection of resources to prepare for the Certified Kubernetes Security Specialist (CKSS) exam](https://github.com/ibrahimjelliti/CKSS-Certified-Kubernetes-Security-Specialist)
 
-The courses for KodeKloud and Killer.sh provide mock exam simulators which are very helpful in preparing for the exam and provide a pretty good idea of what the exam looks like. I strongly suggest enrolling in one or both courses. Linux Foundation also provides you with 2 attempts to exam simulator from killer.sh that way if you are well versed with the contents of the curriculum you can skip the courses and directly go for the exam simulator provided with the exam.
+The courses for KodeKloud and Killer.sh provide mock exam simulators which are very helpful in preparing for the exam, and provide a pretty good idea of what the exam looks like. I strongly suggest enrolling in one or both courses. 
 
-The exam costs $375 but there are offers and deals available if you look for them you might be able to get a better price. The duration of the exam is 2 hours and is valid for 2 years, unlike the CKA and CKAD which are valid for 3 years.
+Purchasing the exam from Linux Foundation provides you with 2 free attempts to exam simulator from killer.sh that way if you are well versed with the contents of the curriculum you can skip the courses and directly go for the exam simulator provided with the exam.
+
+The exam costs $375 but there are offers and deals available, and if you look for them you might be able to get a better price. The duration of the exam is 2 hours and is valid for 2 years, unlike the CKA and CKAD which are valid for 3 years.
 
 ### Aliases
 
-The CKS is a performance-based exam where you are provided with an exam simulator in which you have to work out the problems. You are allowed to open only one tab apart from the exam tab. Since this exam requires you to write a lot of commands thus I figured early on that I'd have to rely on aliases to reduce the number of keystrokes to save time.
+The CKS is a performance-based exam where you are provided with an exam simulator in which you have to work out the problems. You are allowed to open only one tab apart from the exam tab. 
+
+Since this exam requires you to write a lot of commands, I figured early on that I'd have to rely on aliases to reduce the number of keystrokes to save time.
 
 I used the **vi** editor during the exam, here I will share some useful tips for this editor.
 
@@ -227,7 +241,9 @@ kc secret generic my-secret --from-env-file=secret.env
 
 #### Few commands which can be helpful for debugging
 
-Debugging is a very important skill while facing issues and errors both in our day jobs while solving problems in the CKS exam. Apart from the ability to output logs from a container the `kubectl exec` commands allow us to log in to a running container and debug issues. While inside the container we can also use utilities like `nc` and `nslookup` to diagnose networking-related issues.
+Debugging is a very important skill while facing issues and errors both in our day jobs while solving problems in the CKS exam.
+
+Apart from the ability to output logs from a container the `kubectl exec` commands allow us to log in to a running container and debug issues. While inside the container we can also use utilities like `nc` and `nslookup` to diagnose networking-related issues.
 {% highlight shell %}
 # Run busybox container
 k run busybox --image=busybox:1.28 --rm --restart=Never -it sh
@@ -263,7 +279,9 @@ kubectl run nginx-deploy --image=nginx:1.16 --replias=1 --record
 
 #### Scale and Autoscale command
 
-The `kubectl scale` command provides the functionality to scale up or scale down Pods in a given deployment. Using the `kubectl autoscale` command we can define the minimum number of Pods that should be running for a given deployment and the maximum numbers of Pods the deployment can scale to along with the scaling criteria like CPU percentage.
+The `kubectl scale` command provides the functionality to scale up or scale down Pods in a given deployment.
+
+Using the `kubectl autoscale` command we can define the minimum number of Pods that should be running for a given deployment and the maximum numbers of Pods the deployment can scale to along with the scaling criteria like CPU percentage.
 {% highlight shell %}
 k scale deploy/nginx --replicas=6
 k autoscale deploy/nginx --min=3 --max=9 --cpu-percent=80
@@ -271,9 +289,11 @@ k autoscale deploy/nginx --min=3 --max=9 --cpu-percent=80
 
 #### Network Policy
 
-In a Kubernetes cluster, all Pods can communicate with all Pods by default, which can be a security issue in some implementations. To circumvent this issue Kubernetes introduced Network Policies to allow or deny traffic to and from Pods based on Pod labels which are part of the Pod spec.
+In a Kubernetes cluster, all pods can communicate with all pods by default, which can be a security issue in some implementations. 
 
-The below example denies both the Ingress and Egress traffic for Pods running in all namespaces. 
+To get around this issue, Kubernetes introduced Network Policies to allow or deny traffic to and from pods based on pod labels which are part of the pod spec.
+
+The below example denies both the Ingress and Egress traffic for pods running in all namespaces.  
 {% highlight yaml %}
 apiVersion: networking.k8s.io/v1
 kind: NetworkPolicy
@@ -408,7 +428,11 @@ apt remove apache2
 
 #### Runtime Classes
 
-Kubernetes introduced the RuntimeClass feature in version `v1.12` for selecting the container runtime configuration. The container runtime configuration is used to run a Pod's underlying containers. Most Kubernetes clusters use the `dockershim` as the Runtime class for the running containers but different container Runtimes can be used. The `dockershim` has been deprecated in Kubernetes version `v1.20`, and will be removed in `v1.24`.
+Kubernetes introduced the RuntimeClass feature in version `v1.12` for selecting the container runtime configuration. The container runtime configuration is used to run a Pod's underlying containers.
+
+Most Kubernetes clusters use the `dockershim` as the Runtime class for the running containers but you can use different container Runtimes.
+
+The `dockershim` has been deprecated in Kubernetes version `v1.20`, and will be removed in `v1.24`.
 
 Creating a Runtime Class:
 {% highlight yaml %}
@@ -435,7 +459,9 @@ spec:
 
 #### RBAC Commands
 
-In Kubernetes, Role-based access control (RBAC) commands provide a method of regulating access to Kubernetes resources based on the roles of individual users or service accounts.
+In Kubernetes, 
+
+> Role-based access control (RBAC) commands provide a method of regulating access to Kubernetes resources based on the roles of individual users or service accounts. ([Source](https://kubernetes.io/docs/reference/access-authn-authz/rbac/))
 
 Create a role
 {% highlight shell %}
@@ -464,7 +490,11 @@ kubectl create clusterrolebinding pvviewer-role-binding --clusterrole=pvviewer-r
 
 #### Cluster Maintenance
 
-The `kubectl drain` command is used to remove all running workloads(Pods) from a given Node. The `kubectl cordon` command is used to cordon a node to mark it as schedulable. The `kubectl uncordon` command is used to set the node as schedulable meaning the Controller Manager can schedule new Pods to the given node.
+You use the `kubectl drain` command to remove all running workloads (pods) from a given Node. 
+
+You use the `kubectl cordon` command to cordon a node to mark it as schedulable. 
+
+Ands you use the `kubectl uncordon` command to set the node as schedulable, meaning the Controller Manager can schedule new pods to the given node.
 
 Draining a node of all pods
 {% highlight shell %}
@@ -1158,7 +1188,11 @@ spec:
 
 #### Linux Capabilities
 
-The Linux capabilities feature breaks up the privileges available to processes run as the `root` user into smaller groups of privileges. This way a process running with `root` privilege can be limited to get only the minimal permissions it needs to perform its operation. Docker supports the Linux capabilities as part of the docker run command: with `--cap-add` and `--cap-drop`. By default, a container is started with several capabilities that are allowed by default and can be dropped. Other permissions can be added manually. Both `--cap-add` and `--cap-drop` support the ALL value, to allow or drop all capabilities. By default Docker containers run with 14 capabilities.
+The Linux capabilities feature breaks up the privileges available to processes run as the `root` user into smaller groups of privileges. This way a process running with `root` privilege can be limited to get only the minimal permissions it needs to perform its operation. 
+
+Docker supports the Linux capabilities as part of the Docker run command: with `--cap-add` and `--cap-drop`. By default, a container is started with several capabilities that are allowed by default and can be dropped. Other permissions can be added manually. 
+
+Both `--cap-add` and `--cap-drop` support the ALL value, to allow or drop all capabilities. By default Docker containers run with 14 capabilities.
 
 - Kernel < 2.2
 	- Privileged Process
@@ -1202,12 +1236,20 @@ spec:
 
 ### Preparation for the Exam
 
-CKS is considered a pretty tough exam by many but based on my experience I think given good enough practice and understanding the concepts the exam is pretty manageable within two hours. 
+CKS is considered a pretty tough exam. But based on my experience I think that, given good enough practice and if you understand the concepts the exam covers, it'll be pretty manageable within two hours. 
 
-It is imperative to understand the underlying Kubernetes concepts and since the eligibility for CKS is to qualify the CKA exam, the candidate is supposed to have a strong understanding of Kubernetes and its functioning. What additional is required for CKS is to understand the threats and security implications introduced by container orchestration.
+You definitely need to understand the underlying Kubernetes concepts. And since a prerequisite for CKS is to pass the CKA exam, you should have a strong understanding of Kubernetes and how it functions before attempting the CKS. 
 
-The introduction of the CKS exam is an indication that the security of containers should not be taken lightly, security mechanisms should be in place to thwart attacks on Kubernetes clusters. The [Tesla cryptocurrency hack](https://www.wired.com/story/cryptojacking-tesla-amazon-cloud/) thanks to an unprotected Kubernetes dashboard brings to light the risks associated with Kubernetes or any other container orchestration engine. [Hackerone has a Kubernetes bounty page](https://hackerone.com/kubernetes?type=team) listing the source code repo's used in a standard Kubernetes cluster.
+In addition, to pass the CKS, you need to understand the threats and security implications introduced by container orchestration.
+
+The introduction of the CKS exam is an indication that the security of containers should not be taken lightly. Security mechanisms should always be in place to thwart attacks on Kubernetes clusters. 
+
+The [Tesla cryptocurrency hack](https://www.wired.com/story/cryptojacking-tesla-amazon-cloud/) that was thanks to an unprotected Kubernetes dashboard brings to light the risks associated with Kubernetes or any other container orchestration engine. [Hackerone has a Kubernetes bounty page](https://hackerone.com/kubernetes?type=team) listing the source code repos used in a standard Kubernetes cluster.
 
 ### Practice, Practice, and Practice!
 
-Practice is the key to cracking the exam, I personally found the exam simulators by KodeKloud and Killer.sh were immensely helpful for me while I didn't have a lot of time to prepare for the CKS exam as I had for the CKA exam, while I was working on Kubernetes in my day job. Practice is the key to success, best of luck with the exam.
+Practice is the key to cracking the exam, I personally found that the exam simulators by KodeKloud and Killer.sh were immensely helpful for me.
+
+I didn't have as much time to prepare for the CKS exam as I had for the CKA exam, but I was working on Kubernetes in my day job so I'd become really comfortable with it. 
+
+Practice is the key to success. Best of luck with the exam!
