@@ -8,7 +8,7 @@ class: page-template
 subclass: 'post page'
 ---
 
-Senior Site Reliability Engineer experienced in building scalable web applications using the following:
+Senior Site Reliability Engineer 3x Kubernetes certified experienced in building scalable web applications using the following:
 
 * Golang, Python, NodeJS(ExpressJS) and, PHP(Laravel)
 * Cloud computing (AWS, Azure, Google Cloud)
@@ -20,9 +20,9 @@ Senior Site Reliability Engineer experienced in building scalable web applicatio
 * Streaming (Kafka, EventHub)
 * Big Data (Databricks, Delta Lake, Druid)
 * Observability (Prometheus, Grafana, Exporters)
-* Elastic Stack(Elasticsearch, Kibana, Logstash, Filebeat, etc.)
-* API development and finally, integration
+* Elastic Stack(Elasticsearch, Kibana, Logstash, and, Filebeat.)
+* API development and, finally, integration
 
 I have a knack for seeing the bigger picture in the scheme of things with an ardent love for architecting complex systems. Tech blogger [@freeCodeCamp](https://www.freecodecamp.org/news/author/faizanbashir/), [@hackernoon](https://hackernoon.com/@faizanbashir), and [@DigitalOcean](https://www.digitalocean.com/community/users/faizanbashir). I am edging towards being a specialized generalist. In the past, I have been identified as a T-shaped person.
 
-Apart from exploring the beautiful world we live in, my diverse interests range from higher poetry and philosophy to politics, economics, history, and so on. I am deeply inspired by the illuminated thought of the poet-philosopher Sir Muhammed Iqbal and the imaginative genius of the great German poet-statesman Johann Wolfgang von Goethe.
+Apart from exploring the beautiful world we live in, my diverse interests range from higher poetry and philosophy to politics, economics, and history. I am deeply inspired by the illuminated thought of the poet-philosopher Sir Muhammed Iqbal and the imaginative genius of the great German poet-statesman Johann Wolfgang von Goethe.
