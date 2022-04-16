@@ -89,6 +89,7 @@ The following are a few awesome resources available on passing the CKS exam:
 3. [Walid Shaari has gathered some indispensable materials for the CKS exam](https://github.com/walidshaari/Certified-Kubernetes-Security-Specialist)
 4. [Abdennour's References for CKS Exam Objectives](https://github.com/abdennour/certified-kubernetes-security-specialist)
 5. [Ibrahim Jelliti's collection of resources to prepare for the Certified Kubernetes Security Specialist (CKSS) exam](https://github.com/ibrahimjelliti/CKSS-Certified-Kubernetes-Security-Specialist)
+6. [Let's Learn CKS Scenarios by Saiyam Pathak](https://saiyampathak.gumroad.com/l/cksbook)
 
 The courses for KodeKloud and Killer.sh provide mock exam simulators which are very helpful in preparing for the exam, and provide a pretty good idea of what the exam looks like. I strongly suggest enrolling in one or both courses. 
 
