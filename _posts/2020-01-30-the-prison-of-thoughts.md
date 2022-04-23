@@ -14,7 +14,7 @@ excerpt:  Every now and then, a different view, wishful thinking, good and bad i
 ---
 > "People who have no hold over their process of thinking ara likely to be ruined by liberty of thought."
 
-- Allama Iqbal
+― Allama Iqbal
 
 A captivating prison, peaceful, terrifying, overpowering, and an escape from reality. A thief, highwayman, rebel, bondage. A delusion, guide, seeker, wanderer, dreamer worldly, and otherworldly. The thoughts of man take myriad forms. Every moment the surreal and vibrant colours of ideas paint a new picture on the clean canvas of mind, a new image every day, some thought, some novel yet some horrendous. A phantom concealed in inquisitive thinking, sometimes divine guidance in the form of contemplative thought, a multitude of unknown ideas arrive from the unseen to test, guide, and deceive man.
 
