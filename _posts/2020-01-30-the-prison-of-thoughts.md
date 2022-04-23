@@ -12,7 +12,7 @@ subclass: 'post tag-writings'
 author: faizan
 excerpt:  Every now and then, a different view, wishful thinking, good and bad ideas strike the mind like drops of pouring rain on a rainy day.
 ---
-> "People who have no hold over their process of thinking ara likely to be ruined by liberty of thought."
+> "People who have no hold over their process of thinking are likely to be ruined by liberty of thought."
 
 ― Allama Iqbal
 
