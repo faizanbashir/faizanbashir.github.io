@@ -10,6 +10,7 @@ tags: [Terraform, IaC]
 class: post-template
 subclass: 'post tag-terraform'
 author: faizan
+excerpt: IaC has become very important for provisioning our infrastructure-as-code efficiently and collaboratively.
 ---
 The IT industry, including organizations of almost every size, is adopting cloud-based services for maintaining its application workloads. However, there is no denying that there are many operational constraints regarding the underlying infrastructure, which becomes a headache for the development teams. That is where IaC has stepped in and allowed you to operate using cloud-based services with greater independence from the associated constraints.
 
