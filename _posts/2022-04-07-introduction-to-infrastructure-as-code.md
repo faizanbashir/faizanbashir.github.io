@@ -60,4 +60,4 @@ The essential features of terraform are as follows:
 4. **Hybrid cloud as one-tool-one-language:** As terraform is not cloud-specific, it supports almost every provider such as IaaS (e.g. AWS, GCP, Microsoft Azure, OpenStack), PaaS (e.g. Heroku), or SaaS services (e.g. Terraform Enterprise, DNSimple, CloudFlare).
 5. **Identical Infrastructure:** Since Terraform provisions infrastructure using a piece of code, creating different environments like production, QA and staging with identical configurations becomes easy.
 
-I suggest visiting https://www.terraform.io/intro/vs/index.html for more features and some of the distinguishing features between Terraform and other popularly known IaC tools.
+I suggest visiting the [Terraform vs. Alternatives](https://www.terraform.io/intro/vs/index.html ) web page for more info about the features of Terraform and some of the distinguishing features between Terraform and other popularly known IaC tools.
