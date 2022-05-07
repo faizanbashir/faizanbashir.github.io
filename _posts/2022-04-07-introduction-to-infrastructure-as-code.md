@@ -2,11 +2,11 @@
 layout: post
 comments: true
 current: post
-cover:  assets/images/posts/alexander-londono-dLS7w-Js5XM-unsplash.jpg
+cover:  assets/images/posts/mickey-o-neil-xL66l--msXU-unsplash.jpg
 navigation: True
 title: "Introduction to Infrastructure as Code (IaC)"
-date: 2022-05-07 12:07:19
-tags: [Terraform, IaC]
+date: 2022-04-07 12:07:19
+tags: [Terraform]
 class: post-template
 subclass: 'post tag-terraform'
 author: faizan
