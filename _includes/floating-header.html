@@ -19,6 +19,10 @@
             onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
             {% include facebook.html %}
         </a>
+        <a class="floating-header-share-li" href="https://www.linkedin.com/sharing/share-offsite/?url={{ site.production_url }}{{ page.url | remove_first: '/' }}"
+            onclick="window.open(this.href, 'share-linkedin','width=580,height=296');return false;">
+            {% include linkedin.html %}
+        </a>
     </div>
     <progress class="progress" value="0">
         <div class="progress-container">
