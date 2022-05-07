@@ -18,10 +18,18 @@ data-science:
   name: data-science
   description: False
   cover: assets/images/summit.jpg
+terraform:
+  name: terraform
+  description: Terraform is one of the most popular Infrastructure as Code (IaC) tools used in the DevOps chain created by HashiCorp
+  cover: assets/images/sky.jpg
 aws:
   name: aws
   description: Amazon Web Services offers reliable, scalable, and inexpensive cloud computing services. Free to join, pay only for what you use.
   cover: assets/images/welcome.jpg
+azure:
+  name: azure
+  description: Microsoft offers reliable, scalable, and inexpensive cloud computing services. Free to join, pay only for what you use.
+  cover: assets/images/summit.jpg
 writings:
   name: writings
   description: Personal thoughts, ruminations, opinions and reflections who knows the creative sun might shine one day.
