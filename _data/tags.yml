@@ -28,7 +28,7 @@ aws:
   cover: assets/images/welcome.jpg
 azure:
   name: azure
-  description: Microsoft offers reliable, scalable, and inexpensive cloud computing services. Free to join, pay only for what you use.
+  description: Microsoft Azure offers reliable, scalable, and inexpensive cloud computing services. Free to join, pay only for what you use.
   cover: assets/images/summit.jpg
 writings:
   name: writings
