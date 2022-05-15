@@ -10,7 +10,7 @@ tags: [Terraform, Azure]
 class: post-template
 subclass: 'post tag-terraform'
 author: faizan
-excerpt: This article will walk you through automating the creation of an Nginx web server on Micorsoft Azure using Terraform as an Infrastructure as Code (IaC) tool.
+excerpt: This article will walk you through automating the creation of an Nginx web server on Microsoft Azure using Terraform as an Infrastructure as Code (IaC) tool.
 ---
 This article will walk you through automating the creation of an Nginx web server on AWS using Terraform as an Infrastructure as Code (IaC) tool.
 
