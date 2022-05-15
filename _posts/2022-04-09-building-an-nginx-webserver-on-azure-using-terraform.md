@@ -6,7 +6,7 @@ cover:  assets/images/posts/chris-hardy-XF-ZLS5G0QU-unsplash.jpg
 navigation: True
 title: "Building an Nginx webserver on Azure using Terraform"
 date: 2022-04-09 03:13:00
-tags: [Terraform, AWS]
+tags: [Terraform, Azure]
 class: post-template
 subclass: 'post tag-terraform'
 author: faizan
