@@ -59,7 +59,9 @@ permalink: /:title
 
 # gems and other configs
 plugins_dir: [_plugins]
-plugins: [jekyll-paginate, jekyll-feed, jekyll-gist]
+plugins: [jekyll-paginate, jekyll-feed, jekyll-gist, jekyll-sitemap]
+
+url: https://faizanbashir.me
 
 feed:
   path: feed.xml
