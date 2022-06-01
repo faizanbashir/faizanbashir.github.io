@@ -10,7 +10,7 @@ tags: [Terraform]
 class: post-template
 subclass: 'post tag-terraform'
 author: faizan
-excerpt: This article explains the usage of Terraform modules and how they it easier to replace repetitive task with Modules.
+excerpt: This article explains the usage of Terraform modules and how they make it easier to substitute repetitive tasks with Modules.
 ---
 This article explains the usage of Terraform modules and how they make it easier to substitute repetitive tasks with Modules.
 
