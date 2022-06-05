@@ -5,7 +5,7 @@ current: post
 cover:  assets/images/posts/johannes-plenio-DKix6Un55mw-unsplash.jpg
 navigation: True
 title: "Ideals: The axis of life"
-date: 2022-06-15 03:13:00
+date: 2022-06-05 03:13:00
 tags: [Writings]
 class: post-template
 subclass: 'post tag-writings'
