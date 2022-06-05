@@ -14,7 +14,7 @@ excerpt:  Every now and then, a different view, wishful thinking, good and bad i
 ---
 > "Acknowledging the good that you already have in your life is the foundation of all abundance."
 
-- Eckhart Tolie
+― Eckhart Tolie
 
 Every day a new blessing, a unique favour, a new joy comes from God without asking, without desiring. So many of His gifts are known, and numerous others remain unknown. I become silent when I think of giving thanks out of the realisation that we can never provide the thanks that God Almighty deserves. 
 
