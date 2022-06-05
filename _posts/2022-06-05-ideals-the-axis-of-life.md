@@ -13,6 +13,7 @@ author: faizan
 excerpt:  In line with the harmony prevalent in nature as revealed in the designs of our Universe, I believe if you do not revolve around the axis of a bright Ideal, an ideal brimming with life, burning with passion, your life will circumambulate around the ideals chosen by your subconscious.
 ---
 > "To live in a great idea means to treat the impossible as though it were possible. It is just the same with a strong character, and when an idea and a character meet, things arise which fill the world with wonder for thousands of years."
+
 - Goethe
 
 Imagine a world where the Earth is free to break off from the Sun's orbit and drift away into the infinite expanse of our Universe. Imagine a world where the Moon drifts away into the void of space, offsetting our planet's perfect 23.5-degree tilt. Imagine a world where the day is devoid of light, confining us to the darkness of an eternal night. Luckily for us, all of this is only a figment of imagination. Otherwise, life would cease to exist, and even if it continued to live, such an existence would be living a nightmare— the stuff of unfortunate science fiction. The truth of our lives is that we live in a world overflowing with beautiful colours which we seldom heed in our daily lives, the sweet chirping of birds, the gentle breeze, the fresh morning breath, the captivating sunrise, surreal sunset. Life, as we know, would not exist even in the form of microorganisms if the laws of nature would not govern all things in the Universe.
@@ -25,4 +26,5 @@ Life is made purposeful and worth living by the existence of Ideals. Ideals are 
 
 >"We live by forming ideals, 
 >We glow with the sunbeams of desire!"
+
 - Iqbal
