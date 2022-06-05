@@ -3,10 +3,10 @@ layout: post
 current: post
 cover:  assets/images/posts/IMG_20180429_144831.jpg
 navigation: True
-title: "Building Kubernetes cluster using EKSCTL"
-date: 2020-02-19 15:07:19
-tags: [Kubernetes]
+title: "Musk, SpaceX, and Terraforming Mars"
+date: 2022-06-06 3:13:03
+tags: [Writings]
 class: post-template
-subclass: 'post tag-kubernetes'
+subclass: 'post tag-writings'
 author: faizan
 ---
