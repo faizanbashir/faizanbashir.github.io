@@ -131,6 +131,7 @@ module "production" {
 
 Finally, we need to define the provider in our `providers.tf` file with the following configuration:
 
+{% highlight hcl %}
 provider "aws" {
   profile   = "${var.aws_cred_profile}"
   region    = "${var.aws_region}"
