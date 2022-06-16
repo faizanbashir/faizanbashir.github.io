@@ -10,7 +10,7 @@ tags: [Terraform]
 class: post-template
 subclass: 'post tag-terraform'
 author: faizan
-excerpt: This article explains the usage of Terraform modules and how they make it easier to substitute repetitive tasks with Modules.
+excerpt: This article is a practical implementation of Terraform Modules for building highly available VMSS on Microsoft Azure.
 ---
 To demonstrate how modules work in real life, we'll be building an Azure Virtual Machine Scale Set cluster for multiple environments like dev, test and production. 
 
