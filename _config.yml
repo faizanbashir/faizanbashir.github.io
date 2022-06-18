@@ -7,8 +7,8 @@ title: Faizan Bashir
 email: "faizan.ibn.bashir@gmail.com"
 description: "Principal Engineer | Cloud Architect | Adventurer"
 keywords: ["docker", "kubernetes", "managed kubernetes", "eks", "gke", "istio", "traefik", "nginx", "serverless", "python", "nodejs", "docker swarm", "distributed applications", "aws", "google cloud", "cloud", "data science", "blog", "jekyll"]
-cover: assets/images/blog-cover.jpg
-og-cover: assets/images/sky.jpg
+cover: assets/images/abed-ismail-cover-unsplash.jpg
+og-cover: assets/images/abed-ismail-cover-unsplash.jpg
 logo: assets/images/d9.png
 logo_dark: assets/images/favicon.ico
 favicon: assets/images/favicon.ico
