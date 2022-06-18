@@ -2,7 +2,7 @@
 layout: post
 comments: true
 current: post
-cover:  assets/images/posts/bawah-reserve-MtHP4ydvZXA-unsplash.jpg
+cover:  assets/images/posts/florian-giorgio-KdbeXNzZhB0-unsplash.jpg
 navigation: True
 title: "Terraform Best Practices"
 date: 2022-04-14 03:13:02
