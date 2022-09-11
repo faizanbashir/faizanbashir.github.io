@@ -12,9 +12,9 @@ subclass: 'post tag-terraform'
 author: faizan
 excerpt: This article will walk you through automating the creation of an Nginx web server on Microsoft Azure using Terraform as an Infrastructure as Code (IaC) tool.
 ---
-This article will walk you through automating the creation of an Nginx web server on AWS using Terraform as an Infrastructure as Code (IaC) tool.
+This article will walk you through automating the creation of an Nginx web server on Azure using Terraform as an Infrastructure as Code (IaC) tool.
 
-I assume that you have installed terraform. If not, download the Terraform binary executable for your platform and follow the steps to install since I will be using AWS as a provider so ensure that AWS CLI is installed and configured correctly.
+I assume that you have installed terraform. If not, download the Terraform binary executable for your platform and follow the steps to install since I will be using Azure as a provider so ensure that Azure CLI is installed and configured correctly.
 
 Create one project in your desired location and name it whatever you like. `cd` into the project and follow the following steps:
 
