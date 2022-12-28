@@ -2,7 +2,7 @@
 layout: post
 comments: true
 current: post
-cover: assets/images/posts/laura-siegal-_6d1KujNzug-unsplash.jpg
+cover: assets/images/posts/andreas-gucklhorn-mawU2PoJWfU-unsplash.jpg
 navigation: True
 title: "How to list Kubernetes Pods using Golang SDK"
 date: 2022-12-28 10:00:00
