@@ -153,7 +153,7 @@ Next, let's see how we can call this function from the `main()` part.
 
 The `ListNamespaces()` function returns a list of Namespaces and an error `err` variable to see if we have any errors and exit. We can iterate over this list in the `for` loop and print the name using the `namespace.Name`. Finally, we are printing the number of Pods returned using the `len(namespaces.Items)`.
 
-# Putting it all together
+# Assembling the Pieces
 
 After putting all the pieces together, we have a `main.go` file containing all the code we discussed previously. Secondly, we have a `go.mod` file containing the dependencies, in this case, `k8s.io/apimachinery` and `k8s.io/client-go`.
 
