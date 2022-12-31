@@ -19,6 +19,23 @@ This article will walk the user through the process of Creating/Updating/Scaling
 
 Openshift provides us with a deployment object called the [DeploymentConfig(DC)](https://access.redhat.com/documentation/en-us/openshift_container_platform/4.1/html/applications/deployments), which enables us to manage the desired state for a group of Pods/ReplicationControllers. The [DeploymentConfig is similar in functionality to the Kubernetes Deployment](https://docs.openshift.com/container-platform/4.6/applications/deployments/what-deployments-are.html) object. The only difference is that DeploymentConfig is available only in Openshift. 
 
+***
+## Table of Contents:
+
+* [Creating a client to communicate with the Openshift API Server](#creating-a-client-to-communicate-with-the-openshift-api-server)
+* [Creating DeploymentConfigs](#creating-deploymentconfigs)
+	* [Walk through the DeploymentConfig object](#walk-through-the-deploymentconfig-object)
+	* [Using the DeploymentConfig object to create a Deployment](#using-the-deploymentconfig-object-to-create-a-deployment)
+* [Listing DeploymentConfigs](#listing-deploymentconfigs)
+* [Updating the Image of a Container in DeploymentConfig](#updating-the-image-of-a-container-in-deploymentconfig)
+* [Scaling DeploymentConfigs](#scaling-deploymentconfigs)
+* [Deleting DeploymentConfigs](#deleting-deploymentconfigs)
+* [Assembling the Pieces](#assembling-the-pieces)
+* [Installing the Dependencies and Testing](#installing-the-dependencies-and-testing)
+* [Conclusion](#conclusion)
+
+***
+
 # Creating a client to communicate with the Openshift API Server
 
 The Openshift container platform is built on top of Kubernetes and uses much of the underlying functionality. We can learn more about communicating with the Kubernetes API Server using go-client SDK [in this article](https://faizanbashir.me/how-to-list-kubernetes-pods-using-golang-sdk#communicating-with-the-kubernetes-api-server).
