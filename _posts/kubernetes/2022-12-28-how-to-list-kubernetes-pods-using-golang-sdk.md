@@ -19,7 +19,19 @@ Kubernetes has a powerful, well-designed API to interact with the cluster functi
 
 To make things easier for developers who want to extend and leverage the functionality provided by Kubernetes, the community has provided Software Development Kits for all major programming languages like `python`, `golang`, `dotnet`, `javascript`, and `c`. You can check out the entire list of supported languages [here](https://kubernetes.io/docs/reference/using-api/client-libraries/).
 
-# Communicating with the Kubernetes API server
+# Table of Contents:
+
+* [Communicating with the Kubernetes API server](#communicating-with-the-kubernetes-api-server)
+* [Creating a client to communicate with the Kubernetes API server](#creating-a-client-to-communicate-with-the-kubernetes-api-server)
+* [Listing Kubernetes Pods by Namespace(s)](#listing-kubernetes-pods-by-namespaces)
+* [Lisitng Kubernetes Namespaces](#lisitng-kubernetes-namespaces)
+* [Assembling the Pieces](#assembling-the-pieces)
+* [Installing the Dependencies and Testing](#installing-the-dependencies-and-testing)
+* [Conclusion](#conclusion)
+
+***
+
+## Communicating with the Kubernetes API server
 
 There are two ways of communicating with the Kubernetes API server using the go-client SDK. One way is using the [in-client cluster communication](https://github.com/kubernetes/client-go/blob/master/examples/in-cluster-client-configuration/main.go). For this to work out, the code needs to be running inside a Kubernetes Pods, and it should have access to execute the required functionality like creating/deleting Pods via a service account.
 
@@ -27,7 +39,7 @@ The other way is to use the configuration called [out-of-cluster client configur
 
 In this setup, we will communicate with the K8s API server from outside the cluster. This configuration is called [out-of-cluster client configuration](https://github.com/kubernetes/client-go/blob/master/examples/out-of-cluster-client-configuration/main.go). In this method, the SDK communicates with the Kubernetes API server using the configuration provided the current context in the local `kubeconfig` file generally stored in the location `~/.kube/config`.
 
-# Creating a client to communicate with the Kubernetes API server
+## Creating a client to communicate with the Kubernetes API server
 
 Kubernetes go-client SDK provides functionality to create a client to talk with the Kubernetes API server. Using this client, we use functionality like listing Pods and Namespaces. So let's dive right in. We will explain the stuff as we go ahead.
 
@@ -68,7 +80,7 @@ func main() {
 
 In the code snippet, we get the user's home directory using the function `os.UserHomeDir()` and then acquire the path to the `~/.kube/config` file. We then pass the `kubeConfigPath` to the `clientcmd.BuildConfigFromFlags()` function, which returns a `kubeconfig` object next up calling the `kubernetes.NewForConfig(kubeConfig)` returns us the `clientset`, and an error object. If the `err` is `nil`, we have the client object, which we will use to further list Pods/Namespaces in the following sections.
 
-# Listing Kubernetes Pods by Namespace(s)
+## Listing Kubernetes Pods by Namespace(s)
 
 In the previous section, we created a Kubernetes client. Now we will be using it to perform actions on the Kubernetes resources. For example, this section will use the client to list Kubernetes Pods by namespace(s). First, let's review the function we will use to list Pods.
 
@@ -114,7 +126,7 @@ Next, let's see how we can call this function from the `main()` part.
 
 The `namespace` variable holds the name of the namespace whose Pods we want to list. If we pass it an empty string, we can list all Pod across namespaces will be listed, given the user has permission to access all namespaces. Next, we check the `err` variable to see if we have any errors and exit. Since the `ListPods` function returns a list of Pods, we can iterate over this list in the `for` loop and print the name using the `pod.Name`. Finally, we are printing the number of Pods returned using the `len(pods.Items)`.
 
-# Lisitng Kubernetes Namespaces
+## Lisitng Kubernetes Namespaces
 
 In the previous section, we listed the Pods for a given namespace. In this section, we will be using the Kubernetes client to list all Namespaces. So first, let's go through the function we will use to list Namespaces.
 
@@ -153,7 +165,7 @@ Next, let's see how we can call this function from the `main()` part.
 
 The `ListNamespaces()` function returns a list of Namespaces and an error `err` variable to see if we have any errors and exit. We can iterate over this list in the `for` loop and print the name using the `namespace.Name`. Finally, we are printing the number of Pods returned using the `len(namespaces.Items)`.
 
-# Assembling the Pieces
+## Assembling the Pieces
 
 After putting all the pieces together, we have a `main.go` file containing all the code we discussed previously. Secondly, we have a `go.mod` file containing the dependencies, in this case, `k8s.io/apimachinery` and `k8s.io/client-go`.
 

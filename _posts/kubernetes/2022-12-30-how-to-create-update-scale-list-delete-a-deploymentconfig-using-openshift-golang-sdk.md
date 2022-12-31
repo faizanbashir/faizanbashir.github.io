@@ -10,17 +10,17 @@ tags: [Kubernetes]
 class: post-template
 subclass: 'post tag-kubernetes'
 author: faizan
-excerpt: This article will walk the user through the process of Creating/Updating/Scaling/Listing/Deleting and Openshift DeploymetConfig in an Openshift cluster with the help of Openshift golang client sdk.
+excerpt: This article will walk the user through the process of Creating, Updating, Scaling, Listing, and Deleting Openshift DeploymetConfig in an Openshift cluster with the help of Openshift golang client sdk.
 ---
 
-This article will walk the user through the process of Creating/Updating/Scaling/Listing/Deleting and Openshift DeploymetConfig in an Openshift cluster with the help of [Openshift golang client sdk](https://github.com/openshift/client-go).
+This article will walk the user through the process of Creating, Updating, Scaling, Listing, and Deleting Openshift DeploymetConfig in an Openshift cluster with the help of [Openshift golang client sdk](https://github.com/openshift/client-go).
 
 [Red Hat OpenShift](https://www.redhat.com/en/technologies/cloud-computing/openshift) is an enterprise-ready Kubernetes container platform. Openshift is built on top of Kubernetes and has a user-friendly UI to interact with the cluster. It has all the features of Kubernetes, along with a few elements of its own.
 
 Openshift provides us with a deployment object called the [DeploymentConfig(DC)](https://access.redhat.com/documentation/en-us/openshift_container_platform/4.1/html/applications/deployments), which enables us to manage the desired state for a group of Pods/ReplicationControllers. The [DeploymentConfig is similar in functionality to the Kubernetes Deployment](https://docs.openshift.com/container-platform/4.6/applications/deployments/what-deployments-are.html) object. The only difference is that DeploymentConfig is available only in Openshift. 
 
 ***
-## Table of Contents:
+# Table of Contents:
 
 * [Creating a client to communicate with the Openshift API Server](#creating-a-client-to-communicate-with-the-openshift-api-server)
 * [Creating DeploymentConfigs](#creating-deploymentconfigs)
@@ -36,7 +36,7 @@ Openshift provides us with a deployment object called the [DeploymentConfig(DC)]
 
 ***
 
-# Creating a client to communicate with the Openshift API Server
+## Creating a client to communicate with the Openshift API Server
 
 The Openshift container platform is built on top of Kubernetes and uses much of the underlying functionality. We can learn more about communicating with the Kubernetes API Server using go-client SDK [in this article](https://faizanbashir.me/how-to-list-kubernetes-pods-using-golang-sdk#communicating-with-the-kubernetes-api-server).
 
@@ -82,11 +82,11 @@ In the code snippet, we get the user's home directory using the function `os.Use
 
 **Note:** The `v1` in the `v1.NewForConfig()` returns a `*v1.AppsV1Client`; this is part of the `appsv1`, but since we are using the DeploymentConfig object further in this tutorial which is also a part of the `appsv1` group, we ended up using the `appsv1` for the later. While both the `v1` and `appsv1` referred to in this code fall under the Openshift `appsv1`.
 
-# Creating DeploymentConfigs
+## Creating DeploymentConfigs
 
 In the previous section, we created an Openshift client. Now we will be using it to perform actions on the Openshift resources. For example, this section will use the client to create Openshift DeploymentConfig. But first, let's review the DeploymentConfig object.
 
-## Walk through the DeploymentConfig object
+### Walk through the DeploymentConfig object
 
 The Openshift go client SDK provides a `Create` function to create DeploymentConfigs. The procedure takes multiple parameters, one of which we will explain in this section: the DeploymentConfig object. First, let's walk through the DeploymentConfig object.
 
@@ -136,7 +136,7 @@ Here in the `&appsv1.DeploymentConfig{...}` struct, we pass the intended name of
 
 We can define multiple `Triggers` using the `[]appsv1.DeploymentTriggerPolicy` struct. In this case, we are using the trigger type `appsv1.DeploymentTriggerOnConfigChange`, which refers to the [ConfigChange trigger](https://docs.openshift.com/container-platform/3.11/dev_guide/deployments/basic_deployment_operations.html#config-change-trigger). The ConfigChange trigger creates a new replication controller whenever the control loop detects changes in the pod template of the deployment configuration.
 
-## Using the DeploymentConfig object to create a Deployment
+### Using the DeploymentConfig object to create a Deployment
 
 Now that we have deconstructed the DeploymentConfig struct let's go through the `CreateDeploymentConfig()` function.
 
@@ -212,7 +212,7 @@ Using the code below, we can call the `CreateDeploymentConfig()` function from t
 ...
 {% endhighlight %}
 
-# Listing DeploymentConfigs
+## Listing DeploymentConfigs
 
 Now that we can create a DeploymentConfig using the SDK let's try to list them for a given namespace. This section will use the Openshift client to list DeploymentConfigs running in a namespace. So first, let's go through the function `ListDeploymentConfigs()`.
 
@@ -249,7 +249,7 @@ We can call the `ListDeploymentConfigs()` function from the `main()` and iterate
 
 Using a `for` loop, we can iterate over the `deploymentConfigs` variable returned from the `ListDeploymentCofigs()` function. In the above example, we are printing out the name of the DeploymentConfig using the `d.ObjectMeta.Name`. The item has all the information related to DeploymentConfig.
 
-# Updating the Image of a Container in DeploymentConfig 
+## Updating the Image of a Container in DeploymentConfig 
 
 We saw that using the Openshift SDK; we can easily create and list DeploymentConfigs. Next up, we will update the image of a container in DeploymentConfig. Previously we created a DeploymentConfig with the image `docker.io/httpd:latest`. We will change that to `docker.io/nginx:latest`, an open-source web server. Finally, we will update the image with the `UpdateDeploymentConfigImage()` function. Let's dive right into the code.
 
@@ -284,7 +284,7 @@ The `payload` is then converted into an array of bytes `payloadBytes` using the 
 ...
 {% endhighlight %}
 
-# Scaling DeploymentConfigs
+## Scaling DeploymentConfigs
 
 Scaling the DeploymentConfig is done through a `Patch()` function call. Although the SDK has a `GetScale()` and `UpdateScale()` function supposedly for getting and updating the scale of the DeploymentConfig. Unfortunately, the `UpdateScale()` function returned errors and did not work for me. So let's walk through the `ScaleDeploymentConfig()` function.
 
@@ -319,7 +319,7 @@ This function receives a DeploymentConfig `name`, `namespace`, number of `scale`
 ...
 {% endhighlight %}
 
-# Deleting DeploymentConfigs
+## Deleting DeploymentConfigs
 
 Now that we have performed all the operations in the scope of this article, we can go ahead and delete the DeploymentConfig from using the Openshift SDK. We have created a function `DeleteDeploymentConfig()` to perform the cleanup task. Let's review the code for this function.
 
@@ -348,13 +348,13 @@ The `DeleteDeploymentConfig()` function receives a DeploymentConfig `name`, `nam
 ...
 {% endhighlight %}
 
-# Assembling the Pieces
+## Assembling the Pieces
 
 After putting all the pieces together, we have a `main.go` file containing all the code we discussed previously. Secondly, we have a `go.mod` file containing the dependencies.
 
 {% gist 48e9e65e7c8a455318ea7b7343fa86b6 %}
 
-# Installing the Dependencies and Testing
+## Installing the Dependencies and Testing
 
 We are using the go version `1.19`. To install the dependencies, we need to run the following command:
 
@@ -372,6 +372,6 @@ Before running the code, ensure you can access the target Kubernetes cluster usi
 
 **Note:** Instead of using the Openshift golang SDK, which pulls an outdated version, uses the code in the `master` branch, which has the latest code. There is a [GitHub issue](https://github.com/openshift/client-go/issues/134) in the Openshift client-go repo with more information on this issue.
 
-# Conclusion
+## Conclusion
 
 The Openshift golang SDK is similar in structure and nomenclature to the Kubernetes golang SDK. The code is open-source on [GitHub](https://github.com/openshift/client-go/). Therefore, we can go through the code and check out the functionality available in the SDK.
