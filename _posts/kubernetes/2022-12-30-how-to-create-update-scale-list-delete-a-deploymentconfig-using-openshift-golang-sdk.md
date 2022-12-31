@@ -73,7 +73,7 @@ In the previous section, we created an Openshift client. Now we will be using it
 
 The Openshift go client SDK provides a `Create` function to create DeploymentConfigs. The procedure takes multiple parameters, one of which we will explain in this section: the DeploymentConfig object. First, let's walk through the DeploymentConfig object.
 
-{% hightlight golang %}
+{% highlight golang %}
 ...
     dc := &appsv1.DeploymentConfig{
         ObjectMeta: metav1.ObjectMeta{
@@ -181,7 +181,7 @@ The `Create()` function takes in a `context`, the `*v1.DeploymentConfig` struct 
 
 Using the code below, we can call the `CreateDeploymentConfig()` function from the `main()`.
 
-{% hightlight golang %}
+{% highlight golang %}
 ...
     deploymentName := "my-deployment"
     namespace := "my-namespace"
@@ -199,7 +199,7 @@ Using the code below, we can call the `CreateDeploymentConfig()` function from t
 
 Now that we can create a DeploymentConfig using the SDK let's try to list them for a given namespace. This section will use the Openshift client to list DeploymentConfigs running in a namespace. So first, let's go through the function `ListDeploymentConfigs()`.
 
-{% hightlight golang %}
+{% highlight golang %}
 
 func ListDeploymentConfigs(namespace string, client *v1.AppsV1Client) (*appsv1.DeploymentConfigList, error) {
     fmt.Printf("Listing DeploymentConifgs in namespace `%s`\n", namespace)
@@ -217,7 +217,7 @@ The `ListDeploymentConfigs()` receives two arguments, the `namespace` and the Op
 
 We can call the `ListDeploymentConfigs()` function from the `main()` and iterate over the `*appsv1.DeploymentConfigList` array using the following code.
 
-{% hightlight golang %}
+{% highlight golang %}
 ...
     // Listing deployment Configs
     deploymentConfigs, err := ListDeploymentConfigs(namespace, client)
@@ -260,7 +260,7 @@ The `UpdateDeploymentConfigImage()` function receives the DeploymentConfig `name
 
 The `payload` is then converted into an array of bytes `payloadBytes` using the `json.Marshall()` function. Finally, the `Patch()` function uses the patch payload `payloadBytes` along with the `types.JSONPatchType`, which signifies our patch operation. The `UpdateDeploymentConfigImage()` is a simple function call without any return value. We can call the above function from the `main()`.
 
-{% hightlight golang %}
+{% highlight golang %}
 ...
     // Updating the image for DeploymentConfig
     UpdateDeploymentConfigImage(deploymentName, namespace, "docker.io/nginx:latest", client)
@@ -271,7 +271,7 @@ The `payload` is then converted into an array of bytes `payloadBytes` using the 
 
 Scaling the DeploymentConfig is done through a `Patch()` function call. Although the SDK has a `GetScale()` and `UpdateScale()` function supposedly for getting and updating the scale of the DeploymentConfig. Unfortunately, the `UpdateScale()` function returned errors and did not work for me. So let's walk through the `ScaleDeploymentConfig()` function.
 
-{% hightlight golang %}
+{% highlight golang %}
 func ScaleDeploymentConfig(name, namespace string, scale int, client *v1.AppsV1Client) {
     fmt.Printf("Scaling DeploymentConfig `%s` in namespace `%s`\n", name, namespace)
     replicas := uint32(scale)
@@ -295,7 +295,7 @@ func ScaleDeploymentConfig(name, namespace string, scale int, client *v1.AppsV1C
 
 This function receives a DeploymentConfig `name`, `namespace`, number of `scale` and the Openshift `client`. Similar to the `UpdateDeploymentConfigImage()` function, we create a `payload` to replace the `/spec/replicas` value in the DeploymentConfig. The function does not return any value. We can call the above function from the `main()`.
 
-{% hightlight golang %}
+{% highlight golang %}
 ...
     // Scaling DeploymentConfig
     ScaleDeploymentConfig(deploymentName, namespace, 1, client)
@@ -321,7 +321,7 @@ func DeleteDeploymentConfig(name, namespace string, client *v1.AppsV1Client) err
 
 The `DeleteDeploymentConfig()` function receives a DeploymentConfig `name`, `namespace` and Openshift `client` and returns an `error`. The `Delete()` function call of the Openshift SDK does the work of deleting the DeploymentConfig. We can call the `DeleteDeploymentConfig()` function from the `main()`.
 
-{% hightlight golang %}
+{% highlight golang %}
 ...
     // Deleting DeploymentConfig
     err = DeleteDeploymentConfig(deploymentName, namespace, client)
