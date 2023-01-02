@@ -256,11 +256,11 @@ We saw that using the Openshift SDK; we can easily create and list DeploymentCon
 {% highlight golang %}
 func UpdateDeploymentConfigImage(name, namespace, image string, client *v1.AppsV1Client) {
     fmt.Printf("Updating DeploymentConfig `%s` in namespace `%s`\n", name, namespace)
-    payload := []stringPatch{{
+    payload := []stringPatch{
         Op:    "replace",
         Path:  "/spec/template/spec/containers/0/image",
         Value: image,
-    }}
+    }
     payloadBytes, _ := json.Marshal(payload)
 
     _, err := client.DeploymentConfigs(namespace).Patch(context.TODO(), name, types.JSONPatchType, payloadBytes, metav1.PatchOptions{})
@@ -293,11 +293,11 @@ func ScaleDeploymentConfig(name, namespace string, scale int, client *v1.AppsV1C
     fmt.Printf("Scaling DeploymentConfig `%s` in namespace `%s`\n", name, namespace)
     replicas := uint32(scale)
 
-    payload := []integerPatch{{
+    payload := []integerPatch{
         Op:    "replace",
         Path:  "/spec/replicas",
         Value: replicas,
-    }}
+    }
     payloadBytes, _ := json.Marshal(payload)
 
     _, err := client.DeploymentConfigs(namespace).Patch(context.TODO(), name, types.JSONPatchType, payloadBytes, metav1.PatchOptions{})
