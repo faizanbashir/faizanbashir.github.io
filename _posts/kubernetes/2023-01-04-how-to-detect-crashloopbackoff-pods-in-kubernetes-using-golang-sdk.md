@@ -24,7 +24,7 @@ To make things easier for developers who want to extend and leverage the functio
 
 * [Communicating with the Kubernetes API server](#communicating-with-the-kubernetes-api-server)
 * [Creating a client to communicate with the Kubernetes API server](#creating-a-client-to-communicate-with-the-kubernetes-api-server)
-* [Detecting `CrashLoopBackOff` Pods in Kubernetes](#detecting-crashloopbackoff-pods-in-kubernetes)
+* [Detecting CrashLoopBackOff Pods in Kubernetes](#detecting-crashloopbackoff-pods-in-kubernetes)
 * [Assembling the Pieces](#assembling-the-pieces)
 * [Installing the Dependencies and Testing](#installing-the-dependencies-and-testing)
 * [Conclusion](#conclusion)
@@ -81,7 +81,7 @@ func main() {
 
 In the code snippet, we get the user's home directory using the function `os.UserHomeDir()` and then acquire the path to the `~/.kube/config` file. We then pass the `kubeConfigPath` to the `clientcmd.BuildConfigFromFlags()` function, which returns a `kubeconfig` object next up calling the `kubernetes.NewForConfig(kubeConfig)` returns us the `clientset`, and an error object. If the `err` is `nil`, we have the client object, which we will use further to detect crashing Pods in the following sections.
 
-## Detecting `CrashLoopBackOff` Pods in Kubernetes
+## Detecting CrashLoopBackOff Pods in Kubernetes
 
 To detect `CrashLoopBackOff` Pods in Kubernetes, we will create a Pod `watcher` object and check the Pods for the crashing condition. So let's dive right into the code:
 
