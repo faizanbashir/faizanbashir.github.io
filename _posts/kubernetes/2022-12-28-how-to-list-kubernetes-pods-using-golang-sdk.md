@@ -17,8 +17,9 @@ This article will walk the user through the process of listing Pods and Namespac
 
 Kubernetes has a powerful, well-designed API to interact with the cluster functionality. We can list, create, update, delete, and watch all kinds of Kubernetes resources using the Kubernetes APIs. In addition, we can do anything that we can do with the `kubectl` command line interface with the APIs. 
 
-To make things easier for developers who want to extend and leverage the functionality provided by Kubernetes, the community has provided Software Development Kits for all major programming languages like `python`, `golang`, `dotnet`, `javascript`, and `c`. You can check out the entire list of supported languages [here](https://kubernetes.io/docs/reference/using-api/client-libraries/).
+To make things easier for developers who want to extend and leverage the functionality provided by Kubernetes, the community has provided Software Development Kits for all major programming languages like `python`, `golang`, `dotnet`, `javascript`, and `C`. You can check out the entire list of supported languages [here](https://kubernetes.io/docs/reference/using-api/client-libraries/).
 
+***
 # Table of Contents:
 
 * [Communicating with the Kubernetes API server](#communicating-with-the-kubernetes-api-server)
