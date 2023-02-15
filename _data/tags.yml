@@ -34,3 +34,7 @@ writings:
   name: writings
   description: Personal thoughts, ruminations, opinions and reflections who knows the creative sun might shine one day.
   cover: assets/images/welcome.jpg
+linux:
+  name: linux
+  description: Linux is an open-source operating system created by Linus Torvalds in 1991. Based on Unix, Linux powers various devices and systems widely used, including servers, desktops, laptops, smartphones, and embedded systems.
+  cover: assets/images/summit.jpg
