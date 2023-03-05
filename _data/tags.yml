@@ -38,3 +38,7 @@ linux:
   name: linux
   description: Linux is an open-source operating system created by Linus Torvalds in 1991. Based on Unix, Linux powers various devices and systems widely used, including servers, desktops, laptops, smartphones, and embedded systems.
   cover: assets/images/summit.jpg
+ai:
+  name: ai
+  description: Artificial intelligence (AI) is an attempt to create Intelligence by mimicking the human brain. Enabling machines to learn, reason, and make decisions like humans, with some degree of precision, and speed.
+  cover: assets/images/welcome.jpg
