@@ -23,12 +23,13 @@ This article demonstrates a workflow for integrating multiple AI services to per
 
 * [The OpenAI APIs](#the-openai-apis)
 * [Setting Up](#setting-up)
-* [Recognise the Speech](#recognise-the-speech)
+* [Recognize the Speech](#recognize-the-speech)
 * [Listen to the Whispers](#listen-to-the-whispers)
 * [The Completions](#the-completions)
 * [Speak Up](#speak-up)
 * [The Assembly Line](#the-assembly-line)
     * [Installing Libraries](#installing-libraries)
+* [Usage](#usage)
 * [Conclusion](#conclusion)
 
 ***
@@ -184,6 +185,56 @@ The following libraries are used in the code. Install them using the following c
 {% highlight shell %}
 pip install SpeechRecognition
 pip install pyttsx3
+{% endhighlight %}
+
+## Usage
+
+Knowing how to use things is a talent. Knowing when timing.
+
+To use the script, we need to run it. So be sure to install the dependencies first.
+
+{% highlight shell %}
+python main.py
+{% endhighlight %}
+
+After running the script, we get a message on the terminal stating, "Say Something!". When the prompt hit the terminal, we must come up with a question and speak up. A pause is detected to stop the recording.
+
+{% highlight shell %}
+python main.py
+[-] Record audio using microphone
+Say something!
+Generating WAV file, saving at location: ./audio/microphone-results.wav
+{% endhighlight %}
+
+After that, the recording gets stored as a `wav` file. The audio file is then passed on to the OpenAI Whisper transcription API. Finally, the API returns with a transcription response.
+
+{% highlight shell %}
+python main.py
+...
+[-] Call to Whisper APIs to get the STT response
+Status Code 200
+Response from Whisper API's "Summarise Limitless by Jim Kwik"
+{% endhighlight %}
+
+The transcribed response is used to query the OpenAI chat completion API leveraging the ChatGPT model. Finally, the endpoint returns a JSON response with the ChatGPT response.
+
+{% highlight shell %}
+python main.py
+...
+[-] Querying ChatGPT model with the STT response data
+Status Code 200
+Response from ChatGPT model
+
+In his book "Limitless," Jim Kwik offers a variety of strategies to help readers unlock their full brain potential. He emphasizes the importance of proper nutrition, exercise, and sleep for optimal brain function, and also provides techniques for improving memory, learning, and problem-solving skills. Kwik argues that the key to achieving personal and professional success is to continually challenge and stretch yourself, with a focus on long-term growth rather than short-term wins. Overall, "Limitless" provides practical and actionable advice for anyone looking to optimize their cognitive abilities and achieve their goals.
+{% endhighlight %}
+
+Finally, this text response is converted to text-to-speech (TTS) audio, which you can hear from the speakers.
+
+{% highlight shell %}
+python main.py
+...
+[-] Try to convert TTS from the response
+Converting text to speech...
 {% endhighlight %}
 
 ## Conclusion
