@@ -162,7 +162,7 @@ engine.runAndWait()
 engine.stop()
 {% endhighlight %}
 
-One simply cannot forget after having said and heard. This has nothing to do with "One simply does not walk into Mordor".
+We have all experienced text-based interactions with ChatGPT. Our approach here is more of a conversational nature, like Alexa. We can easily extend our script to involve going deeper by asking follow-up questions.
 
 ## The Assembly Line
 
