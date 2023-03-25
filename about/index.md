@@ -8,9 +8,15 @@ class: page-template
 subclass: 'post page'
 ---
 
-Senior Site Reliability Engineer 3x Kubernetes, 3x Azure certified experienced in building scalable web applications using the following:
+This blog is a unique fusion of personal experiences, philosophy, and cutting-edge technology. Delve into the world of a passionate technophile, where you'll find reflections on life's journey and insightful thoughts on the latest advancements in the tech industry, from personal anecdotes and philosophical musings to in-depth discussions of emerging technologies. My blog offers a blend of content designed to pique your curiosity, challenge your perspective, and inspire innovation. So join me as I explore the intersection of life and technology, uncovering the boundless potential that lies within.
 
-* Microservices/Automation using Golang
+<h1 class="post-full-header">
+Profession
+</h1>
+
+Senior Site Reliability Engineer at **Honeywell Inc.** 3x Kubernetes, 3x Azure certified experienced in building scalable web applications using the following:
+
+* Microservices/Automation using Golang, Python
 * Python, NodeJS(ExpressJS) and, PHP(Laravel)
 * Cloud computing (AWS, Azure, Google Cloud)
 * DevOps(Jenkins, Travis, GitLab, Octopus)
