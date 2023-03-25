@@ -5,6 +5,7 @@
 #
 title: Faizan Bashir
 email: "faizan.ibn.bashir@gmail.com"
+short_description: "Seeker | Wanderer | Adventurer"
 description: "This blog is a unique fusion of personal experiences, philosophy, and cutting-edge technology. Delve into the world of a passionate technophile, where you'll find reflections on life's journey and insightful thoughts on the latest advancements in the tech industry, from personal anecdotes and philosophical musings to in-depth discussions of emerging technologies. My blog offers a blend of content designed to pique your curiosity, challenge your perspective, and inspire innovation. So join me as I explore the intersection of life and technology, uncovering the boundless potential that lies within."
 keywords: ["kubernetes", "golang", "python", "javascript", "ai", "terraform", "serverless", "webassembly", "docker", "managed kubernetes", "eks", "gke", "openshift", "nginx", "nodejs", "docker swarm", "distributed applications", "aws", "google cloud", "cloud", "chatgpt", "openai", "data science", "blog", "jekyll"]
 cover: assets/images/abed-ismail-cover-unsplash.jpg
