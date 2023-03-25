@@ -42,3 +42,7 @@ ai:
   name: ai
   description: Artificial intelligence (AI) is an attempt to create Intelligence by mimicking the human brain. Enabling machines to learn, reason, and make decisions like humans, with some degree of precision, and speed.
   cover: assets/images/welcome.jpg
+wasm:
+  name: wasm
+  description: WebAssembly, is a binary instruction format designed as a portable target for the compilation of high-level languages like C, C++, and Rust, enabling deployment on the web for client and server applications. WASM is an emerging and potentially disruptive technology.
+  cover: assets/images/welcome.jpg
