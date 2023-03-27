@@ -11,6 +11,9 @@ class: post-template
 subclass: 'post tag-kubernetes'
 author: faizan
 ---
+
+# Introduction
+
 Kubernetes is one of the most exciting technologies in the world of DevOps these days. It has attracted a lot of attention over the last few years. The reason for its instantaneous fame is the mighty containers.
 
 Docker Inc. brought containers to the lime light with their impeccable marketing of an amazing product. Docker laid the foundation for the wide-spread use of containers, although container technology outdates it. Yet because of Docker, the use of Linux containers has become more prevalent, cementing the foundation for container orchestration engines.

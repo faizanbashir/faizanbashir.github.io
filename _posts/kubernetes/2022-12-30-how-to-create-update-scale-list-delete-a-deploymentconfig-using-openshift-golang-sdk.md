@@ -13,6 +13,8 @@ author: faizan
 excerpt: This article will walk the user through the process of Creating, Updating, Scaling, Listing, and Deleting Openshift DeploymetConfig in an Openshift cluster with the help of Openshift golang client sdk.
 ---
 
+# Introduction
+
 This article will walk the user through the process of Creating, Updating, Scaling, Listing, and Deleting Openshift DeploymetConfig in an Openshift cluster with the help of [Openshift golang client sdk](https://github.com/openshift/client-go).
 
 [Red Hat OpenShift](https://www.redhat.com/en/technologies/cloud-computing/openshift) is an enterprise-ready Kubernetes container platform. Openshift is built on top of Kubernetes and has a user-friendly UI to interact with the cluster. It has all the features of Kubernetes, along with a few elements of its own.

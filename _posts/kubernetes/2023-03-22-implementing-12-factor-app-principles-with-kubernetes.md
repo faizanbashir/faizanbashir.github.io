@@ -13,6 +13,8 @@ author: faizan
 excerpt: This article will walk the user through the 12-factor app principles and how to implement them using Kubernetes.
 ---
 
+# Introduction
+
 The [12-Factor App methodology](https://12factor.net/) is a set of best practices for building modern, scalable, and maintainable applications. It ensures that applications can be deployed and managed easily across different environments while providing a consistent experience for developers and users.
 
 !["12-Factor App Infographic"](assets/images/posts/12-factor-app-infographic.png "12-Factor App Infographic")

@@ -13,6 +13,8 @@ author: faizan
 excerpt: This article will walk the user through the process of listing Pods and Namespaces in a Kubernetes cluster with the help of go-client sdk.
 ---
 
+# Introduction
+
 This article will walk the user through the process of listing Pods and Namespaces in a Kubernetes cluster with the help of [go-client sdk](https://github.com/kubernetes/client-go/).
 
 Kubernetes has a powerful, well-designed API to interact with the cluster functionality. We can list, create, update, delete, and watch all kinds of Kubernetes resources using the Kubernetes APIs. In addition, we can do anything that we can do with the `kubectl` command line interface with the APIs. 
