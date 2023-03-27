@@ -12,6 +12,9 @@ subclass: 'post tag-kubernetes'
 author: faizan
 excerpt: This article is based upon my experience on how I approached the CKS exam and cleared it in my first attempt in Sep 2021.
 ---
+
+# Introduction
+
 This article is based on my experience studying for and passing the Certified Kubernetes Security Specialist exam. I passed the exam on my first attempt in Sep 2021.
 
 I passed the Certified Kubernetes Application Developer exam back in Feb 2020, followed by Certified Kubernetes Administrator in March 2020. 

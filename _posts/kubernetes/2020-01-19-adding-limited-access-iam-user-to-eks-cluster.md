@@ -11,7 +11,9 @@ class: post-template
 subclass: 'post tag-kubernetes'
 author: faizan
 ---
+
 ### Introduction
+
 [Elastic Kubernetes Service (EKS)](https://aws.amazon.com/eks/) is the fully managed [Kubernetes](https://kubernetes.io/) service from AWS. It is deeply integrated with many AWS services such as AWS Identity and Access Management (IAM) for authentication to the cluster, Amazon CloudWatch for logging, Auto Scaling Groups for scaling the worker nodes, and Amazon Virtual Private Cloud (VPC) for networking. Many reputed companies trust Amazon EKS to run their containerized workloads.
 
 ![EKS IAM Authentication](assets/images/posts/eks-iam.png)
