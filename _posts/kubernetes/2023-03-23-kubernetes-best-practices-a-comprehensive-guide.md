@@ -10,7 +10,7 @@ tags: [Kubernetes]
 class: post-template
 subclass: 'post tag-kubernetes'
 author: faizan
-excerpt: This comprehensive guide covers a range of Kubernetes best practices, from designing and configuring applications to monitoring and securing the cluster.
+excerpt: This article is a detailed guide for the essential Kubernetes best practices, covering application design, configuration management, resource management, monitoring, security, and more for efficient container orchestration.
 ---
 
 # Introduction
