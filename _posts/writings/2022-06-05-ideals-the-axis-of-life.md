@@ -2,7 +2,7 @@
 layout: post
 comments: true
 current: post
-cover:  assets/images/posts/johannes-plenio-DKix6Un55mw-unsplash.jpg
+cover:  assets/images/posts/johannes-plenio-DKix6Un55mw-unsplash_resized.jpg
 navigation: True
 title: "Ideals: The axis of life"
 date: 2022-06-05 03:13:00

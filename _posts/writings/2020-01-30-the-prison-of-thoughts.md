@@ -2,7 +2,7 @@
 layout: post
 comments: true
 current: post
-cover:  assets/images/posts/jielin-chen-pKQIpxzq0ZQ-unsplash.jpg
+cover:  assets/images/posts/jielin-chen-pKQIpxzq0ZQ-unsplash_resized.jpg
 navigation: True
 title: "The Prison of Thoughts"
 date: 2020-01-30 09:43:00

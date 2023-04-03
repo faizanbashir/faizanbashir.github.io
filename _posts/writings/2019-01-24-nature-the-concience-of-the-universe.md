@@ -2,7 +2,7 @@
 layout: post
 comments: true
 current: post
-cover:  assets/images/posts/webbinfrared.jpeg
+cover:  assets/images/posts/webbinfrared_resized.jpeg
 navigation: True
 title: "Nature: The conscience of the universe"
 date: 2019-01-24 10:00:00
