@@ -2,7 +2,7 @@
 layout: post
 comments: true
 current: post
-cover:  assets/images/posts/1*C6BkVKRpoVK_Pq1TLqlSkQ1.png
+cover:  assets/images/posts/1*C6BkVKRpoVK_Pq1TLqlSkQ1_resized.png
 navigation: True
 title: "Cleaning Up Docker"
 date: 2018-05-04 15:07:19

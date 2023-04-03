@@ -2,7 +2,7 @@
 layout: post
 comments: true
 current: post
-cover: assets/images/posts/shifaaz-shamoon-Rl9l9mL6Pvs-unsplash.jpg
+cover: assets/images/posts/shifaaz-shamoon-Rl9l9mL6Pvs-unsplash_resized.jpg
 navigation: True
 title: "Implementing 12-Factor App Principles with Kubernetes"
 date: 2023-03-22 10:00:00
