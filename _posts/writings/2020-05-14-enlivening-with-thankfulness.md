@@ -2,7 +2,7 @@
 layout: post
 comments: true
 current: post
-cover:  assets/images/posts/dawid-zawila--G3rw6Y02D0-unsplash.jpg
+cover:  assets/images/posts/dawid-zawila--G3rw6Y02D0-unsplash_resized.jpg
 navigation: True
 title: "Şükran: Enlivening with Thankfulness"
 date: 2020-05-14 09:43:00
