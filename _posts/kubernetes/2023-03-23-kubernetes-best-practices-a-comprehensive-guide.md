@@ -2,7 +2,7 @@
 layout: post
 comments: true
 current: post
-cover: assets/images/posts/sina-rezakhani-6Pce32oZYuc-unsplash.jpg
+cover: assets/images/posts/sina-rezakhani-6Pce32oZYuc-unsplash_resized.jpg
 navigation: True
 title: "Kubernetes Best Practices: A Comprehensive Guide"
 date: 2023-03-23 10:00:00

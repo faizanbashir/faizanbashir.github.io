@@ -2,7 +2,7 @@
 layout: post
 comments: true
 current: post
-cover:  assets/images/posts/enrapture-captivating-media-AFqhe5VAXt0-unsplash.jpg
+cover:  assets/images/posts/enrapture-captivating-media-AFqhe5VAXt0-unsplash_resized.jpg
 navigation: True
 title: "Managing environments through Terraform Workspaces"
 date: 2022-04-13 03:13:02

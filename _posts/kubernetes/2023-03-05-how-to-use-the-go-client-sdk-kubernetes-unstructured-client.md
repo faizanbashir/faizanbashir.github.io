@@ -2,7 +2,7 @@
 layout: post
 comments: true
 current: post
-cover: assets/images/posts/rodrigo-abreu-lq9PxpwDZUk-unsplash.jpg
+cover: assets/images/posts/rodrigo-abreu-lq9PxpwDZUk-unsplash_resized.jpg
 navigation: True
 title: "How to Create and Delete deployment and service using the Unstructured Dynamic Client in Go"
 date: 2023-03-05 10:00:00

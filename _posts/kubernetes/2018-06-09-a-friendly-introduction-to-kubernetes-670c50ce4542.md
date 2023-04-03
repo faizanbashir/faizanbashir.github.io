@@ -2,7 +2,7 @@
 layout: post
 comments: true
 current: post
-cover:  assets/images/posts/1*VZf19QtcEYsMaA912V0pkQ1.jpeg
+cover:  assets/images/posts/1*VZf19QtcEYsMaA912V0pkQ1_resized.jpeg
 navigation: True
 title: "A friendly introduction to Kubernetes"
 date: 2018-06-09 15:07:19

@@ -2,7 +2,7 @@
 layout: post
 comments: true
 current: post
-cover:  assets/images/posts/IMG_20180429_144831.jpg
+cover:  assets/images/posts/IMG_20180429_144831_resized.jpg
 navigation: True
 title: "Adding limited access IAM user to EKS Cluster"
 date: 2020-01-19 15:07:19
