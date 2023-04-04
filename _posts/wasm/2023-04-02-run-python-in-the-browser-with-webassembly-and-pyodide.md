@@ -10,7 +10,7 @@ tags: [Wasm]
 class: post-template
 subclass: 'post tag-writings'
 author: faizan
-excerpt:  Discover how to run Python code directly in your web browser using WebAssembly and the Pyodide library. In this tutorial, you'll learn how to calculate the square of a number using Python and display the result in the browser."
+excerpt:  Discover how to run Python code directly in your web browser using WebAssembly and the Pyodide library. In this tutorial, you'll learn how to calculate the square of a number using Python and display the result in the browser.
 ---
 
 # Run Python in WebAssembly with Pyodide
