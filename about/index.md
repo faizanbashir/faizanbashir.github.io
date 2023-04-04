@@ -14,7 +14,7 @@ This blog is a unique fusion of personal experiences, philosophy, and cutting-ed
 Profession
 </h1>
 
-Advanced Software Engineer at **Honeywell Inc.** 3x Kubernetes, 3x Azure certified, experienced in building scalable web applications using the following:
+Advanced Software Engineer at **Honeywell Inc.** 3x Kubernetes, 3x Azure certified. Skilled in developing scalable web applications using:
 
 * Golang, Python for Microservices & Automation
 * Python (Flask), Golang (GIN), NodeJS (ExpressJS), PHP (Laravel, Lumen) for App Development
