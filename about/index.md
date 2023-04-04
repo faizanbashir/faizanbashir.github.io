@@ -14,22 +14,22 @@ This blog is a unique fusion of personal experiences, philosophy, and cutting-ed
 Profession
 </h1>
 
-Senior Site Reliability Engineer at **Honeywell Inc.** 3x Kubernetes, 3x Azure certified experienced in building scalable web applications using the following:
+Advanced Software Engineer at **Honeywell Inc.** 3x Kubernetes, 3x Azure certified. Skilled in developing scalable web applications using:
 
-* Microservices/Automation using Golang, Python
-* Python, NodeJS(ExpressJS) and, PHP(Laravel)
-* Cloud computing (AWS, Azure, Google Cloud)
+* Golang, Python for Microservices & Automation
+* Python (Flask), Golang (GIN), NodeJS (ExpressJS), PHP (Laravel, Lumen) for App Development
+* Cloud computing (AWS, Azure, GCP)
 * DevOps(Jenkins, Travis, GitLab, Octopus)
-* Infrastructure Provisioning(Terraform, Packer, Ansible)
+* Infrastructure Provisioning(Terraform, Packer, Ansible, ARM Templates)
 * Messaging Queues(RabbitMQ, Azure Service Bus)
 * Container Orchestration with Kubernetes(AKS, EKS, GKE, ARO, Openshift)
 * Openshift, ECS, and Docker Swarm
-* Streaming (Kafka, EventHub)
-* Big Data (Databricks, Data Lake, Druid)
-* Observability (Prometheus (Victoria Metrics), Grafana, Exporters)
+* Streaming (Apache Kafka, Azure EventHub)
+* Big Data (Databricks, Delta Lake, Apache Druid)
+* Observability (Prometheus, Victoria Metrics, Grafana, Exporters)
 * Elastic Stack(Elasticsearch, Kibana, Logstash, and, Filebeat.)
-* API development and, finally, integration
+* API development and integration
 
-I have a knack for seeing the bigger picture in the scheme of things, with an ardent love for architecting complex systems. Tech blogger [@freeCodeCamp](https://www.freecodecamp.org/news/author/faizanbashir/), [@hackernoon](https://hackernoon.com/@faizanbashir), and [@DigitalOcean](https://www.digitalocean.com/community/users/faizanbashir). I am edging towards being a specialized generalist. In the past, I have been identified as a T-shaped person.
+I am keen eye for seeing the bigger picture in the scheme of things, with a passion for designing complex systems. Tech blogger [@freeCodeCamp](https://www.freecodecamp.org/news/author/faizanbashir/), [@hackernoon](https://hackernoon.com/@faizanbashir), and [@DigitalOcean](https://www.digitalocean.com/community/users/faizanbashir). I am edging towards being a specialized generalist. In the past, I have been identified as a T-shaped person.
 
 Apart from exploring our beautiful world, my diverse interests range from higher poetry and philosophy to politics, economics, and history. Like sand which preserves the slightest impressions, a perceptive man bears many impressions. Similarly, I have been inspired at the least by the illuminated thought of the poet-philosopher Sir Muhammed Iqbal and the imaginative genius of the great German poet-statesman Johann Wolfgang von Goethe. And many more.
