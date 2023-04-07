@@ -2,7 +2,7 @@
 layout: post
 comments: true
 current: post
-cover:  assets/images/posts/abdelrahman-ismail-9nsj6C5Vxhg-unsplash.jpg
+cover:  assets/images/posts/abdelrahman-ismail-9nsj6C5Vxhg-unsplash_resized.jpg
 navigation: True
 title: "WebAssembly: A Friendly Introduction"
 date: 2023-04-01 03:13:00
