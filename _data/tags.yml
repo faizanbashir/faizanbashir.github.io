@@ -1,56 +1,56 @@
 kubernetes:
   name: kubernetes
   description: Dive into the Kubernetes section of my blog, where you'll find a wealth of informative articles, hands-on tutorials, and expert advice on effectively managing containerized applications, optimizing deployments, and unlocking the full potential of this powerful orchestration platform for seamless scalability and robust performance.
-  cover: assets/images/speeches.jpg
+  cover: assets/images/speeches.webp
 serverless:
   name: serverless
   description: Explore the Serverless section of my blog for cutting-edge insights, practical guides, and invaluable tips on leveraging serverless architectures to build highly scalable, cost-efficient, and low-maintenance applications that can adapt seamlessly to your ever-evolving business needs.
-  cover: assets/images/sky.jpg
+  cover: assets/images/sky.webp
 docker:
   name: docker
   description: Dive into the Docker section of my blog to discover essential knowledge, expert tips, and comprehensive tutorials that will guide you through the world of containerization, helping you harness the power of Docker to streamline your application deployment and management processes.
-  cover: assets/images/fables.jpg
+  cover: assets/images/fables.webp
 docker-compose:
   name: docker-compose
   description: Explore the Docker Compose section of my blog, where you'll find valuable insights, step-by-step guides, and best practices to help you effectively orchestrate multi-container applications, optimize development workflows, and simplify your overall container management experience.
-  cover: assets/images/summit.jpg
+  cover: assets/images/summit.webp
 data-science:
   name: data-science
   description: False
-  cover: assets/images/summit.jpg
+  cover: assets/images/summit.webp
 terraform:
   name: terraform
   description: Delve into the Terraform section of my blog to uncover a trove of valuable resources on this powerful infrastructure-as-code tool, including insightful tutorials, best practices, and real-world use cases to help you master the art of provisioning and managing your cloud infrastructure.
-  cover: assets/images/sky.jpg
+  cover: assets/images/sky.webp
 aws:
   name: aws
   description: Explore the AWS section of my blog for a wealth of information on Amazon Web Services, featuring in-depth articles, practical tips, and expert insights on harnessing the power of the world's most popular cloud computing platform.
-  cover: assets/images/welcome.jpg
+  cover: assets/images/welcome.webp
 azure:
   name: azure
   description: Dive into the Azure section of my blog to discover comprehensive guides, tips, and insights on Microsoft's powerful cloud platform, designed to  build, deploy, and manage applications with ease and efficiency.
-  cover: assets/images/summit.jpg
+  cover: assets/images/summit.webp
 writings:
   name: writings
   description: Explore the Personal Writing section of the blog, where introspective musings, ruminations, contemplative reflections, and captivating stories from my own life experiences come together to offer a unique and engaging perspective on various topics.
-  cover: assets/images/welcome.jpg
+  cover: assets/images/welcome.webp
 linux:
   name: linux
   description: Dive into the Linux section of our blog for a wealth of informative articles and guides covering a wide range of topics, from basic Linux concepts to advanced system administration techniques, tailored for enthusiasts and professionals alike.
-  cover: assets/images/summit.jpg
+  cover: assets/images/summit.webp
 ai:
   name: ai
   description: Explore the world of artificial intelligence through our engaging AI section, featuring a diverse collection of articles on foundational principles, emerging technologies, and practical applications for newcomers and experts alike.
-  cover: assets/images/welcome.jpg
+  cover: assets/images/welcome.webp
 wasm:
   name: wasm
   description: Explore the exciting world of WebAssembly through our thought-provoking articles, covering everything from beginner-friendly introductions to advanced techniques and applications, perfect for web developers eager to embrace the future of the web.
-  cover: assets/images/welcome.jpg
+  cover: assets/images/welcome.webp
 golang:
   name: golang
   description: Dive into the realm of Golang with our engaging articles that span from fundamental concepts to in-depth tutorials, providing valuable insights for Go enthusiasts and seasoned developers alike.
-  cover: assets/images/welcome.jpg
+  cover: assets/images/welcome.webp
 python:
   name: python
   description: Explore the versatile world of Python through our insightful articles, covering everything from beginner-friendly guides to advanced tips and tricks tailored for Python enthusiasts and developers alike.
-  cover: assets/images/welcome.jpg
+  cover: assets/images/welcome.webp
