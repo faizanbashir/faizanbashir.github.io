@@ -2,7 +2,7 @@
 layout: post
 comments: true
 current: post
-cover:  assets/images/posts/1*oYWC2Wnc4Nf_mH0WL3ep_w1_resized.jpeg
+cover:  assets/images/posts/1*oYWC2Wnc4Nf_mH0WL3ep_w1_resized.webp
 navigation: True
 title: "Building Python Data Science Container using Docker"
 date: 2019-01-25 15:07:19

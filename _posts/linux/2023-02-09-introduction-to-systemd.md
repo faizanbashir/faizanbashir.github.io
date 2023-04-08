@@ -2,7 +2,7 @@
 layout: post
 comments: true
 current: post
-cover: assets/images/posts/evgeny-matveev-3kWh-ikNZJo-unsplash.jpg
+cover: assets/images/posts/evgeny-matveev-3kWh-ikNZJo-unsplash.webp
 navigation: True
 title: "Introduction to Systemd"
 date: 2023-02-09 11:11:11

@@ -2,7 +2,7 @@
 layout: post
 comments: true
 current: post
-cover:  assets/images/posts/ishan-seefromthesky-qE1Y8GQKhEk-unsplash_resized.jpg
+cover:  assets/images/posts/ishan-seefromthesky-qE1Y8GQKhEk-unsplash_resized.webp
 navigation: True
 title: "Building an Nginx webserver on AWS using Terraform"
 date: 2022-04-08 12:07:19

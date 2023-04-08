@@ -2,7 +2,7 @@
 layout: post
 comments: true
 current: post
-cover:  assets/images/posts/1*AUiK5PwnsPG_xaT9jcVoSA.jpeg
+cover:  assets/images/posts/1*AUiK5PwnsPG_xaT9jcVoSA.webp
 navigation: True
 title: "Docker Data Containers"
 date: 2018-04-28 15:07:19

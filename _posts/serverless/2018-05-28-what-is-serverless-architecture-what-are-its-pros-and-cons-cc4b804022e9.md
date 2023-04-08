@@ -2,7 +2,7 @@
 layout: post
 comments: true
 current: post
-cover:  assets/images/posts/1*16x1_xEclXT4MB0FN_xr2g.jpeg
+cover:  assets/images/posts/1*16x1_xEclXT4MB0FN_xr2g.webp
 navigation: True
 title: "What is Serverless Architecture? What are its Pros and Cons?"
 date: 2018-05-13 15:07:19

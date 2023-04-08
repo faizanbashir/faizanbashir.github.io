@@ -2,7 +2,7 @@
 layout: post
 comments: true
 current: post
-cover:  assets/images/posts/1*JK4VDnsrF6YnAb2nyhMsdQ.png
+cover:  assets/images/posts/1*JK4VDnsrF6YnAb2nyhMsdQ.webp
 navigation: True
 title: "A Practical Introduction to Docker Compose"
 date: 2018-04-28 15:07:19
@@ -17,7 +17,7 @@ Out of the myriad possibilities was the possibility of implementing complex tech
 
 The possibility of defining a complex stack in a file and running it with a single command, pretty tempting huh. The guys at Docker Inc. choose to call it Docker compose.
 
-![Docker Docs](assets/images/posts/1*1g8v7eeFV2OWt1Tkmoc-4A.jpeg)
+![Docker Docs](assets/images/posts/1*1g8v7eeFV2OWt1Tkmoc-4A.webp)
 
 In this article, we will use Docker’s example Voting App and deploy it using Docker compose.
 
@@ -33,7 +33,7 @@ In the words of Docker Inc.
 
 Introducing the most favourite demonstration app for the Docker community “The Voting App”, as if it needs an introduction at all. This is a simple application based on micro-services architecture, consisting of 5 simple services.
 
-![Voting app](assets/images/posts/1*DIZdPFJO4EQbPNq0pR_b8g.png)
+![Voting app](assets/images/posts/1*DIZdPFJO4EQbPNq0pR_b8g.webp)
 
 1. **Voting-App**: Frontend of the application written in Python, used by users to cast their votes.
 2. **Redis**: In-memory database, used as intermediate storage.
@@ -76,11 +76,11 @@ The above command displays all the running containers, respective images and the
 
 The Voting app can be accessed on [http://localhost:5000](http://localhost:5000)
 
-![Voting App](assets/images/posts/1*2OBAYVFG35tX6dHI08TWPg.png)
+![Voting App](assets/images/posts/1*2OBAYVFG35tX6dHI08TWPg.webp)
 
 Likewise the Voting results app can be accessed on [http://localhost:5001](http://localhost:5001)
 
-![Results App](assets/images/posts/1*E-WleHhSji49ZLIafS8xgQ.png)
+![Results App](assets/images/posts/1*E-WleHhSji49ZLIafS8xgQ.webp)
 
 Each vote cast on the Voting app is first stored in the Redis in-memory database, the .Net worker service fetches the vote and stores it in the Postgres DB which is accessed by the Node.js frontend.
 

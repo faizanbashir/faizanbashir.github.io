@@ -2,7 +2,7 @@
 layout: post
 comments: true
 current: post
-cover:  assets/images/posts/thibaut-marquis-LMqHSv8v5IU-unsplash_resized.jpg
+cover:  assets/images/posts/thibaut-marquis-LMqHSv8v5IU-unsplash_resized.webp
 navigation: True
 title: "Run Python in the Browser with WebAssembly and Pyodide"
 date: 2023-03-16 03:13:00

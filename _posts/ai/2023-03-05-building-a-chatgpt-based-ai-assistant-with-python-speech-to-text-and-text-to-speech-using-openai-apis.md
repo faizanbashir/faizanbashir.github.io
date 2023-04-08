@@ -2,7 +2,7 @@
 layout: post
 comments: true
 current: post
-cover: assets/images/posts/lucas-george-wendt-U43qS0ooeck-unsplash_resized.jpg
+cover: assets/images/posts/lucas-george-wendt-U43qS0ooeck-unsplash_resized.webp
 navigation: True
 title: "Building a ChatGPT-based AI Assistant with Python using OpenAI APIs"
 date: 2023-03-05 11:11:11

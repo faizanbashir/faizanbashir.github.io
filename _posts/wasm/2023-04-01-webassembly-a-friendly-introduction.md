@@ -2,7 +2,7 @@
 layout: post
 comments: true
 current: post
-cover:  assets/images/posts/abdelrahman-ismail-9nsj6C5Vxhg-unsplash_resized.jpg
+cover:  assets/images/posts/abdelrahman-ismail-9nsj6C5Vxhg-unsplash_resized.webp
 navigation: True
 title: "WebAssembly: A Friendly Introduction"
 date: 2023-04-01 03:13:00
@@ -42,7 +42,6 @@ WebAssembly provides a new level of performance and flexibility for web develope
   * [Loading and Running the WebAssembly Module](#loading-and-running-the-webassembly-module)
   * [Running the Web Server](#running-the-web-server)
 * [Interacting with JavaScript and the DOM](#interacting-with-javascript-and-the-dom)
-  * [Exchanging Data between WebAssembly and JavaScript]()
   * [Calling JavaScript Functions from WebAssembly](#calling-javascript-functions-from-webassembly)
   * [Manipulating the DOM with WebAssembly](#manipulating-the-dom-with-webassembly)
 * [Working with WebAssembly Memory](#working-with-webassembly-memory)

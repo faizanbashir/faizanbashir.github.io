@@ -2,7 +2,7 @@
 layout: post
 comments: true
 current: post
-cover:  assets/images/posts/sergi-ferrete-pWshkmAH4qA-unsplash_resized.jpg
+cover:  assets/images/posts/sergi-ferrete-pWshkmAH4qA-unsplash_resized.webp
 navigation: True
 title: "Humanity: The Greatest Ideal"
 date: 2022-12-27 03:13:00
