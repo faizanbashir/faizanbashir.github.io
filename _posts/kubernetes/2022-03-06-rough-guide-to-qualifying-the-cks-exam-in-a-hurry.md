@@ -2,7 +2,7 @@
 layout: post
 comments: true
 current: post
-cover:  assets/images/posts/cks.jpg
+cover:  assets/images/posts/cks.webp
 navigation: True
 title: "How to Pass the Certified Kubernetes Security Specialist Exam – Cheat sheet and Study Guide"
 date: 2022-03-06 10:00:00

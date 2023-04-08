@@ -2,7 +2,7 @@
 layout: post
 comments: true
 current: post
-cover: assets/images/posts/adam-chang-IWenq-4JHqo-unsplash_resized.jpg
+cover: assets/images/posts/adam-chang-IWenq-4JHqo-unsplash_resized.webp
 navigation: True
 title: "How to Create Update Scale List Get and Delete a Deployment using Kubernetes Golang SDK"
 date: 2023-02-05 10:00:00

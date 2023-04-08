@@ -2,7 +2,7 @@
 layout: post
 comments: true
 current: post
-cover:  assets/images/posts/chris-hardy-XF-ZLS5G0QU-unsplash.jpg
+cover:  assets/images/posts/chris-hardy-XF-ZLS5G0QU-unsplash.webp
 navigation: True
 title: "Building an Nginx webserver on Azure using Terraform"
 date: 2022-04-09 03:13:00

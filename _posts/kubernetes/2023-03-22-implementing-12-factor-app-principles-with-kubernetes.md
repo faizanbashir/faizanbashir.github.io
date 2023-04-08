@@ -2,7 +2,7 @@
 layout: post
 comments: true
 current: post
-cover: assets/images/posts/shifaaz-shamoon-Rl9l9mL6Pvs-unsplash_resized.jpg
+cover: assets/images/posts/shifaaz-shamoon-Rl9l9mL6Pvs-unsplash_resized.webp
 navigation: True
 title: "Implementing 12-Factor App Principles with Kubernetes"
 date: 2023-03-22 10:00:00
@@ -17,7 +17,7 @@ excerpt: This article will walk the user through the 12-factor app principles an
 
 The [12-Factor App methodology](https://12factor.net/) is a set of best practices for building modern, scalable, and maintainable applications. It ensures that applications can be deployed and managed easily across different environments while providing a consistent experience for developers and users.
 
-!["12-Factor App Infographic"](assets/images/posts/12-factor-app-infographic.png "12-Factor App Infographic")
+!["12-Factor App Infographic"](assets/images/posts/12-factor-app-infographic.webp "12-Factor App Infographic")
 
 Kubernetes has emerged as a powerful container orchestration platform that simplifies application deployment, scaling, and management. Using Kubernetes, you can quickly implement the 12-Factor App principles in your applications. In this article, we'll explore how to implement each of the 12 factors using Kubernetes.
 

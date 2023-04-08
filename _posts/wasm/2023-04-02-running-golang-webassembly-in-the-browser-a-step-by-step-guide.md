@@ -2,7 +2,7 @@
 layout: post
 comments: true
 current: post
-cover:  assets/images/posts/math-PJrkLbUqMzQ-unsplash_resized.jpg
+cover:  assets/images/posts/math-PJrkLbUqMzQ-unsplash_resized.webp
 navigation: True
 title: "Running Golang WebAssembly in the Browser: A Step-By-Step Guide"
 date: 2023-03-15 03:13:00

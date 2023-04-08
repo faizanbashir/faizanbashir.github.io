@@ -2,7 +2,7 @@
 layout: post
 comments: true
 current: post
-cover:  assets/images/posts/1*lYvXrG9rcgLg42weUyOfyg1_resized.jpeg
+cover:  assets/images/posts/1*lYvXrG9rcgLg42weUyOfyg1_resized.webp
 navigation: True
 title: "Building Serverless Contact Form For Static Websites"
 date: 2018-07-25 15:07:19

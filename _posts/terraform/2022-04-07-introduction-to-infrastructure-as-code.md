@@ -2,7 +2,7 @@
 layout: post
 comments: true
 current: post
-cover:  assets/images/posts/mickey-o-neil-xL66l--msXU-unsplash.jpg
+cover:  assets/images/posts/mickey-o-neil-xL66l--msXU-unsplash.webp
 navigation: True
 title: "Introduction to Infrastructure as Code (IaC)"
 date: 2022-04-07 12:07:19

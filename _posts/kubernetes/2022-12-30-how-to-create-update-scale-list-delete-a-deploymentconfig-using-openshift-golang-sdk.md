@@ -2,7 +2,7 @@
 layout: post
 comments: true
 current: post
-cover: assets/images/posts/john-rodenn-castillo-rQqWOHZ96OM-unsplash_resized.jpg
+cover: assets/images/posts/john-rodenn-castillo-rQqWOHZ96OM-unsplash_resized.webp
 navigation: True
 title: "How to Create/Update/Scale/List/Delete a DeploymentConfig using Openshift Golang SDK"
 date: 2022-12-30 10:00:00

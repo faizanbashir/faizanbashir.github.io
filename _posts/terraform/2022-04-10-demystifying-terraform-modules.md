@@ -2,7 +2,7 @@
 layout: post
 comments: true
 current: post
-cover:  assets/images/posts/bawah-reserve-MtHP4ydvZXA-unsplash_resized.jpg
+cover:  assets/images/posts/bawah-reserve-MtHP4ydvZXA-unsplash_resized.webp
 navigation: True
 title: "Demystifying Terraform Modules"
 date: 2022-04-10 03:13:00
