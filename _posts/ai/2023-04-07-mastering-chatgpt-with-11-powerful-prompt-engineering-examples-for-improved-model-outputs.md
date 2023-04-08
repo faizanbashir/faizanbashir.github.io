@@ -2,7 +2,7 @@
 layout: post
 comments: true
 current: post
-cover: assets/images/posts/emiliano-vittoriosi-_SqcBsMdxbY-unsplash_resized.jpg
+cover: assets/images/posts/emiliano-vittoriosi-_SqcBsMdxbY-unsplash_resized.webp
 navigation: True
 title: "Mastering ChatGPT with 11 powerful examples: Top Strategies for effective prompt engineering and Improved model outputs"
 date: 2023-04-07 11:11:11

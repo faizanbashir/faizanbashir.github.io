@@ -5,17 +5,17 @@ faizan:
   url_full: https://faizanbashir.me
   url: faizanbashir.me
   bio: Principal Engineer | Architecting and building distributed applications in the Cloud | Adventurer
-  picture: assets/images/fb-thumb.jpeg
+  picture: assets/images/fb-thumb.webp
   facebook: faizan.bashir
   twitter: faizanbasher
-  cover: assets/images/blog-cover.jpg
+  cover: assets/images/blog-cover.webp
 ghost:
   username: ghost
   name: Ghost
   url_full: http://jekyller.github.io/jasper2/
   url: jekyller.github.io/jasper2
   bio: The professional publishing platform
-  picture: assets/images/ghost.png
+  picture: assets/images/ghost.webp
   facebook: ghost
   twitter: tryghost
   cover: False
