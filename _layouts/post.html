@@ -130,9 +130,9 @@ into the {body} of the default.hbs template -->
                             <small class="read-next-card-header-sitetitle">&mdash; {{ site.title }} &mdash;</small>
                             {% if primary %}
                             {% if page.tags contains 'Writings' %}
-                            <h3 class="read-next-card-header-title"><a href="{{ site.baseurl }}{{ primary | downcase | replace: ' ', '-' }}/">{{ primary | capitalize }}</a></h3>
+                            <h3 class="read-next-card-header-title"><a href="{{ site.baseurl }}{{ primary | downcase | replace: ' ', '-' }}/">{{ primary | CapitalizeAll }}</a></h3>
                             {% else %}
-                            <h3 class="read-next-card-header-title"><a href="{{ site.baseurl }}tag/{{ primary | downcase | replace: ' ', '-' }}/">{{ primary | capitalize }}</a></h3>
+                            <h3 class="read-next-card-header-title"><a href="{{ site.baseurl }}tag/{{ primary | downcase | replace: ' ', '-' }}/">{{ primary | CapitalizeAll }}</a></h3>
                             {% endif %}
                             {% endif %}
                         </header>
