@@ -62,7 +62,7 @@ permalink: /:title
 plugins_dir: [_plugins]
 plugins: [jekyll-paginate, jekyll-feed, jekyll-gist, jekyll-sitemap]
 
-url: https://faizanbashir.me
+url: https://www.faizanbashir.me
 
 feed:
   path: feed.xml
