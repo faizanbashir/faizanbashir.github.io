@@ -26,14 +26,15 @@ Zakat is one of the five pillars of Islam declared by the Prophet Muhammed(P.B.U
 
 One of the many objectives of Zakat is alleviating poverty and improving living conditions for the less fortunate. Zakat combats poverty and promotes social justice by directing funds to needy people. Research conducted in various Muslim-majority countries demonstrates the significant impact of Zakat on poverty reduction:
 
-* In Pakistan, Zakat disbursement resulted in a 7.5% reduction in the poverty headcount and a 14.2% reduction in the poverty gap (Qayyum, 2018)<sup>[\[1\]](#ref-one)</sup>.
-* In Indonesia, the implementation of productive Zakat programs led to a 5.5% reduction in the poverty rate in rural areas (Sulaiman et al., 2019)<sup>[\[2\]](#ref-two)</sup>.
+* There is no exact estimate on how much Zakat is collected in India, with estimates fluctuating between USD 90 Billion and 5 Trillion annually. (Indian Express, 2019) <sup>[\[1\]](#ref-one)</sup>
+* In Pakistan, Zakat disbursement resulted in a 7.5% reduction in the poverty headcount and a 14.2% reduction in the poverty gap (Qayyum, 2018)<sup>[\[2\]](#ref-two)</sup>.
+* In Indonesia, the implementation of productive Zakat programs led to a 5.5% reduction in the poverty rate in rural areas (Sulaiman et al., 2019)<sup>[\[3\]](#ref-three)</sup>.
 
 These findings highlight the transformative potential of Zakat in enhancing the quality of life for millions of people worldwide.
 
 # Economic Growth and Financial Inclusion
 
-Zakat contributes to economic growth by increasing the disposable income of lower-income households, thereby stimulating consumption and demand. A study in Saudi Arabia found that Zakat has a positive impact on G.D.P. growth, with a 1% increase in Zakat leading to a 0.26% increase in G.D.P. (Al-Jarhi & Iqbal, 2018)<sup>[\[3\]](#ref-three)</sup>. Furthermore, by channelling wealth from the more affluent members of society to the less privileged, Zakat promotes financial inclusion and economic empowerment, ensuring that a more significant proportion of the population has access to resources and opportunities for economic participation.
+Zakat contributes to economic growth by increasing the disposable income of lower-income households, thereby stimulating consumption and demand. A study in Saudi Arabia found that Zakat has a positive impact on G.D.P. growth, with a 1% increase in Zakat leading to a 0.26% increase in G.D.P. (Al-Jarhi & Iqbal, 2018)<sup>[\[4\]](#ref-four)</sup>. Furthermore, by channelling wealth from the more affluent members of society to the less privileged, Zakat promotes financial inclusion and economic empowerment, ensuring that a more significant proportion of the population has access to resources and opportunities for economic participation.
 
 # Education and Healthcare
 
@@ -49,14 +50,15 @@ The growing rich-poor gap is a pressing global issue characterized by widening i
 
 # Conclusion
 
-As a cornerstone of Islamic philanthropy, Zakat has far-reaching socio-economic benefits, from poverty alleviation to fostering inclusive growth and social cohesion. Real-world examples from countries such as Pakistan, Indonesia, and Saudi Arabia demonstrate the impact of Zakat on improving living conditions, promoting financial stability, and nurturing social harmony. Moreover, as an integral part of the Islamic faith, Zakat serves as a powerful reminder of the collective responsibility Muslims share in ensuring the welfare and prosperity of their communities, contributing to a more equitable and just society.
+As a cornerstone of Islamic philanthropy, Zakat has far-reaching socio-economic benefits, from poverty alleviation to fostering inclusive growth and social cohesion. Real-world examples from countries such as India, Pakistan, Indonesia, and Saudi Arabia demonstrate the impact of Zakat on improving living conditions, promoting financial stability, and nurturing social harmony. Moreover, as an integral part of the Islamic faith, Zakat serves as a powerful reminder of the collective responsibility Muslims share in ensuring the welfare and prosperity of their communities, contributing to a more equitable and just society.
 
 By addressing the root causes of socio-economic disparities, Zakat alleviates immediate financial hardships and contributes to long-term systemic change. Furthermore, by empowering individuals through education and healthcare, creating opportunities for economic participation, and fostering a supportive community, Zakat helps to build a foundation for sustainable development and lasting social change. Furthermore, it serves as a reminder that individuals are responsible for building a just and prosperous society. Therefore, collective efforts to leverage this tenant of Islam for the greater good of society impact both the individual and society.
 
 ### References
 
-1. <p id="ref-one">Qayyum, A. (2018). The Impact of Zakat on Poverty and Income Inequality in Pakistan. International Journal of Zakat and Islamic Philanthropy, 1(1), 61-71.</p>
+<p id="ref-one">[Indian Express. (2019). Zakat can transform Muslim community: Survey](https://indianexpress.com/article/cities/mumbai/zakat-can-transform-muslim-community-survey-5707834/)</p>
+1. <p id="ref-two">Qayyum, A. (2018). The Impact of Zakat on Poverty and Income Inequality in Pakistan. International Journal of Zakat and Islamic Philanthropy, 1(1), 61-71.</p>
 
-2. <p id= "ref-two">Sulaiman, M., Sabirzyanov, R., Naseem, N. A., & Chaudhry, F. (2019). The impact of productive zakat distribution on rural economic growth and income inequality in Indonesia. International Journal of Zakat and Islamic Philanthropy, 1(2), 107-116.</p>
+2. <p id= "ref-three">Sulaiman, M., Sabirzyanov, R., Naseem, N. A., & Chaudhry, F. (2019). The impact of productive zakat distribution on rural economic growth and income inequality in Indonesia. International Journal of Zakat and Islamic Philanthropy, 1(2), 107-116.</p>
 
-3. <p id="ref-three">Al-Jarhi, M., & Iqbal, Z. (2018). Economic growth and income inequality effects of Zakat in Saudi Arabia. International Journal of Zakat, 3(1), 1-16.</p>
+3. <p id="ref-four">Al-Jarhi, M., & Iqbal, Z. (2018). Economic growth and income inequality effects of Zakat in Saudi Arabia. International Journal of Zakat, 3(1), 1-16.</p>
