@@ -18,7 +18,8 @@ excerpt:  Explore the socio-economic impact of Zakat, the Islamic practice of we
 Islam has a framework for poverty alleviation called Zakat. Every year Muslims pay Zakat from their wealth to the poor. Zakat uplifts the underprivileged sections of society, giving them a better chance at realizing their potential and contributing to the Economy with added strength. Zakat has far-reaching consequences in improving not only the economic conditions of people but also fostering humanity and increasing harmony in society.
 
 > "And establish prayer and give Zakat, and whatever good you put forward for yourselves – you will find it with Allah." 
--- [Qur'an 2:110](https://quran.com/2:110)
+
+- [Qur'an 2:110](https://quran.com/2:110)
 
 Zakat is one of the five pillars of Islam declared by the Prophet Muhammed(P.B.U.H.). It is a mandatory charitable activity conceived to redistribute wealth among Muslims, fostering social cohesion and financial stability within the community. Although Zakat addresses socio-economic disparities and promotes the well-being of society's most vulnerable members, Zakat also plays a crucial role in driving inclusive growth and sustainable development. This article delves into the socio-economic benefits of Zakat, discussing how this Islamic practice contributes to poverty alleviation, economic growth, financial inclusion, and social harmony.
 
@@ -56,7 +57,7 @@ By addressing the root causes of socio-economic disparities, Zakat alleviates im
 
 ### References
 
-1. <p id="ref-one">[Indian Express. (2019). Zakat can transform Muslim community: Survey](https://indianexpress.com/article/cities/mumbai/zakat-can-transform-muslim-community-survey-5707834/)</p>
+1. <a id="ref-one" target="_blank" href="https://indianexpress.com/article/cities/mumbai/zakat-can-transform-muslim-community-survey-5707834/">Indian Express. (2019). Zakat can transform Muslim community: Survey</a>
 
 2. <p id="ref-two">Qayyum, A. (2018). The Impact of Zakat on Poverty and Income Inequality in Pakistan. International Journal of Zakat and Islamic Philanthropy, 1(1), 61-71.</p>
 
