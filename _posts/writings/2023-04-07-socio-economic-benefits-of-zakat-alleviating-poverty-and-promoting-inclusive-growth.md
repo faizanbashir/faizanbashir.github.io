@@ -56,9 +56,10 @@ By addressing the root causes of socio-economic disparities, Zakat alleviates im
 
 ### References
 
-<p id="ref-one">[Indian Express. (2019). Zakat can transform Muslim community: Survey](https://indianexpress.com/article/cities/mumbai/zakat-can-transform-muslim-community-survey-5707834/)</p>
-1. <p id="ref-two">Qayyum, A. (2018). The Impact of Zakat on Poverty and Income Inequality in Pakistan. International Journal of Zakat and Islamic Philanthropy, 1(1), 61-71.</p>
+1. <p id="ref-one">[Indian Express. (2019). Zakat can transform Muslim community: Survey](https://indianexpress.com/article/cities/mumbai/zakat-can-transform-muslim-community-survey-5707834/)</p>
 
-2. <p id= "ref-three">Sulaiman, M., Sabirzyanov, R., Naseem, N. A., & Chaudhry, F. (2019). The impact of productive zakat distribution on rural economic growth and income inequality in Indonesia. International Journal of Zakat and Islamic Philanthropy, 1(2), 107-116.</p>
+2. <p id="ref-two">Qayyum, A. (2018). The Impact of Zakat on Poverty and Income Inequality in Pakistan. International Journal of Zakat and Islamic Philanthropy, 1(1), 61-71.</p>
 
-3. <p id="ref-four">Al-Jarhi, M., & Iqbal, Z. (2018). Economic growth and income inequality effects of Zakat in Saudi Arabia. International Journal of Zakat, 3(1), 1-16.</p>
+3. <p id= "ref-three">Sulaiman, M., Sabirzyanov, R., Naseem, N. A., & Chaudhry, F. (2019). The impact of productive zakat distribution on rural economic growth and income inequality in Indonesia. International Journal of Zakat and Islamic Philanthropy, 1(2), 107-116.</p>
+
+4. <p id="ref-four">Al-Jarhi, M., & Iqbal, Z. (2018). Economic growth and income inequality effects of Zakat in Saudi Arabia. International Journal of Zakat, 3(1), 1-16.</p>
