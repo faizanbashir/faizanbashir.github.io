@@ -214,7 +214,7 @@ I hope this article helped in the understanding of Serverless Computing. I’d l
 Discover the world of serverless architecture in our comprehensive collection of articles! Equip yourself with valuable knowledge and skills in the exciting realm of serverless computing by exploring the following topics:
 
 * [Building serverless contact form for static websites](/building-serverless-contact-form-for-static-websites): Learn how to create a serverless contact form for your static website.
-* [Serverless Technology: Exploring Cloud Providers, Benefits, Challenges, and Kubernetes Integration](/serverless-technology-exploring-cloud-providers-benefits-challenges-and-kubernetes-integration.md): Dive deeper into the serverless landscape and grasp the fundamentals of how it operates.
+* [Serverless Technology: Exploring Cloud Providers, Benefits, Challenges, and Kubernetes Integration](/serverless-technology-exploring-cloud-providers-benefits-challenges-and-kubernetes-integration): Dive deeper into the serverless landscape and grasp the fundamentals of how it operates.
 * [Building Serverless Knative function to detect weather using OpenWeatherMap and Python](/building-knative-serverless-function-to-detect-weather-using-openweathermap-and-python): Explore a practical example of creating a serverless function with Knative, OpenWeatherMap API, and Python.
 * [Building Serverless OpenFaaS function to detect weather using OpenWeatherMap and Python](/building-openfaas-serverless-function-to-detect-weather-using-openweathermap-and-python): Discover another approach to building a serverless function using OpenFaaS, OpenWeatherMap API, and Python.
 

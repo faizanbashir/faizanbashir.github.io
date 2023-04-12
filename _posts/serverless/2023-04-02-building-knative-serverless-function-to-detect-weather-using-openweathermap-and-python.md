@@ -188,7 +188,7 @@ Discover the world of serverless architecture in our comprehensive collection of
 
 * [What is serverless architecture and what are its pros and cons](/building-serverless-contact-form-for-static-websites): Understand the ins and outs of serverless architecture, its advantages, and its drawbacks.
 * [Building serverless contact form for static websites](/building-serverless-contact-form-for-static-websites): Learn how to create a serverless contact form for your static website.
-* [Serverless Technology: Exploring Cloud Providers, Benefits, Challenges, and Kubernetes Integration](/serverless-technology-exploring-cloud-providers-benefits-challenges-and-kubernetes-integration.md): Dive deeper into the serverless landscape and grasp the fundamentals of how it operates.
+* [Serverless Technology: Exploring Cloud Providers, Benefits, Challenges, and Kubernetes Integration](/serverless-technology-exploring-cloud-providers-benefits-challenges-and-kubernetes-integration): Dive deeper into the serverless landscape and grasp the fundamentals of how it operates.
 * [Building Serverless OpenFaaS function to detect weather using OpenWeatherMap and Python](/building-openfaas-serverless-function-to-detect-weather-using-openweathermap-and-python): Discover another approach to building a serverless function using OpenFaaS, OpenWeatherMap API, and Python.
 
 Don't just stop there; continue your journey and delve even further into the fascinating and expansive world of serverless technologies and their endless possibilities.
