@@ -20,7 +20,7 @@ In the age of cutting edge technology, there’s always jaw-dropping innovations
 
 ### The Serverless Framework
 
-![Serverless Framework](assets/images/posts/1*oDBqXrshDx-kEVUg1e6Rhw.png)
+![Serverless Framework](assets/images/posts/1*oDBqXrshDx-kEVUg1e6Rhw.webp)
 Source: [https://serverless.com/](https://serverless.com/)
 
 > Serverless is your toolkit for deploying and operating serverless architectures. Focus on your application, not your infrastructure.
@@ -60,15 +60,15 @@ This command installs Serverless globally on your local machine. The Serverless 
 ##### 2. Create an IAM user in the AWS Console
 Go to your [AWS Console](https://console.aws.amazon.com/), you will find the [IAM service](https://console.aws.amazon.com/iam/home) listed below the “Security, Identity & Compliance” group. Inside the IAM dashboard click on the Users tab and click “Add User” button.
 
-![AWS IAM Dashboard User Tab](assets/images/posts/1*VtA7fGzE2a_h6yMTl69lBw.png)
+![AWS IAM Dashboard User Tab](assets/images/posts/1*VtA7fGzE2a_h6yMTl69lBw.webp)
 
 Create a new user and allow the user **programmatic access** by clicking on the Programmatic access checkbox. Next, in the permissions section, you need to add a set of permissions to the user. From the list of available options under the “Attach existing policies directly” check the **AdministratorAccess**.
 
-![Attach Policy](assets/images/posts/1*d_6PWCnAeK25k7P7CaL1uA.png)
+![Attach Policy](assets/images/posts/1*d_6PWCnAeK25k7P7CaL1uA.webp)
 
 After the user is created, you will have access to the users **Access Key ID** and **Secret Access Key**. You will be required to use these keys in the next step.
 
-![Access Keys](assets/images/posts/1*7FqyvVFoRxZClqC16SevXw.png)
+![Access Keys](assets/images/posts/1*7FqyvVFoRxZClqC16SevXw.webp)
 
 **Word of Caution**: These are the kind of credentials you don’t want to lose even by mistake, remember you have provided **AdministratorAccess** to this user. The user with **AdministratorAccess** can do pretty much everything with your AWS account.
 
@@ -336,5 +336,16 @@ Treat yourself with a Cappuccino, Latte or <insert-your-favorite-drink>. You jus
 ### Afterthoughts
 Serverless is definitely the way forward, not just for the worlds static contact forms. Serverless has opened a universe of opportunities for you, the contact form was just to get started with. How about using Serverless for your website analytics, a visitor counter or maybe click tracking?
 Endless opportunities are waiting for you. Get started for your next project in Serverless, it’ll be an awesome journey.
+
+### Dive Deeper: Recommended Reads
+
+Discover the world of serverless architecture in our comprehensive collection of articles! Equip yourself with valuable knowledge and skills in the exciting realm of serverless computing by exploring the following topics:
+
+* [What is serverless architecture and what are its pros and cons](/building-serverless-contact-form-for-static-websites): Understand the ins and outs of serverless architecture, its advantages, and its drawbacks.
+* [Serverless Technology: Exploring Cloud Providers, Benefits, Challenges, and Kubernetes Integration](/serverless-technology-exploring-cloud-providers-benefits-challenges-and-kubernetes-integration.md): Dive deeper into the serverless landscape and grasp the fundamentals of how it operates.
+* [Building Serverless Knative function to detect weather using OpenWeatherMap and Python](/building-knative-serverless-function-to-detect-weather-using-openweathermap-and-python): Explore a practical example of creating a serverless function with Knative, OpenWeatherMap API, and Python.
+* [Building Serverless OpenFaaS function to detect weather using OpenWeatherMap and Python](/building-openfaas-serverless-function-to-detect-weather-using-openweathermap-and-python): Discover another approach to building a serverless function using OpenFaaS, OpenWeatherMap API, and Python.
+
+Don't just stop there; continue your journey and delve even further into the fascinating and expansive world of serverless technologies and their endless possibilities.
 
 *Originally published at [www.serverlessops.io.](https://www.serverlessops.io/blog/serverless-contact-form-for-static-websites)*

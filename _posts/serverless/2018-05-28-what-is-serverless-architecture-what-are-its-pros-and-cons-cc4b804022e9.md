@@ -29,7 +29,7 @@ Serverless is a cloud computing execution model where the cloud provider dynamic
 
 Most of the cloud providers have invested heavily in serverless and thats a lot of money; with the given massive promotion and realistic offering you can safely assume serverless to be one of the most used cloud services in upcoming years. Here are some of the currently available cloud services:
 
-![Cloud Providers](assets/images/posts/1*t4O4UXpdG68MQboNKC6bBw.jpeg)
+![Cloud Providers](assets/images/posts/1*t4O4UXpdG68MQboNKC6bBw.webp)
 Source: [https://www.slideshare.net/loige/building-a-serverless-company-with-nodejs-react-and-the-serverless-framework-jsday-2017-verona](https://www.slideshare.net/loige/building-a-serverless-company-with-nodejs-react-and-the-serverless-framework-jsday-2017-verona)
 
 - [AWS Lambda](https://aws.amazon.com/lambda/)
@@ -47,7 +47,7 @@ Source: [https://www.slideshare.net/loige/building-a-serverless-company-with-nod
 
 ### Traditional vs. Serverless Architecture
 
-![Traditional vs Serverless](assets/images/posts/1*x_v5NRC3TTMt1MaYl1gMUg.jpeg)
+![Traditional vs Serverless](assets/images/posts/1*x_v5NRC3TTMt1MaYl1gMUg.webp)
 Source: [https://www.gocd.org/2017/06/26/serverless-architecture-continuous-delivery/](https://www.gocd.org/2017/06/26/serverless-architecture-continuous-delivery/)
 
 For years your applications have run on servers which you had to patch, update, and continuously look after late nights and early mornings due to all the unimaginable errors that broke your production. As long as you managed them, the whole responsibility of their proper functioning was on you. Serverless tends to be unlike the aforementioned, you no longer need to worry about the underlying servers. Reason being, they are not managed by you anymore and with management out of the picture the responsibility falls on the Cloud vendors. But regardless the cool features of Serverless in some cases, the traditional architecture outshines it.
@@ -118,7 +118,7 @@ AWS Lambda, Azure Functions, IBM OpenWhisk and Google Cloud Functions are most w
 ### The Serverless App
 A Serverless solution consists of a web server, Lambda functions (FaaS), security token service (STS), user authentication and database.
 
-![Serverless App](assets/images/posts/1*TIrjN7EjLUVJmJ6YvHR7Dg.png)
+![Serverless App](assets/images/posts/1*TIrjN7EjLUVJmJ6YvHR7Dg.webp)
 Source: [http://blog.tonyfendall.com/2015/12/serverless-architectures-using-aws-lambda/](http://blog.tonyfendall.com/2015/12/serverless-architectures-using-aws-lambda/)
 
 - **Client Application** — The UI of your application is rendered client side in Modern Frontend Javascript App which allows us to use a simple, static web server.
@@ -181,7 +181,7 @@ Source: [http://blog.tonyfendall.com/2015/12/serverless-architectures-using-aws-
 
 ***
 
-![Serverless Framework](assets/images/posts/1*oDBqXrshDx-kEVUg1e6Rhw.png)
+![Serverless Framework](assets/images/posts/1*oDBqXrshDx-kEVUg1e6Rhw.webp)
 Source: [https://serverless.com/](https://serverless.com)
 
 Serverless platforms need infrastructures where they can be executed, provider agnostic frameworks provide a platform agnostic way to define and deploy Serverless code on various cloud platforms or commercial services.
@@ -208,5 +208,16 @@ Take a look at the awesomeness that is Serverless, it's time to take a peek at w
 [Building Serverless Contact Form For Static Websites](https://hackernoon.com/building-serverless-contact-form-for-static-websites-b0e622d5a035)
 
 I hope this article helped in the understanding of Serverless Computing. I’d love to hear about how you use Serverless in your projects. Share the knowledge, help it reach more people.
+
+### Additional Resources
+
+Discover the world of serverless architecture in our comprehensive collection of articles! Equip yourself with valuable knowledge and skills in the exciting realm of serverless computing by exploring the following topics:
+
+* [Building serverless contact form for static websites](/building-serverless-contact-form-for-static-websites): Learn how to create a serverless contact form for your static website.
+* [Serverless Technology: Exploring Cloud Providers, Benefits, Challenges, and Kubernetes Integration](/serverless-technology-exploring-cloud-providers-benefits-challenges-and-kubernetes-integration.md): Dive deeper into the serverless landscape and grasp the fundamentals of how it operates.
+* [Building Serverless Knative function to detect weather using OpenWeatherMap and Python](/building-knative-serverless-function-to-detect-weather-using-openweathermap-and-python): Explore a practical example of creating a serverless function with Knative, OpenWeatherMap API, and Python.
+* [Building Serverless OpenFaaS function to detect weather using OpenWeatherMap and Python](/building-openfaas-serverless-function-to-detect-weather-using-openweathermap-and-python): Discover another approach to building a serverless function using OpenFaaS, OpenWeatherMap API, and Python.
+
+Don't just stop there; continue your journey and delve even further into the fascinating and expansive world of serverless technologies and their endless possibilities.
 
 *Originally published at [HackerNoon](https://hackernoon.com/what-is-serverless-architecture-what-are-its-pros-and-cons-cc4b804022e9)*
