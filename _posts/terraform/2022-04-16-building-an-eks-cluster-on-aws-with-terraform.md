@@ -4,7 +4,7 @@ comments: true
 current: post
 cover: assets/images/posts/mihaly-koles-FodEb_8qfdg-unsplash_resized.webp
 navigation: True
-title: "Effortlessly Spin Up an EKS Cluster on AWS with Terraform: A Step-by-Step Guide"
+title: "Building an EKS Cluster on AWS with Terraform: A Step-by-Step Guide"
 date: 2022-04-16 03:13:02
 tags: [Terraform]
 class: post-template
@@ -13,7 +13,7 @@ author: faizan
 excerpt: Learn how to create an Amazon EKS cluster using Terraform in this comprehensive, step-by-step tutorial with real-world code examples.
 ---
 
-# Effortlessly Spin Up an EKS Cluster on AWS with Terraform
+# Building an EKS Cluster on AWS with Terraform
 
 Elastic Kubernetes Service (EKS) is a fully managed Kubernetes service provided by AWS. It helps users to deploy, manage, and scale containerized applications using Kubernetes. This article will walk you through creating an Amazon EKS cluster using Terraform, a widespread Infrastructure as Code (IaC) tool. Then, you'll learn how to define, provision, and manage your Kubernetes infrastructure in a declarative and reproducible way.
 
@@ -185,8 +185,8 @@ Expand your knowledge of Infrastructure as Code and Terraform with our insightfu
 * [Building highly available VMSS on Azure using Terraform Modules](/building-highly-available-vmss-on-azure-using-terraform-modules): Create scalable and highly available virtual machine scale sets on Azure.
 * [Building an Elasticache cluster on AWS using Terraform Modules](/building-an-elasticache-cluster-on-aws-using-terraform-modules): Harness the power of AWS Elasticache with Terraform.
 * [Demystifying Terraform Modules](/demystifying-terraform-modules): Understand the ins and outs of Terraform modules.
-* [Building an Nginx webserver on Azure using Terraform](/building-an-nginx-webserver-on-azure-using-terraform): Deploy a reliable Nginx webserver on Azure.
-* [Building an Nginx webserver on AWS using Terraform](/building-an-nginx-webserver-on-aws-using-terraform): Set up an Nginx webserver on AWS with Terraform.
+* [Building an Nginx web server on Azure using Terraform](/building-an-nginx-webserver-on-azure-using-terraform): Deploy a reliable Nginx web server on Azure.
+* [Building an Nginx web server on AWS using Terraform](/building-an-nginx-webserver-on-aws-using-terraform): Set up an Nginx web server on AWS with Terraform.
 * [Introduction to Infrastructure as Code (IaC)](/introduction-to-infrastructure-as-code): Get started with Infrastructure as Code and grasp the fundamentals.
 * [Deploying an Azure Kubernetes Service (AKS) Cluster with Terraform](/deploying-an-azure-kubernetes-service-aks-cluster-with-terraform): Deploy an Azure Kubernetes Service (AKS) cluster seamlessly with Terraform's infrastructure management capabilities.
 * [Create a GKE Cluster on Google Cloud Platform using Terraform](/create-a-gke-cluster-on-google-cloud-platform-using-terraform): Create and manage a GKE cluster on Google Cloud Platform with ease using Terraform's automation features.
