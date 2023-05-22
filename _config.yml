@@ -49,6 +49,7 @@ disqus:
 
 # Google Analytics
 google_analytics: UA-79936770-6 # replace with your GA tracking identifier
+google_analytics_v4: G-VN3XBCPWZE
 
 # Permalinks
 permalink: /:title
