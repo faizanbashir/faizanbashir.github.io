@@ -6,7 +6,7 @@ cover: assets/images/posts/rodrigo-abreu-lq9PxpwDZUk-unsplash_resized.webp
 navigation: True
 title: "How to Create and Delete deployment and service using the Unstructured Dynamic Client in Go"
 date: 2023-03-05 10:00:00
-tags: [Kubernetes]
+tags: [Kubernetes, Golang]
 class: post-template
 subclass: 'post tag-kubernetes'
 author: faizan
