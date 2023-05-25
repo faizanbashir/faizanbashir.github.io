@@ -6,7 +6,7 @@ cover: assets/images/posts/mika-korhonen-XJUQB4UAObQ-unsplash_resized.webp
 navigation: True
 title: "How to detect CrashLoopBackOff Pods in Kubernetes using Golang SDK"
 date: 2023-01-03 10:00:00
-tags: [Kubernetes]
+tags: [Kubernetes, Golang]
 class: post-template
 subclass: 'post tag-kubernetes'
 author: faizan

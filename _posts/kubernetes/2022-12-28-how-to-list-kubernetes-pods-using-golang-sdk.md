@@ -6,7 +6,7 @@ cover: assets/images/posts/andreas-gucklhorn-mawU2PoJWfU-unsplash_resized.webp
 navigation: True
 title: "How to list Kubernetes Pods using Golang SDK"
 date: 2022-12-28 10:00:00
-tags: [Kubernetes]
+tags: [Kubernetes, Golang]
 class: post-template
 subclass: 'post tag-kubernetes'
 author: faizan
