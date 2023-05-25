@@ -11,7 +11,7 @@ class: post-template
 subclass: 'post tag-kubernetes'
 author: faizan
 excerpt: Explore the process of creating Kubernetes Custom Resource Definitions (CRDs) using the Kubernetes Python SDK. This article offers a comprehensive guide on how to leverage Python to extend the capabilities of your Kubernetes platform, making it an effective tool for managing and orchestrating your containerized applications.
-social_excerpt: "Delve into the world of Kubernetes with our latest guide on 'Creating Kubernetes Custom Resource Definitions using the Kubernetes Python SDK'. Learn how to extend Kubernetes' capabilities to suit your unique application needs. Let's turn Kubernetes into your perfect platform together! #Kubernetes #PythonSDK #CRD"
+social_excerpt: "Delve into the world of Kubernetes with our latest guide on 'Creating Kubernetes Custom Resource Definitions using the Kubernetes Python SDK'. Learn how to extend Kubernetes' capabilities to suit your unique application needs. Let's turn Kubernetes into your perfect platform together! #Kubernetes #PythonSDK #CRD #Python #containers"
 ---
 
 # Creating Kubernetes Custom Resource Definitions using the Kubernetes Python SDK
