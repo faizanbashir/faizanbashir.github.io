@@ -5,13 +5,17 @@ current: post
 cover: assets/images/posts/usgs-5HT7p_DVJ3c-unsplash_resized.webp
 navigation: True
 title: "How to create CLI Applications in Go using Cobra and Viper"
-date: 2023-04-24 11:11:11
+date: 2023-05-24 11:11:11
 tags: [Golang]
 class: post-template
 subclass: 'post tag-golang'
 author: faizan
 excerpt: Learn to build powerful CLI applications in Golang using the Cobra and Viper libraries. Follow step-by-step examples and explore popular applications using these libraries to enhance your Golang development skills.
-social_excerpt: "🚀 Master the art of building powerful CLI applications in Golang using Cobra and Viper! Explore real-world examples and dive into popular applications that leverage these libraries. Don't miss out. Read our article now! #Golang #Cobra #Viper #CLI"
+social_excerpt: "
+🚀 Master the art of building powerful CLI applications in Golang using Cobra and Viper! Explore real-world examples and dive into popular applications that leverage these libraries. Don't miss out. Read our article now! #Golang #Cobra #Viper #CLI
+
+https://www.faizanbashir.me/how-create-cli-applications-in-golang-using-cobra-and-viper 
+"
 ---
 
 # How to create CLI Applications in Go using Cobra and Viper"
