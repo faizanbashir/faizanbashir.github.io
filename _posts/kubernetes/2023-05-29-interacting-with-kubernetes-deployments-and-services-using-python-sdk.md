@@ -5,7 +5,7 @@ current: post
 cover: ./assets/images/posts/sharad-bhat--fVs_61OaAA-unsplash_resized.webp
 navigation: True
 title: "Interacting with Kubernetes Deployments and Services using Python SDK"
-date: 2023-04-02 10:00:00
+date: 2023-05-29 10:00:00
 tags: [Kubernetes, Python]
 class: post-template
 subclass: 'post tag-kubernetes'
