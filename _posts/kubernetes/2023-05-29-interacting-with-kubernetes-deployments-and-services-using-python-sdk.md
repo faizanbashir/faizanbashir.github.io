@@ -5,7 +5,7 @@ current: post
 cover: ./assets/images/posts/sharad-bhat--fVs_61OaAA-unsplash_resized.webp
 navigation: True
 title: "Interacting with Kubernetes Deployments and Services using Python SDK"
-date: 2023-04-02 10:00:00
+date: 2023-05-29 10:00:00
 tags: [Kubernetes, Python]
 class: post-template
 subclass: 'post tag-kubernetes'
@@ -45,6 +45,7 @@ We will cover the following topics:
 * [Updating a Kubernetes Service](#updating-a-kubernetes-service)
 * [Deleting a Kubernetes Deployment](#deleting-a-kubernetes-deployment)
 * [Deleting a Kubernetes Service](#deleting-a-kubernetes-service)
+* [Assembling the Pieces](#assembling-the-pieces)
 * [Conclusion](#conclusion)
 
 ***
@@ -265,6 +266,12 @@ Run the script using the following:
 {% highlight shell %}
 python delete_service.py
 {% endhighlight %}
+
+# Assembling the Pieces
+
+After putting all the pieces together, we have a `list_deployment.py`, `list_service.py`, `update_deployment.py`, `update_service.py`, `delete_deployment.py` and `delete_service.py` file containing all the code snippets we discussed previously.
+
+{% gist b6e8db214f6669bc867635cb30d069f4 %}
 
 # Conclusion
 

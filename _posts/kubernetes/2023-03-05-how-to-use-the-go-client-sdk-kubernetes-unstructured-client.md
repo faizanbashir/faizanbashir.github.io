@@ -245,7 +245,7 @@ func main() {
 }
 {% endhighlight %}
 
-## Assembling the Pieces
+# Assembling the Pieces
 
 After putting all the pieces together, we have a `main.go` file containing all the code we discussed previously. Secondly, we have a `go.mod` file containing the dependencies.
 
