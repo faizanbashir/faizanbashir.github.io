@@ -10,7 +10,7 @@ tags: [Kubernetes, Golang]
 class: post-template
 subclass: 'post tag-kubernetes'
 author: faizan
-excerpt: Get hands-on with our comprehensive guide on creating Kubernetes Operators using Go. This article takes you through the journey of developing Kubernetes Operators, helping you manage complex Kubernetes applications with ease and efficiency. Unlock the full potential of Kubernetes with Go now!"
+excerpt: Get hands-on with our comprehensive guide on creating Kubernetes Operators using Go. This article takes you through the journey of developing Kubernetes Operators, helping you manage complex Kubernetes applications with ease and efficiency. Unlock the full potential of Kubernetes with Go now!
 social_excerpt: "Dive into the world of Kubernetes Operators with our latest guide! Learn how to leverage Go, the popular programming language loved by cloud developers, to create powerful Kubernetes Operators. Streamline and automate your Kubernetes clusters like never before. Don't miss out! #Kubernetes #Golang #containers #operatorSDK #operator"
 ---
 

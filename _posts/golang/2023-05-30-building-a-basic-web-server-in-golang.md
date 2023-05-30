@@ -11,7 +11,7 @@ class: post-template
 subclass: 'post tag-golang'
 author: faizan
 excerpt: Discover the ease and efficiency of building a basic web server in Go. This hands-on guide will take you through setting up, running, and testing your web server. Ideal for those new to Go or those wanting to expand their back-end development skills.
-social_excerpt: "Dive into #Go's versatility in #WebDevelopment as we guide you step-by-step through creating a basic web server. Gain fundamental insights into how web servers work and how you can leverage Golang's inbuilt packages can be used to establish a solid foundation for your #WebApplications. #Golang #BackendDevelopment"
+social_excerpt: "Dive into #Go's versatility in #WebDevelopment as we guide you step-by-step through creating a basic web server. Learn the fundamentals of setting up web servers and leveraging Go's inbuilt packages for your #WebApplications. #Golang #BackendDevelopment"
 ---
 
 # Introduction
