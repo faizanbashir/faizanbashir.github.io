@@ -11,7 +11,7 @@ class: post-template
 subclass: 'post tag-linux'
 author: faizan
 excerpt: Dive into performance testing with our comprehensive guide to Apache Bench. Includes detailed code examples for basic usage and advanced features like testing with different data and headers.
-social_excerpt: Understand how your server or website performs under different loads with Apache Bench! Check out our latest article where we explore Apache Bench's usage and interpret its output. #Apache #ApacheBench #PerformanceTesting #Coding
+social_excerpt: Understand how your server or website performs under different loads with Apache Bench! Check out our latest article, exploring Apache Bench's usage and interpreting its output. #Apache #ApacheBench #PerformanceTesting #Coding
 ---
 # A Complete Guide to Apache Bench for Performance Testing
 
