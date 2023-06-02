@@ -55,7 +55,7 @@ Protocol Buffers, known as Protobuf, is Google's language-neutral, platform-neut
 
 Here's a basic example of a `.proto` file:
 
-```protobuf
+{% highlight protobuf %}
 syntax = "proto3";
 
 package helloworld;
@@ -71,7 +71,7 @@ message HelloRequest {
 message HelloReply {
   string message = 1;
 }
-```
+{% endhighlight %}
 
 The above code is a Protobuf service definition for a simple gRPC service. The `syntax = "proto3";` instruction defines the syntax `"proto3"`, the latest version of Protocol Buffers (Protobuf) language.
 
