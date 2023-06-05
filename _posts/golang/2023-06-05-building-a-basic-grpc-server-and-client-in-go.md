@@ -44,7 +44,7 @@ First, we need to define our service using protobuf. Install the protobuf compil
 {% highlight shell %}
 go install google.golang.org/protobuf/cmd/protoc-gen-go@v1.26
 go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@v1.1
-{% endhighight %}
+{% endhighlight %}
 
 ## Code Structure
 
@@ -58,11 +58,11 @@ learninggrpc/
 │   └── main.go
 └── server/
     └── main.go
-{% endhighight %}
+{% endhighlight %}
 
 {% highlight shell %}
 git mod init learninggrpc
-{% endhighight %}
+{% endhighlight %}
 
 Now, let's create a `proto` file called `hello.proto` in the `pb` directory to define a simple `Hello` service:
 
@@ -82,7 +82,7 @@ message HelloRequest {
 message HelloResponse {
     string reply = 1;
 }
-{% endhighight %}
+{% endhighlight %}
 
 ## Building a Basic gRPC Server in Go
 
@@ -90,7 +90,7 @@ Once we have our service definition, we can proceed to build our gRPC server. Fi
 
 {% highlight shell %}
 protoc --go_out=. --go_opt=paths=source_relative --go-grpc_out=. --go-grpc_opt=paths=source_relative hello.proto
-{% endhighight %}
+{% endhighlight %}
 
 Now, let's build our gRPC server:
 
@@ -125,7 +125,7 @@ func main() {
 		log.Fatalf("failed to serve: %v", err)
 	}
 }
-{% endhighight %}
+{% endhighlight %}
 
 ## Building a gRPC Client in Go
 
@@ -160,7 +160,7 @@ func main() {
 	}
 	log.Printf("Greeting: %s", r.GetReply())
 }
-{% endhighight %}
+{% endhighlight %}
 
 ## Running and Testing the Application
 
@@ -169,9 +169,9 @@ Finally, start the server, and then run the client:
 {% highlight shell %}
 go run server.go
 go run client.go
-{% endhighight %}
+{% endhighlight %}
 
-The client should print: "Greeting: Hello world".
+The client should print: `"Greeting: Hello world"`.
 
 ## Conclusion
 
