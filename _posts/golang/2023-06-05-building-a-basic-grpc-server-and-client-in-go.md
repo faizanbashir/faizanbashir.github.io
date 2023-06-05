@@ -29,11 +29,11 @@ To follow along, ensure you have the following:
 
 ## Table of Contents
 
-- [Introduction to gRPC and Protocol Buffers](#introduction-to-grpc-and-protocol-buffers)
-- [Building a Basic gRPC Server in Go](#building-a-basic-grpc-server-in-go)
-- [Building a gRPC Client in Go](#building-a-grpc-client-in-go)
-- [Running and Testing the Application](#running-and-testing-the-application)
-- [Conclusion](#conclusion)
+* [Introduction to gRPC and Protocol Buffers](#introduction-to-grpc-and-protocol-buffers)
+* [Building a Basic gRPC Server in Go](#building-a-basic-grpc-server-in-go)
+* [Building a gRPC Client in Go](#building-a-grpc-client-in-go)
+* [Running and Testing the Application](#running-and-testing-the-application)
+* [Conclusion](#conclusion)
 
 ## Introduction to gRPC and Protocol Buffers
 
@@ -41,14 +41,14 @@ gRPC is a high-performance, open-source framework developed by Google. It uses P
 
 First, we need to define our service using protobuf. Install the protobuf compiler and Go protobuf plugin:
 
-```bash
+{% highlight shell %}
 go install google.golang.org/protobuf/cmd/protoc-gen-go@v1.26
 go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@v1.1
-```
+{% endhighight %}
 
 ## Code Structure
 
-```bash
+{% highlight shell %}
 learninggrpc/
 ├── go.mod
 ├── pb/
@@ -58,15 +58,15 @@ learninggrpc/
 │   └── main.go
 └── server/
     └── main.go
-```
+{% endhighight %}
 
-```
+{% highlight shell %}
 git mod init learninggrpc
-```
+{% endhighight %}
 
 Now, let's create a `proto` file called `hello.proto` in the `pb` directory to define a simple `Hello` service:
 
-```protobuf
+{% highlight protobuf %}
 syntax = "proto3";
 
 option go_package = "learninggrpc/pb";
@@ -82,19 +82,19 @@ message HelloRequest {
 message HelloResponse {
     string reply = 1;
 }
-```
+{% endhighight %}
 
 ## Building a Basic gRPC Server in Go
 
 Once we have our service definition, we can proceed to build our gRPC server. First, we need to generate Go code from our `proto` file:
 
-```bash
+{% highlight shell %}
 protoc --go_out=. --go_opt=paths=source_relative --go-grpc_out=. --go-grpc_opt=paths=source_relative hello.proto
-```
+{% endhighight %}
 
 Now, let's build our gRPC server:
 
-```go
+{% highlight go %}
 package main
 
 import (
@@ -125,13 +125,13 @@ func main() {
 		log.Fatalf("failed to serve: %v", err)
 	}
 }
-```
+{% endhighight %}
 
 ## Building a gRPC Client in Go
 
 Now that we have our server, let's create a gRPC client to communicate with it:
 
-```go
+{% highlight go %}
 package main
 
 import (
@@ -160,16 +160,16 @@ func main() {
 	}
 	log.Printf("Greeting: %s", r.GetReply())
 }
-```
+{% endhighight %}
 
 ## Running and Testing the Application
 
 Finally, start the server, and then run the client:
 
-```bash
+{% highlight shell %}
 go run server.go
 go run client.go
-```
+{% endhighight %}
 
 The client should print: "Greeting: Hello world".
 
