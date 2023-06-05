@@ -11,7 +11,7 @@ class: post-template
 subclass: 'post tag-golang'
 author: faizan
 excerpt: Dive into the world of gRPC - a robust RPC framework by Google. Discover its fundamental concepts, learn about Protocol Buffers and proto files, and understand its various communication modes in this comprehensive introduction.
-social_excrpt: "Social Media Excerpt**: Explore the realm of #gRPC, a high-performance #RPC framework developed by Google. There's much to uncover, from defining services in #Proto files to handling different communication modes! Discover how gRPC can level up your microservices architecture. #ProtocolBuffers #Microservices #DistributedSystems #DeveloperTools"
+social_excrpt: "Explore the realm of #gRPC, a high-performance #RPC framework developed by Google. There's much to uncover, from defining services in #Proto files to handling different communication modes! Discover how gRPC can level up your microservices architecture. #ProtocolBuffers #Microservices #DistributedSystems #DeveloperTools"
 ---
 
 # Introduction to gRPC
