@@ -61,7 +61,7 @@ learninggrpc/
 {% endhighlight %}
 
 {% highlight shell %}
-git mod init learninggrpc
+go mod init learninggrpc
 {% endhighlight %}
 
 Now, let's create a `proto` file called `hello.proto` in the `pb` directory to define a simple `Hello` service:
