@@ -1,0 +1,37 @@
+<script text="javascript">
+const imagesByTimeOfDay = {
+    daybreak: 'assets/images/posts/mahdi-soheili-Ojo0zSaCphU-unsplash_resized.webp',
+    morning: 'assets/images/posts/louis-tripp-1IKN3pRCsM4-unsplash_resized.webp',
+    noon: 'assets/images/posts/fares-nimri-Pm76JzhW-ps-unsplash_resized.webp',
+    dusk: 'assets/images/posts/joe-ting-NZfCj5OnoKE-unsplash_resized.webp',
+    evening: 'assets/images/posts/huper-by-joshua-earle-4yBogrmcEmM-unsplash_resized.webp',
+    night: 'assets/images/posts/andy-holmes-rCbdp8VCYhQ-unsplash_resized.webp',
+};
+
+let siteHeader = document.querySelector('.site-header.outer');
+
+function updateBackgroundImage() {
+    let currentHour = new Date().getHours();
+
+    let timeOfDay;
+    if (currentHour >= 3 && currentHour < 6) {
+        timeOfDay = 'daybreak';
+    } else if (currentHour >= 6 && currentHour < 12) {
+        timeOfDay = 'morning';
+    } else if (currentHour >= 12 && currentHour < 16) {
+        timeOfDay = 'noon';
+    } else if (currentHour >= 16 && currentHour < 18) {
+        timeOfDay = 'dusk';
+    } else if (currentHour >= 18 && currentHour < 20) {
+        timeOfDay = 'evening';
+    } else {
+        timeOfDay = 'night';
+    }
+
+    siteHeader.style.backgroundImage = `url({{ site.url }}/${imagesByTimeOfDay[timeOfDay]})`;
+}
+
+updateBackgroundImage();
+setInterval(updateBackgroundImage, 60000);
+
+</script>
