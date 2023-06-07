@@ -4,12 +4,12 @@
 ####################################
 #
 title: Faizan Bashir
-email: "faizan.ibn.bashir@gmail.com"
+email: "hello@faizanbashir.me"
 short_description: "DevSecOps | Cloud | Linux | AI | Programming"
-description: "This blog is a unique fusion of personal experiences, philosophy, and cutting-edge technology. Delve into the world of a passionate technophile, where you'll find reflections on life's journey and insightful thoughts on the latest advancements in the tech industry, from personal anecdotes and philosophical musings to in-depth discussions of emerging technologies. My blog offers a blend of content designed to pique your curiosity, challenge your perspective, and inspire innovation. So join me as I explore the intersection of life and technology, uncovering the boundless potential that lies within."
+description: "Immerse in a tech enthusiast's world combining personal experiences, philosophical insights, and the latest tech trends. Engage with thought-provoking discussions and insights that challenge perspectives and spark innovation. Explore the limitless potential at the confluence of life and technology."
 keywords: ["devsecops", "devops", "cloud", "linux", "ai", "programming", "kubernetes", "golang", "python", "javascript", "ai", "terraform", "serverless", "webassembly", "docker", "managed kubernetes", "eks", "gke", "openshift", "nginx", "nodejs", "docker swarm", "distributed applications", "aws", "google cloud", "chatgpt", "openai", "data science", "blog", "jekyll"]
-cover: assets/images/abed-ismail-cover-unsplash.webp
-og-cover: assets/images/abed-ismail-cover-unsplash.webp
+cover: assets/images/posts/fares-nimri-Pm76JzhW-ps-unsplash_resized.webp
+og-cover: assets/images/posts/fares-nimri-Pm76JzhW-ps-unsplash_resized.webp
 logo: assets/images/d3-white_resized.webp
 logo_dark: assets/images/favicon.ico
 favicon: assets/images/favicon.ico
@@ -23,8 +23,8 @@ CNAME: #add cname for website to be created
 markdown: kramdown
 highlighter: rouge
 paginate: 100 # it will paginate after this number
-language: 'en-uk'
-words_per_minute: 200
+language: 'en-us'
+words_per_minute: 183
 
 liquid:
   error_mode: lax
