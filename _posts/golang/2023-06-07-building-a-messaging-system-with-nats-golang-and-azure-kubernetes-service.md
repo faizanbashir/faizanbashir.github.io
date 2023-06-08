@@ -6,7 +6,7 @@ cover: assets/images/posts/alexander-schimmeck-Aohf8gqa7Zc-unsplash_resized.webp
 navigation: True
 title: "Building a Messaging System with NATS, Golang, and Azure Kubernetes Service"
 date: 2023-06-07 11:11:11
-tags: [Golang]
+tags: [Golang, Kubernetes]
 class: post-template
 subclass: 'post tag-golang'
 author: faizan
