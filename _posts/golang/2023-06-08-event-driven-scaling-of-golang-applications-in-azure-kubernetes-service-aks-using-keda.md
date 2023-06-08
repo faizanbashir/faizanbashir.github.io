@@ -6,7 +6,7 @@ cover: assets/images/posts/michael-yuan-irisojcwKaM-unsplash_resized.webp
 navigation: True
 title: "Event-Driven Scaling of Golang Applications in Azure Kubernetes Service (AKS) using KEDA"
 date: 2023-06-08 11:11:11
-tags: [Golang]
+tags: [Golang, Kubernetes]
 class: post-template
 subclass: 'post tag-golang'
 author: faizan
