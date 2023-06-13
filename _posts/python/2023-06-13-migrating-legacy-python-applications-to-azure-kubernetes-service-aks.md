@@ -14,8 +14,6 @@ excerpt: A step-by-step guide to migrating legacy Python applications to Kuberne
 social_excerpt: "It's time to take your Python apps to the next level. Learn how to migrate legacy Python applications to Kubernetes on Azure in our latest guide. Start your cloud-native journey today! #Python #Kubernetes #Azure #CloudNative"
 ---
 
-Twitter: Migrate your legacy Python apps to Kubernetes on Azure with our step-by-step guide. Discover the benefits of containerization and cloud-native development. #Python #Kubernetes #Azure #CloudNative
-
 # Migrating Legacy Python Applications to Kubernetes on Azure: A Step-by-Step Guide
 
 Kubernetes, also known as K8s, is an open-source Container Orchestration platform, it manages the life-cycle of containerized applications effectively and efficiently, including deploying and scaling, and it's one of the essential tools for digital transformation and cloud-native development. This article will guide you through migrating a legacy Python application to a Kubernetes cluster on Azure.
@@ -25,9 +23,9 @@ Kubernetes, also known as K8s, is an open-source Container Orchestration platfor
 Before you begin, you need to have:
 
 1. A Microsoft Azure account with an active subscription
-2. The Azure CLI installed on your local machine
+2. The Azure `az` CLI installed on your local machine
 3. Docker installed on your local machine
-4. Kubernetes CLI (kubectl) installed on your local machine
+4. Kubernetes CLI `kubectl` installed on your local machine
 5. A Python application you want to migrate
 
 ***
@@ -46,10 +44,10 @@ Before you begin, you need to have:
 
 Firstly, ensure your Python application is designed to work with a 12-factor application methodology. Some of the key factors include:
 
-* Codebase: Maintain a single codebase for your application, and use version control systems(VCS) like Git to track changes.
-* Dependencies: Use package managers and dependency management tools to manage your application's dependencies.
-* Config: Use Kubernetes ConfigMaps and Secrets to store configuration data, such as environment variables and sensitive information. 
-* Backing services: Kubernetes makes connecting your application to backing services like databases, message queues, and caching systems easy through Services and Ingress resources.
+* **Codebase**: Maintain a single codebase for your application, and use version control systems(VCS) like Git to track changes.
+* **Dependencies**: Use package managers and dependency management tools to manage your application's dependencies.
+* **Config**: Use Kubernetes ConfigMaps and Secrets to store configuration data, such as environment variables and sensitive information. 
+* **Backing services**: Kubernetes makes connecting your application to backing services like databases, message queues, and caching systems easy through Services and Ingress resources.
 
 [Check out this guide to learn more about implementing the 12-factor application methodology using Kubernetes.](/implementing-12-factor-app-principles-with-kubernetes)
 
