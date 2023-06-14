@@ -1,16 +1,11 @@
-<form method="post" action="/subscribe/" class="" id="subscribe">
+<form method="post" action="#" class="" id="subscribe">
     <input class="confirm" type="hidden" name="confirm"  /><input class="location" type="hidden" name="location"  /><input class="referrer" type="hidden" name="referrer"  />
 
     <div class="form-group">
         <input class="subscribe-email" type="email" name="email" placeholder="youremail@example.com" required/>
     </div>
-    <button class="" type="submit" {% unless site.subscribers %}disabled{% endunless %}><span>Subscribe</span></button>
-    <script type="text/javascript">
-        // (function(g,h,o,s,t){h[o]('.location')[s]=h[o]('.location')[s] || g.location.href;h[o]('.referrer')[s]=h[o]('.referrer')[s] || h.referrer;})(window,document,'querySelector','value');
-        document.getElementById("subscribe").addEventListener("submit", function(e) {
-            e.stopPropagation()
-            e.preventDefault()
-            alert(e)
-        })
-    </script>
+    <button id="submitButton" class="" type="submit" {% unless site.subscribers %}disabled{% endunless %}><span>Subscribe</span></button>
 </form>
+<div id="responseMessage" style="display: none; padding-top: 1%;">
+    <p class="subscribe-overlay-description" id="responseMessageText"></p>
+</div>

@@ -1,0 +1,38 @@
+<script type="text/javascript">
+    let isSubmitted = false;
+    document.getElementById("subscribe").addEventListener("submit", function(e) {
+        e.stopPropagation();
+        e.preventDefault();
+        if (isSubmitted) { return; }
+        
+        var xhr = new XMLHttpRequest();
+        url = "https://subscription.faizanbashir.me/subscribe"
+        xhr.open("POST", url, true);
+        xhr.setRequestHeader("Content-Type", "application/json");
+
+        var responseMessage = document.getElementById("responseMessage");
+        var responseMessageText = document.getElementById("responseMessageText");
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState === 4 && xhr.status === 200) {
+                console.log("Form submitted");
+                isSubmitted = true;
+                responseMessageText.textContent = "Your email has been subscribed successfully!";
+                responseMessage.className = "success";
+            } else if (xhr.readyState === 4) {
+                console.error("Failed to submit form, StatusCode:", xhr.status);
+                responseMessageText.textContent = "There was a problem with your subscription.";
+                responseMessage.className = "failure";
+            }
+            responseMessage.style.display = "block";
+        };
+
+        var emailInput = e.target.elements["email"];
+        if (emailInput) {
+            var data = { email: emailInput.value };
+            xhr.send(JSON.stringify(data));
+            console.log("Subscribing user");
+        } else {
+            console.error('Form does not have an email input');
+        }
+    });
+</script>
