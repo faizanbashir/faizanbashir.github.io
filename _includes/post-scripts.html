@@ -61,3 +61,7 @@ $(document).ready(function () {
     update();
 });
 </script>
+
+{% if site.subscribers %}
+{%  include subscribe-scripts.html %}
+{% endif %}
