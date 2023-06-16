@@ -6,7 +6,7 @@ cover: assets/images/posts/mihaly-koles-FodEb_8qfdg-unsplash_resized.webp
 navigation: True
 title: "Building an EKS Cluster on AWS with Terraform: A Step-by-Step Guide"
 date: 2023-04-16 03:13:02
-tags: [Terraform]
+tags: [Terraform, AWS]
 class: post-template
 subclass: 'post tag-terraform'
 author: faizan

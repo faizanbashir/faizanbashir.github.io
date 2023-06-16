@@ -18,7 +18,7 @@ social_excrpt: "Dive into our latest guide, where we walk through setting up a m
 
 This article walks you through building a messaging system with NATS (an acronym for Neural Autonomic Transport System) and Golang deployed in Azure Kubernetes Service (AKS). NATS is an open-source messaging system. Written in the Go programming language. NATS has a core publish-subscribe server designed for performance, scalability, and ease of use.
 
-## Prerequisites
+# Prerequisites
 
 - Go (version `1.16` or later): We'll use Go to write our publisher and subscriber applications.
 - Docker: We'll use Docker to build and package our Go applications.
@@ -96,7 +96,7 @@ func main() {
 
 ## Running the Go Applications in Kubernetes
 
-Now we will containerize our Go applications using Docker. Here's a basic Dockerfile for our Go applications:
+Now we will containerize our Go applications using Docker. Here's a basic `Dockerfile` for our Go applications:
 
 {% highlight Dockerfile %}
 FROM golang:1.16

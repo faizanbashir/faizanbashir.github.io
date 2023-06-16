@@ -26,6 +26,10 @@ aws:
   name: aws
   description: Explore the AWS section of my blog for a wealth of information on Amazon Web Services, featuring in-depth articles, practical tips, and expert insights on harnessing the power of the world's most popular cloud computing platform.
   cover: assets/images/welcome.webp
+gcp:
+  name: gcp
+  description: Explore the GCP section of my blog for information on the Google Cloud Platform, featuring in-depth articles, practical tips, and expert insights on harnessing the power of the world's most popular cloud computing platform.
+  cover: assets/images/welcome.webp
 azure:
   name: azure
   description: Dive into the Azure section of my blog to discover comprehensive guides, tips, and insights on Microsoft's powerful cloud platform, designed to  build, deploy, and manage applications with ease and efficiency.
