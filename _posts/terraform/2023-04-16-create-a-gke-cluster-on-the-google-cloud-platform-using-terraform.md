@@ -6,7 +6,7 @@ cover: assets/images/posts/jasper-boer-LJD6U920zVo-unsplash_resized.webp
 navigation: True
 title: "Create a GKE Cluster on the Google Cloud Platform using Terraform"
 date: 2023-04-16 03:13:02
-tags: [Terraform]
+tags: [Terraform, GCP]
 class: post-template
 subclass: 'post tag-terraform'
 author: faizan

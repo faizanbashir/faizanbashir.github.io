@@ -6,7 +6,7 @@ cover:  assets/images/posts/chris-paul-fXa3v3Vco4o-unsplash_resized.webp
 navigation: True
 title: "Building an Elasticache cluster on AWS using Terraform Modules"
 date: 2022-04-11 03:13:01
-tags: [Terraform]
+tags: [Terraform, AWS]
 class: post-template
 subclass: 'post tag-terraform'
 author: faizan

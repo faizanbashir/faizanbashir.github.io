@@ -6,7 +6,7 @@ cover: assets/images/posts/luke-richardson-ONPD_ZgSedE-unsplash_resized.webp
 navigation: True
 title: "Deploying an Azure Kubernetes Service (AKS) Cluster with Terraform"
 date: 2023-04-16 03:13:02
-tags: [Terraform]
+tags: [Terraform, Azure]
 class: post-template
 subclass: 'post tag-terraform'
 author: faizan

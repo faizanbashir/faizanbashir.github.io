@@ -6,7 +6,7 @@ cover:  assets/images/posts/pierre-leverrier-k0Ynnf2CbKw-unsplash_resized.webp
 navigation: True
 title: "Building highly available VMSS on Azure using Terraform Modules"
 date: 2022-04-12 03:13:02
-tags: [Terraform]
+tags: [Terraform, Azure]
 class: post-template
 subclass: 'post tag-terraform'
 author: faizan

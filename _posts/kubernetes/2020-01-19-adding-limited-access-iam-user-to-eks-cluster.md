@@ -6,7 +6,7 @@ cover:  assets/images/posts/IMG_20180429_144831_resized.webp
 navigation: True
 title: "Adding limited access IAM user to EKS Cluster"
 date: 2020-01-19 15:07:19
-tags: [Kubernetes]
+tags: [Kubernetes, AWS]
 class: post-template
 subclass: 'post tag-kubernetes'
 author: faizan
