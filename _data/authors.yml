@@ -2,13 +2,16 @@ faizan:
   username: faizan
   name: Faizan Bashir
   location: Bengaluru, India
-  url_full: https://faizanbashir.me
+  url_full: https://www.faizanbashir.me
   url: faizanbashir.me
   bio: Principal Engineer | Architecting and building distributed applications in the Cloud | Adventurer
-  picture: assets/images/fb-thumb.webp
+  cover: assets/images/fb-thumb.webp
+  picture: assets/images/touann-gatouillat-vergos-D7B9B7vfgwM-unsplash_resized.webp
   facebook: faizan.bashir
   twitter: faizanbasher
-  cover: assets/images/blog-cover.webp
+  linkedin: faizan-bashir
+  medium: faizanbashir
+  unsplash: faizanbashir
 ghost:
   username: ghost
   name: Ghost
