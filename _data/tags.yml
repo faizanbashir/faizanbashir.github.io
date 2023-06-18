@@ -37,7 +37,7 @@ azure:
 writings:
   name: writings
   description: Explore the Personal Writing section of the blog, where introspective musings, ruminations, contemplative reflections, and captivating stories from my own life experiences come together to offer a unique and engaging perspective on various topics.
-  cover: assets/images/welcome.webp
+  cover: assets/images/posts/webbinfrared_resized.webp
 linux:
   name: linux
   description: Dive into the Linux section of our blog for a wealth of informative articles and guides covering a wide range of topics, from basic Linux concepts to advanced system administration techniques, tailored for enthusiasts and professionals alike.
