@@ -10,7 +10,7 @@ tags: [Python, Kubernetes, Azure]
 class: post-template
 subclass: 'post tag-python'
 author: faizan
-excerpt: Learn how to build a distributed messaging system using NATS, Python, and Azure Kubernetes Service in our step-by-step guide.
+excerpt: Learn how to build a messaging system using NATS, Python, and Azure Kubernetes Service in our step-by-step guide.
 social_excerpt: "Dive into our latest guide where we walk through setting up a distributed messaging system with NATS, Python, and Azure Kubernetes Service. Learn to deploy a NATS server, build Python publisher and subscriber applications, package them as Docker containers, and run them on AKS! Get started today! #python #nats #azure #kubernetes #aks"
 ---
 
