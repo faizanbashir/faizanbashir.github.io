@@ -4,7 +4,7 @@ comments: true
 current: post
 cover: assets/images/posts/neom-wTmGtmGQCjQ-unsplash_resized.webp
 navigation: True
-title: "Weaving the tales of Life: The Power of Storytelling"
+title: "Weaving the Tales of Life: The Power of Storytelling"
 date: 2023-07-07 03:13:00
 tags: [Writings]
 class: post-template
