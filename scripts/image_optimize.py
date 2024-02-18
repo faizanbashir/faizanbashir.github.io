@@ -17,11 +17,20 @@ def reduce_image_size(input_image, output_image, quality):
 
     original_image = Image.open(input_image)
     file_extension = os.path.splitext(input_image)[1].lower()
+    original_size = os.path.getsize(input_image)
 
     if file_extension in ['.jpg', '.jpeg']:
         original_image.save(output_image, format="JPEG", quality=quality, optimize=True, progressive=True)
     elif file_extension == '.png':
         original_image.save(output_image, format="PNG", optimize=True, compress_level=9-quality//10)
+
+    final_size = os.path.getsize(output_image)
+    reduction_percentage = round((1 - final_size / original_size) * 100, 2)
+
+    print(f"Final File Path: {output_image}")
+    print(f"Previous File Size: {format_file_size(original_size)}")
+    print(f"Final File Size: {format_file_size(final_size)}")
+    print(f"Reduction Percentage: {reduction_percentage}%")
 
 def process_image_files(input_path, quality):
     if os.path.isfile(input_path):
@@ -37,6 +46,16 @@ def process_image_files(input_path, quality):
                 print(f"Image compressed and saved as {output_image}.")
     else:
         print("Invalid input path. Please provide a valid file or directory.")
+
+def format_file_size(size_bytes):
+    if size_bytes < 1024:
+        return f"{size_bytes} bytes"
+    elif size_bytes < 1048576:  # 1024 * 1024
+        return f"{round(size_bytes / 1024, 2)} KB"
+    elif size_bytes < 1073741824:  # 1024 * 1024 * 1024
+        return f"{round(size_bytes / 1048576, 2)} MB"
+    else:
+        return f"{round(size_bytes / 1073741824, 2)} GB"
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Reduce image size while maintaining resolution.")
