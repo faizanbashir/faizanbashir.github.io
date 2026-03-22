@@ -1,6 +1,10 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 3.7.4"
-gem "github-pages", "~> 192"
+gem "jekyll", "~> 3.9"
+# gem "github-pages", "~> 192"
 gem "rake", "~> 12.3.1"
 gem "jekyll-gist", "~> 1.5.0"
+gem "jekyll-paginate", "~> 1.1"
+gem "jekyll-feed", "~> 0.15"
+gem "jekyll-sitemap", "~> 1.4"
+gem "kramdown-parser-gfm", "~> 1.1"
