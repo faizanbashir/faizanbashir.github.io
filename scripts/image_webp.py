@@ -19,7 +19,7 @@ def convert_to_webp(input_image, quality):
     file_extension = file_extension.lower()
     original_size = os.path.getsize(input_image)
 
-    if file_extension not in ['.png', '.jpeg', '.jpg']:
+    if file_extension not in ['.png', '.jpeg', '.jpg', '.webp']:
         print(f"Skipping {input_image}: Unsupported file type")
         return
 

@@ -1,0 +1,39 @@
+{
+    "chapters": [
+      {
+        "chapter_id": 1,
+        "metadata": {
+          "title": "Chapter Title",
+          "description": "Chapter Description",
+          "additional_info": "Any other relevant information"
+        },
+        "total_verses": 10,
+        "verses": [
+          {
+            "verse_id": 1,
+            "verse_text": "Original verse text",
+            "translations": [
+              {
+                "language": "en",
+                "translator": "John Doe",
+                "translation": "English translation"
+              },
+              {
+                "language": "es",
+                "translator": "John Doe",
+                "translation": "Spanish translation"
+              }
+            ],
+            "transliterations": [
+              {
+                "script": "Roman",
+                "transliteration": "Transliteration in Roman script"
+              }
+            ],
+            "commentary": "Verse commentary text"
+          }
+        ]
+      }
+    ]
+  }
+  

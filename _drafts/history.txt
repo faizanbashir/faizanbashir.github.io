@@ -1,0 +1,20 @@
+    1  docker info
+    2  exit
+    3  mkdir goapp
+    4  cd goapp/
+    5  touch docker-compose.yml Dockerfile main.go go.mod .env
+    6  vim .env
+    7  vim docker-compose.yml
+    8  vim Dockerfile
+    9  vim go.mod
+   10  vim main.go
+   11  docker compose up -d
+   12  docker ps
+   13  docker logs -f todo
+   14  docker exec -it mongodb bash
+   15  docker ps
+   16  docker logs -f todo
+   17  curl -i http://localhost:8080/todo
+   18  curl -i http://localhost:8080/todo/
+   19  curl -i -H "Content-Type: application/json" -X POST -d '{"todo": "Dockerize Go application with MongoDB backend"}' http://localhost:8080/todo/create
+   20  curl -i http://localhost:8080/todo/list
